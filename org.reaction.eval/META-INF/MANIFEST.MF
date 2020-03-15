@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: GeneralTestSimSG
+Bundle-SymbolicName: org.reaction.eval;singleton:=true
+Bundle-Name: org.reaction.eval
+Bundle-Version: 0.0.1.qualifier
+Require-Bundle: gklSimSG;bundle-version="0.0.1",
+ org.reaction.main;bundle-version="1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: 
+Export-Package: gklSimSG.benchmark
