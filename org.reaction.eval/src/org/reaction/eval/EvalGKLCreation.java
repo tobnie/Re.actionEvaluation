@@ -5,7 +5,8 @@ import java.util.List;
 
 import org.reaction.main.Transformation;
 
-import gklSimSG.benchmark.GKLBenchmark;
+import benchmark.GKLBenchmark;
+//import gklSimSG.benchmark.GKLBenchmark;
 import reactionContainer.ReactionContainerPackage;
 
 public class EvalGKLCreation {
@@ -17,13 +18,12 @@ public class EvalGKLCreation {
 
 		ReactionContainerPackage.eINSTANCE.eClass();
 		List<Transformation> transformations = new LinkedList<>();
-		List<GKLBenchmark> benchmarks = new LinkedList<>();
 
 		String[] modelNames = { "GKL100", "GKL200", "GKL400", "GKL800", "GKL1600" };
 
 		for (int i = 0; i < modelNames.length; i++) {
 			transformations.add(new Transformation(dslModelLocation, modelNames[i], trgProjectLocation, "GKL"));
-			benchmarks.add(new GKLBenchmark(modelNames[i] + "Model.xmi"));
+//			benchmarks.add(new GKLBenchmark(modelNames[i] + "Model.xmi"));
 		}
 
 		System.out.println("Starting Transformations...");
@@ -38,10 +38,8 @@ public class EvalGKLCreation {
 		System.out.println("\n------------------------------------------------\n");
 		System.out.println("Starting Benchmarks...");
 		for (int i = 0; i < modelNames.length; i++) {
-			GKLBenchmark bm = benchmarks.get(i);
 			System.out.println("Starting benchmark for Model " + modelNames[i] + " with Democles..");
-			bm.setDemocles();
-			bm.start();
+			GKLBenchmark.main(modelNames);
 			System.out.println("Finished benchmark.");
 		}
 		System.out.println("Finished Benchmarks.");
