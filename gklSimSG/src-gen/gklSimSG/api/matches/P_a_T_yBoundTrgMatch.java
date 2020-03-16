@@ -1,6 +1,6 @@
 package gklSimSG.api.matches;
 
-import GKL800Model.T;
+import GKL1600Model.T;
 import gklSimSG.api.rules.P_a_T_yBoundTrgRule;
 import org.emoflon.ibex.common.operational.IMatch;
 import org.emoflon.ibex.gt.api.GraphTransformationMatch;

@@ -22,25 +22,11 @@ import static akka.pattern.Patterns.ask;
 
 import gklSimSG.hipe.engine.actor.NotificationActor;
 import gklSimSG.hipe.engine.actor.DispatchActor;
-import gklSimSG.hipe.engine.actor.edge.P_P_a_T_x_0_reference;
-import gklSimSG.hipe.engine.actor.node.P_object;
-import gklSimSG.hipe.engine.actor.edge.P_P_a_T_y_0_reference;
-import gklSimSG.hipe.engine.actor.edge.T_T_x_K_a_0_reference;
-import gklSimSG.hipe.engine.actor.node.K_object;
-import gklSimSG.hipe.engine.actor.edge.T_T_y_K_a_0_reference;
-import gklSimSG.hipe.engine.actor.node.P_s_object;
-import gklSimSG.hipe.engine.actor.edge.T_T_x_u_0_reference;
-import gklSimSG.hipe.engine.actor.node.U_s_object;
-import gklSimSG.hipe.engine.actor.edge.T_T_y_u_0_reference;
-import gklSimSG.hipe.engine.actor.edge.T_T_x_p_0_reference;
-import gklSimSG.hipe.engine.actor.edge.T_T_y_p_0_reference;
-import gklSimSG.hipe.engine.actor.node.T_object_SP0;
-import gklSimSG.hipe.engine.actor.node.T_object_SP1;
-import gklSimSG.hipe.engine.actor.node.T_object_SP2;
 
 import hipe.engine.IHiPEEngine;
 import hipe.engine.message.InitActor;
 import hipe.engine.message.InitGenActor;
+import hipe.engine.message.InitGenReferenceActor;
 import hipe.engine.message.NoMoreInput;
 import hipe.engine.message.NotificationMessage;
 import hipe.engine.message.ExtractData;
@@ -48,6 +34,8 @@ import hipe.engine.message.production.ProductionResult;
 
 import hipe.engine.util.IncUtil;
 import hipe.engine.util.ProductionUtil;
+import hipe.generic.actor.GenericObjectActor;
+import hipe.generic.actor.GenericReferenceActor;
 import hipe.generic.actor.GenericProductionActor;
 import hipe.generic.actor.junction.*;
 
@@ -58,7 +46,11 @@ public class HiPEEngine implements IHiPEEngine{
 	private final ActorSystem system = ActorSystem.create("HiPE-Engine");
 	private ActorRef dispatcher;
 	private ActorRef notificationActor;
+
+	private Map<String, NetworkNode> name2node = new HashMap<>();
+	
 	private Map<String, ActorRef> name2actor = new ConcurrentHashMap<>();
+	private Map<String, InitGenReferenceActor<?,?>> name2initRefGen = new ConcurrentHashMap<>();
 	private Map<String, Class<?>> classes = new ConcurrentHashMap<>();
 	private Map<String, String> productionNodes2pattern = new ConcurrentHashMap<>();
 	private boolean dirty = false;
@@ -82,10 +74,14 @@ public class HiPEEngine implements IHiPEEngine{
 	}
 	
 	public void initialize() throws InterruptedException {
+		network.getNetworknode().stream().forEach(n -> name2node.put(n.getName(), n));
+		
 		createProductionNodes();
 		createJunctionNodes();
 		createReferenceNodes();
 		createObjectNodes();
+
+		initializeReferenceNodes();
 
 		classes.keySet().parallelStream().forEach(name -> {
 			name2actor.put(name, system.actorOf(Props.create(classes.get(name))));			
@@ -98,6 +94,8 @@ public class HiPEEngine implements IHiPEEngine{
 		notificationActor = system.actorOf(Props.create(NotificationActor.class, () -> new NotificationActor(dispatcher)), "NotificationActor");
 		
 		name2actor.values().forEach(actor -> actor.tell(new InitActor(name2actor), notificationActor));
+		network.getNetworknode().stream().filter(n -> n instanceof ObjectNode).forEach(n -> name2actor.get(n.getName()).tell(new InitGenActor(name2actor, n), notificationActor));
+		network.getNetworknode().stream().filter(n -> n instanceof ReferenceNode).forEach(n -> name2actor.get(n.getName()).tell(name2initRefGen.get(n.getName()), notificationActor));
 		network.getNetworknode().stream().filter(n -> n instanceof AbstractJunctionNode).forEach(n -> name2actor.get(n.getName()).tell(new InitGenActor(name2actor, n), notificationActor));
 		network.getNetworknode().stream().filter(n -> n instanceof ProductionNode).forEach(n -> name2actor.get(n.getName()).tell(new InitGenActor(name2actor, n), notificationActor));
 		}
@@ -209,7 +207,18 @@ public class HiPEEngine implements IHiPEEngine{
 		classes.put("T_object_SP2",T_object_SP2.class);
 		
 	}
-
+	
+	public void initializeReferenceNodes() {
+		name2initRefGen.put("P_P_a_T_x_0_reference", new InitGenReferenceActor<GKL1600Model.P,GKL1600Model.T>(name2actor, name2node.get("P_P_a_T_x_0_reference"), (o) -> o instanceof GKL1600Model.P, (o) -> o.getP_a_T_x(), null, false));
+		name2initRefGen.put("P_P_a_T_y_0_reference", new InitGenReferenceActor<GKL1600Model.P,GKL1600Model.T>(name2actor, name2node.get("P_P_a_T_y_0_reference"), (o) -> o instanceof GKL1600Model.P, (o) -> o.getP_a_T_y(), null, false));
+		name2initRefGen.put("T_T_x_K_a_0_reference", new InitGenReferenceActor<GKL1600Model.T,GKL1600Model.K>(name2actor, name2node.get("T_T_x_K_a_0_reference"), (o) -> o instanceof GKL1600Model.T, (o) -> o.getT_x_K_a(), null, false));
+		name2initRefGen.put("T_T_y_K_a_0_reference", new InitGenReferenceActor<GKL1600Model.T,GKL1600Model.K>(name2actor, name2node.get("T_T_y_K_a_0_reference"), (o) -> o instanceof GKL1600Model.T, (o) -> o.getT_y_K_a(), null, false));
+		name2initRefGen.put("T_T_x_u_0_reference", new InitGenReferenceActor<GKL1600Model.T,GKL1600Model.U_s>(name2actor, name2node.get("T_T_x_u_0_reference"), (o) -> o instanceof GKL1600Model.T, (o) -> o.getT_x_u(), null, false));
+		name2initRefGen.put("T_T_y_u_0_reference", new InitGenReferenceActor<GKL1600Model.T,GKL1600Model.U_s>(name2actor, name2node.get("T_T_y_u_0_reference"), (o) -> o instanceof GKL1600Model.T, (o) -> o.getT_y_u(), null, false));
+		name2initRefGen.put("T_T_x_p_0_reference", new InitGenReferenceActor<GKL1600Model.T,GKL1600Model.P_s>(name2actor, name2node.get("T_T_x_p_0_reference"), (o) -> o instanceof GKL1600Model.T, (o) -> o.getT_x_p(), null, false));
+		name2initRefGen.put("T_T_y_p_0_reference", new InitGenReferenceActor<GKL1600Model.T,GKL1600Model.P_s>(name2actor, name2node.get("T_T_y_p_0_reference"), (o) -> o instanceof GKL1600Model.T, (o) -> o.getT_y_p(), null, false));
+	}
+	
 	/**
 	 * delegate notifications to dispatcher actor
 	 * @param notification
@@ -247,5 +256,23 @@ public class HiPEEngine implements IHiPEEngine{
 	public void terminate() {
 		system.terminate();	
 	}
+	
 }
+
+class P_object extends GenericObjectActor<GKL1600Model.P> { }
+class K_object extends GenericObjectActor<GKL1600Model.K> { }
+class P_s_object extends GenericObjectActor<GKL1600Model.P_s> { }
+class U_s_object extends GenericObjectActor<GKL1600Model.U_s> { }
+class T_object_SP0 extends GenericObjectActor<GKL1600Model.T> { }
+class T_object_SP1 extends GenericObjectActor<GKL1600Model.T> { }
+class T_object_SP2 extends GenericObjectActor<GKL1600Model.T> { }
+
+class P_P_a_T_x_0_reference extends GenericReferenceActor<GKL1600Model.P, GKL1600Model.T> { }
+class P_P_a_T_y_0_reference extends GenericReferenceActor<GKL1600Model.P, GKL1600Model.T> { }
+class T_T_x_K_a_0_reference extends GenericReferenceActor<GKL1600Model.T, GKL1600Model.K> { }
+class T_T_y_K_a_0_reference extends GenericReferenceActor<GKL1600Model.T, GKL1600Model.K> { }
+class T_T_x_u_0_reference extends GenericReferenceActor<GKL1600Model.T, GKL1600Model.U_s> { }
+class T_T_y_u_0_reference extends GenericReferenceActor<GKL1600Model.T, GKL1600Model.U_s> { }
+class T_T_x_p_0_reference extends GenericReferenceActor<GKL1600Model.T, GKL1600Model.P_s> { }
+class T_T_y_p_0_reference extends GenericReferenceActor<GKL1600Model.T, GKL1600Model.P_s> { }
 

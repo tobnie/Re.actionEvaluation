@@ -1,7 +1,7 @@
 package gklSimSG.api.rules;
 
-import GKL800Model.P;
-import GKL800Model.T;
+import GKL1600Model.P;
+import GKL1600Model.T;
 import gklSimSG.api.GklSimSGAPI;
 import gklSimSG.api.matches.PT_xMatch;
 import java.util.ArrayList;

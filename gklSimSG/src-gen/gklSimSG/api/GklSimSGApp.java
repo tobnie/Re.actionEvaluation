@@ -1,6 +1,6 @@
 package gklSimSG.api;
 
-import GKL800Model.GKL800ModelPackage;
+import GKL1600Model.GKL1600ModelPackage;
 import org.emoflon.ibex.common.operational.IContextPatternInterpreter;
 import org.emoflon.ibex.gt.api.GraphTransformationApp;
 
@@ -33,7 +33,7 @@ public class GklSimSGApp extends GraphTransformationApp<GklSimSGAPI> {
 
 	@Override
 	public void registerMetaModels() {
-		registerMetaModel(GKL800ModelPackage.eINSTANCE);
+		registerMetaModel(GKL1600ModelPackage.eINSTANCE);
 	}
 
 	@Override

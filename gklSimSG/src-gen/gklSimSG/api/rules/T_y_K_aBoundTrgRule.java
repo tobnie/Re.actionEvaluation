@@ -1,6 +1,6 @@
 package gklSimSG.api.rules;
 
-import GKL800Model.K;
+import GKL1600Model.K;
 import gklSimSG.api.GklSimSGAPI;
 import gklSimSG.api.matches.T_y_K_aBoundTrgMatch;
 import java.util.ArrayList;

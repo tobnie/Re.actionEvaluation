@@ -16,7 +16,7 @@ public class GKLBenchmark {
 		api.configureStochasticSimulation();
 		SimulationConfigurator config = api.getSimulationConfigurator();
 
-		config.setModel("GKL800Model");
+		config.setModel("GKL1600Model");
 		config.addObservableStatistic();
 
 		Simulation sim = config.createSimulation();

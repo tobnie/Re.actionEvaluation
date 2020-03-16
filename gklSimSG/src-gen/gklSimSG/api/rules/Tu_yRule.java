@@ -1,9 +1,9 @@
 package gklSimSG.api.rules;
 
-import GKL800Model.P;
-import GKL800Model.P_s;
-import GKL800Model.T;
-import GKL800Model.U_s;
+import GKL1600Model.P;
+import GKL1600Model.P_s;
+import GKL1600Model.T;
+import GKL1600Model.U_s;
 import gklSimSG.api.GklSimSGAPI;
 import gklSimSG.api.matches.Tu_yMatch;
 import java.util.ArrayList;

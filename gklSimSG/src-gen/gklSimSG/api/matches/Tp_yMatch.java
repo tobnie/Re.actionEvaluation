@@ -1,9 +1,9 @@
 package gklSimSG.api.matches;
 
-import GKL800Model.K;
-import GKL800Model.P_s;
-import GKL800Model.T;
-import GKL800Model.U_s;
+import GKL1600Model.K;
+import GKL1600Model.P_s;
+import GKL1600Model.T;
+import GKL1600Model.U_s;
 import gklSimSG.api.rules.Tp_yRule;
 import org.emoflon.ibex.common.operational.IMatch;
 import org.emoflon.ibex.gt.api.GraphTransformationMatch;
