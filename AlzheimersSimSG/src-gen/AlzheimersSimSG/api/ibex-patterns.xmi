@@ -1,0 +1,2821 @@
+<?xml version="1.0" encoding="ASCII"?>
+<IBeXLanguage:IBeXPatternSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IBeXLanguage="platform:/resource/org.emoflon.ibex.common/model/Common.ecore">
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Proteasome_x_Tau_phosBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.0/@signatureNodes.0" targetNode="//@contextPatterns.0/@localNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_Tau_phos"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.0/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.0/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Proteasome_x_Tau_phosBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.1/@localNodes.0" targetNode="//@contextPatterns.1/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_Tau_phos"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.1/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.1/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Proteasome_x_AggTau_yBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.2/@signatureNodes.0" targetNode="//@contextPatterns.2/@localNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_AggTau_y"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.2/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.2/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Proteasome_x_AggTau_yBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.3/@localNodes.0" targetNode="//@contextPatterns.3/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_AggTau_y"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.3/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.3/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Proteasome_x_AggAbeta_yBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.4/@signatureNodes.0" targetNode="//@contextPatterns.4/@localNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_AggAbeta_y"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.4/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.4/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Proteasome_x_AggAbeta_yBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.5/@localNodes.0" targetNode="//@contextPatterns.5/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_AggAbeta_y"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.5/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.5/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Proteasome_x_Mdm2_ubiBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.6/@signatureNodes.0" targetNode="//@contextPatterns.6/@localNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_Mdm2_ubi"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.6/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.6/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Proteasome_x_Mdm2_ubiBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.7/@localNodes.0" targetNode="//@contextPatterns.7/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_Mdm2_ubi"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.7/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.7/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="MT_l_Tau_phosBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.8/@signatureNodes.0" targetNode="//@contextPatterns.8/@localNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT/MT_l_Tau_phos"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.8/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.8/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="MT_l_Tau_phosBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.9/@localNodes.0" targetNode="//@contextPatterns.9/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT/MT_l_Tau_phos"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.9/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.9/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53_b_Mdm2_zBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.10/@signatureNodes.0" targetNode="//@contextPatterns.10/@localNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.10/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.10/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53_b_Mdm2_zBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.11/@localNodes.0" targetNode="//@contextPatterns.11/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.11/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.11/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53_b_GSK3b_xBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.12/@signatureNodes.0" targetNode="//@contextPatterns.12/@localNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.12/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.12/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53_b_GSK3b_xBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.13/@localNodes.0" targetNode="//@contextPatterns.13/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.13/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.13/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53_b_Proteasome_xBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.14/@signatureNodes.0" targetNode="//@contextPatterns.14/@localNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Proteasome_x"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.14/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.14/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53_b_Proteasome_xBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.15/@localNodes.0" targetNode="//@contextPatterns.15/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Proteasome_x"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.15/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.15/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="GSK3b_p53">
+    <invocations invokedPattern="//@contextPatterns.10">
+      <mapping key="//@contextPatterns.16/@signatureNodes.1" value="//@contextPatterns.10/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.12">
+      <mapping key="//@contextPatterns.16/@signatureNodes.1" value="//@contextPatterns.12/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.14">
+      <mapping key="//@contextPatterns.16/@signatureNodes.1" value="//@contextPatterns.14/@signatureNodes.0"/>
+    </invocations>
+    <signatureNodes name="gsk">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="p53">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="GSK3b_p53Bwd">
+    <localEdges sourceNode="//@contextPatterns.17/@signatureNodes.1" targetNode="//@contextPatterns.17/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </localEdges>
+    <signatureNodes name="gsk" incomingEdges="//@contextPatterns.17/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.17/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Mdm2mRNASynthesis">
+    <localEdges sourceNode="//@contextPatterns.18/@signatureNodes.1" targetNode="//@contextPatterns.18/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </localEdges>
+    <signatureNodes name="gsk" incomingEdges="//@contextPatterns.18/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.18/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Mdm2GSK3Phospho1">
+    <localEdges sourceNode="//@contextPatterns.19/@signatureNodes.0" targetNode="//@contextPatterns.19/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.19/@signatureNodes.0" targetNode="//@contextPatterns.19/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub4"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.19/@signatureNodes.1" targetNode="//@contextPatterns.19/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <signatureNodes name="p53_1" outgoingEdges="//@contextPatterns.19/@localEdges.0 //@contextPatterns.19/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.19/@localEdges.0" outgoingEdges="//@contextPatterns.19/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ub4s" incomingEdges="//@contextPatterns.19/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </signatureNodes>
+    <signatureNodes name="gsk">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.19/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ps">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Mdm2GSK3Phospho2_3">
+    <injectivityConstraints values="//@contextPatterns.20/@signatureNodes.0 //@contextPatterns.20/@signatureNodes.2"/>
+    <localEdges sourceNode="//@contextPatterns.20/@signatureNodes.0" targetNode="//@contextPatterns.20/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.20/@signatureNodes.2" targetNode="//@contextPatterns.20/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.20/@signatureNodes.2" targetNode="//@contextPatterns.20/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub4"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.20/@signatureNodes.3" targetNode="//@contextPatterns.20/@signatureNodes.5">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <signatureNodes name="p53_2" outgoingEdges="//@contextPatterns.20/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="gsk" incomingEdges="//@contextPatterns.20/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="p53_1" outgoingEdges="//@contextPatterns.20/@localEdges.1 //@contextPatterns.20/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.20/@localEdges.1" outgoingEdges="//@contextPatterns.20/@localEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ub4s" incomingEdges="//@contextPatterns.20/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.20/@localEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ps">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauSynthesis">
+    <signatureNodes name="us">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Proteasome_Tau">
+    <localEdges sourceNode="//@contextPatterns.22/@signatureNodes.1" targetNode="//@contextPatterns.22/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </localEdges>
+    <signatureNodes name="prot">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+    <signatureNodes name="tau" outgoingEdges="//@contextPatterns.22/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.22/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauDegradation">
+    <localEdges sourceNode="//@contextPatterns.23/@signatureNodes.0" targetNode="//@contextPatterns.23/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_Tau_phos"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.23/@signatureNodes.1" targetNode="//@contextPatterns.23/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </localEdges>
+    <signatureNodes name="prot" outgoingEdges="//@contextPatterns.23/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+    <signatureNodes name="tau" incomingEdges="//@contextPatterns.23/@localEdges.0" outgoingEdges="//@contextPatterns.23/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.23/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauMT">
+    <invocations invokedPattern="//@contextPatterns.8">
+      <mapping key="//@contextPatterns.24/@signatureNodes.0" value="//@contextPatterns.8/@signatureNodes.0"/>
+    </invocations>
+    <localEdges sourceNode="//@contextPatterns.24/@signatureNodes.1" targetNode="//@contextPatterns.24/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </localEdges>
+    <signatureNodes name="mt">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT"/>
+    </signatureNodes>
+    <signatureNodes name="tau" outgoingEdges="//@contextPatterns.24/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.24/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauMTBwd">
+    <localEdges sourceNode="//@contextPatterns.25/@signatureNodes.0" targetNode="//@contextPatterns.25/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT/MT_l_Tau_phos"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.25/@signatureNodes.1" targetNode="//@contextPatterns.25/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </localEdges>
+    <signatureNodes name="mt" outgoingEdges="//@contextPatterns.25/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT"/>
+    </signatureNodes>
+    <signatureNodes name="tau" incomingEdges="//@contextPatterns.25/@localEdges.0" outgoingEdges="//@contextPatterns.25/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.25/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauPhosphorylation1_3">
+    <localEdges sourceNode="//@contextPatterns.26/@signatureNodes.0" targetNode="//@contextPatterns.26/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.26/@signatureNodes.3" targetNode="//@contextPatterns.26/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </localEdges>
+    <signatureNodes name="tau" outgoingEdges="//@contextPatterns.26/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.26/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="gsk" incomingEdges="//@contextPatterns.26/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.26/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="p1s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauPhosphorylation2_4">
+    <localEdges sourceNode="//@contextPatterns.27/@signatureNodes.0" targetNode="//@contextPatterns.27/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p1"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.27/@signatureNodes.3" targetNode="//@contextPatterns.27/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </localEdges>
+    <signatureNodes name="tau" outgoingEdges="//@contextPatterns.27/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="p1s" incomingEdges="//@contextPatterns.27/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </signatureNodes>
+    <signatureNodes name="gsk" incomingEdges="//@contextPatterns.27/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.27/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="p2s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P2_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauPhosphorylation5">
+    <localEdges sourceNode="//@contextPatterns.28/@signatureNodes.0" targetNode="//@contextPatterns.28/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </localEdges>
+    <signatureNodes name="tau" outgoingEdges="//@contextPatterns.28/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.28/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="gsk">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="p1s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauPhosphorylation6">
+    <localEdges sourceNode="//@contextPatterns.29/@signatureNodes.0" targetNode="//@contextPatterns.29/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p1"/>
+    </localEdges>
+    <signatureNodes name="tau" outgoingEdges="//@contextPatterns.29/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="p1s" incomingEdges="//@contextPatterns.29/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </signatureNodes>
+    <signatureNodes name="gsk">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="p2s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P2_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauDephosphorylation">
+    <localEdges sourceNode="//@contextPatterns.30/@signatureNodes.1" targetNode="//@contextPatterns.30/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p2"/>
+    </localEdges>
+    <signatureNodes name="ppt">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//PPT"/>
+    </signatureNodes>
+    <signatureNodes name="tau" outgoingEdges="//@contextPatterns.30/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="p2s" incomingEdges="//@contextPatterns.30/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P2_s"/>
+    </signatureNodes>
+    <signatureNodes name="p1s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauAgg1">
+    <injectivityConstraints values="//@contextPatterns.31/@signatureNodes.0 //@contextPatterns.31/@signatureNodes.1"/>
+    <localEdges sourceNode="//@contextPatterns.31/@signatureNodes.1" targetNode="//@contextPatterns.31/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </localEdges>
+    <signatureNodes name="tau2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="tau1" outgoingEdges="//@contextPatterns.31/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.31/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauAgg2">
+    <localEdges sourceNode="//@contextPatterns.32/@signatureNodes.1" targetNode="//@contextPatterns.32/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </localEdges>
+    <signatureNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </signatureNodes>
+    <signatureNodes name="tau1" outgoingEdges="//@contextPatterns.32/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.32/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauP1Agg1">
+    <injectivityConstraints values="//@contextPatterns.33/@signatureNodes.0 //@contextPatterns.33/@signatureNodes.1"/>
+    <localEdges sourceNode="//@contextPatterns.33/@signatureNodes.1" targetNode="//@contextPatterns.33/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p1"/>
+    </localEdges>
+    <signatureNodes name="tau2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="tau1" outgoingEdges="//@contextPatterns.33/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="p1s" incomingEdges="//@contextPatterns.33/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauP1Agg2">
+    <localEdges sourceNode="//@contextPatterns.34/@signatureNodes.1" targetNode="//@contextPatterns.34/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p1"/>
+    </localEdges>
+    <signatureNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </signatureNodes>
+    <signatureNodes name="tau1" outgoingEdges="//@contextPatterns.34/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="p1s" incomingEdges="//@contextPatterns.34/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauP2Agg1">
+    <injectivityConstraints values="//@contextPatterns.35/@signatureNodes.0 //@contextPatterns.35/@signatureNodes.1"/>
+    <localEdges sourceNode="//@contextPatterns.35/@signatureNodes.1" targetNode="//@contextPatterns.35/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p2"/>
+    </localEdges>
+    <signatureNodes name="tau2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="tau1" outgoingEdges="//@contextPatterns.35/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="p2s" incomingEdges="//@contextPatterns.35/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P2_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauP2Agg2">
+    <localEdges sourceNode="//@contextPatterns.36/@signatureNodes.1" targetNode="//@contextPatterns.36/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p2"/>
+    </localEdges>
+    <signatureNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </signatureNodes>
+    <signatureNodes name="tau1" outgoingEdges="//@contextPatterns.36/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </signatureNodes>
+    <signatureNodes name="p2s" incomingEdges="//@contextPatterns.36/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P2_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="tangleForm1">
+    <injectivityConstraints values="//@contextPatterns.37/@signatureNodes.0 //@contextPatterns.37/@signatureNodes.1"/>
+    <signatureNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </signatureNodes>
+    <signatureNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="tangleForm2">
+    <signatureNodes name="nft1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//NFT"/>
+    </signatureNodes>
+    <signatureNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="ProteasomeInhibitionAggTau">
+    <signatureNodes name="agg">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </signatureNodes>
+    <signatureNodes name="prot">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="AbetaProduction">
+    <localEdges sourceNode="//@contextPatterns.40/@signatureNodes.1" targetNode="//@contextPatterns.40/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </localEdges>
+    <signatureNodes name="gsk" incomingEdges="//@contextPatterns.40/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.40/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="AbetaDegradation">
+    <signatureNodes name="abeta">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Abeta"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="AbetaAgg1">
+    <injectivityConstraints values="//@contextPatterns.42/@signatureNodes.0 //@contextPatterns.42/@signatureNodes.1"/>
+    <signatureNodes name="abeta1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Abeta"/>
+    </signatureNodes>
+    <signatureNodes name="abeta2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Abeta"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="AbetaAgg2">
+    <signatureNodes name="abeta1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Abeta"/>
+    </signatureNodes>
+    <signatureNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="AbetaPlaque1">
+    <injectivityConstraints values="//@contextPatterns.44/@signatureNodes.0 //@contextPatterns.44/@signatureNodes.1"/>
+    <signatureNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </signatureNodes>
+    <signatureNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="AbetaPlaque2">
+    <signatureNodes name="plaque1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AbetaPlaque"/>
+    </signatureNodes>
+    <signatureNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="ProteasomeInhibitionAggAbeta">
+    <signatureNodes name="agg">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </signatureNodes>
+    <signatureNodes name="prot">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53Transcription">
+    <signatureNodes name="abeta">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Abeta"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="AbetaROSProduction">
+    <signatureNodes name="agg">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53Synthesis">
+    <signatureNodes name="p53mRNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>
+    </signatureNodes>
+    <signatureNodes name="us">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53_Mdm2">
+    <invocations invokedPattern="//@contextPatterns.10">
+      <mapping key="//@contextPatterns.50/@signatureNodes.0" value="//@contextPatterns.10/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.12">
+      <mapping key="//@contextPatterns.50/@signatureNodes.0" value="//@contextPatterns.12/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.14">
+      <mapping key="//@contextPatterns.50/@signatureNodes.0" value="//@contextPatterns.14/@signatureNodes.0"/>
+    </invocations>
+    <localEdges sourceNode="//@contextPatterns.50/@signatureNodes.0" targetNode="//@contextPatterns.50/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.50/@signatureNodes.2" targetNode="//@contextPatterns.50/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.50/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.50/@localEdges.0 //@contextPatterns.50/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.50/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53_Mdm2Bwd">
+    <localEdges sourceNode="//@contextPatterns.51/@signatureNodes.0" targetNode="//@contextPatterns.51/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.51/@signatureNodes.0" targetNode="//@contextPatterns.51/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.51/@signatureNodes.1" targetNode="//@contextPatterns.51/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.51/@localEdges.0 //@contextPatterns.51/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.51/@localEdges.0" outgoingEdges="//@contextPatterns.51/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.51/@localEdges.1 //@contextPatterns.51/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="E1Ub">
+    <localEdges sourceNode="//@contextPatterns.52/@signatureNodes.0" targetNode="//@contextPatterns.52/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E1/E1_x_unb"/>
+    </localEdges>
+    <signatureNodes name="e1" outgoingEdges="//@contextPatterns.52/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E1"/>
+    </signatureNodes>
+    <signatureNodes name="unbs" incomingEdges="//@contextPatterns.52/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+    <signatureNodes name="atp">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATP"/>
+    </signatureNodes>
+    <signatureNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </signatureNodes>
+    <signatureNodes name="ubis">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="E2Ub">
+    <localEdges sourceNode="//@contextPatterns.53/@signatureNodes.0" targetNode="//@contextPatterns.53/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E1/E1_x_unb"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.53/@signatureNodes.3" targetNode="//@contextPatterns.53/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_unb"/>
+    </localEdges>
+    <signatureNodes name="e1" outgoingEdges="//@contextPatterns.53/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E1"/>
+    </signatureNodes>
+    <signatureNodes name="unbs" incomingEdges="//@contextPatterns.53/@localEdges.0 //@contextPatterns.53/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </signatureNodes>
+    <signatureNodes name="e2" outgoingEdges="//@contextPatterns.53/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </signatureNodes>
+    <signatureNodes name="ubis">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53Ubiquitination">
+    <localEdges sourceNode="//@contextPatterns.54/@signatureNodes.0" targetNode="//@contextPatterns.54/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.54/@signatureNodes.2" targetNode="//@contextPatterns.54/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.54/@signatureNodes.3" targetNode="//@contextPatterns.54/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.54/@signatureNodes.3" targetNode="//@contextPatterns.54/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_u"/>
+    </localEdges>
+    <signatureNodes name="e2" outgoingEdges="//@contextPatterns.54/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </signatureNodes>
+    <signatureNodes name="ubis" incomingEdges="//@contextPatterns.54/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.54/@localEdges.2" outgoingEdges="//@contextPatterns.54/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.54/@localEdges.2 //@contextPatterns.54/@localEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.54/@localEdges.1 //@contextPatterns.54/@localEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="unbs">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub2s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53PolyUbiquitination1">
+    <localEdges sourceNode="//@contextPatterns.55/@signatureNodes.0" targetNode="//@contextPatterns.55/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.55/@signatureNodes.2" targetNode="//@contextPatterns.55/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.55/@signatureNodes.3" targetNode="//@contextPatterns.55/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.55/@signatureNodes.3" targetNode="//@contextPatterns.55/@signatureNodes.5">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub1"/>
+    </localEdges>
+    <signatureNodes name="e2" outgoingEdges="//@contextPatterns.55/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </signatureNodes>
+    <signatureNodes name="ubis" incomingEdges="//@contextPatterns.55/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.55/@localEdges.2" outgoingEdges="//@contextPatterns.55/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.55/@localEdges.2 //@contextPatterns.55/@localEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.55/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub1s" incomingEdges="//@contextPatterns.55/@localEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </signatureNodes>
+    <signatureNodes name="unbs">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub2s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53PolyUbiquitination2">
+    <localEdges sourceNode="//@contextPatterns.56/@signatureNodes.0" targetNode="//@contextPatterns.56/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.56/@signatureNodes.2" targetNode="//@contextPatterns.56/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.56/@signatureNodes.3" targetNode="//@contextPatterns.56/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.56/@signatureNodes.3" targetNode="//@contextPatterns.56/@signatureNodes.5">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub2"/>
+    </localEdges>
+    <signatureNodes name="e2" outgoingEdges="//@contextPatterns.56/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </signatureNodes>
+    <signatureNodes name="ubis" incomingEdges="//@contextPatterns.56/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.56/@localEdges.2" outgoingEdges="//@contextPatterns.56/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.56/@localEdges.2 //@contextPatterns.56/@localEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.56/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub2s" incomingEdges="//@contextPatterns.56/@localEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </signatureNodes>
+    <signatureNodes name="unbs">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub3s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53PolyUbiquitination3">
+    <localEdges sourceNode="//@contextPatterns.57/@signatureNodes.0" targetNode="//@contextPatterns.57/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.57/@signatureNodes.2" targetNode="//@contextPatterns.57/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.57/@signatureNodes.3" targetNode="//@contextPatterns.57/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.57/@signatureNodes.3" targetNode="//@contextPatterns.57/@signatureNodes.5">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub3"/>
+    </localEdges>
+    <signatureNodes name="e2" outgoingEdges="//@contextPatterns.57/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </signatureNodes>
+    <signatureNodes name="ubis" incomingEdges="//@contextPatterns.57/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.57/@localEdges.2" outgoingEdges="//@contextPatterns.57/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.57/@localEdges.2 //@contextPatterns.57/@localEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.57/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub3s" incomingEdges="//@contextPatterns.57/@localEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </signatureNodes>
+    <signatureNodes name="unbs">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub4s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53DeUbiquitination">
+    <localEdges sourceNode="//@contextPatterns.58/@signatureNodes.1" targetNode="//@contextPatterns.58/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.58/@signatureNodes.2" targetNode="//@contextPatterns.58/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.58/@signatureNodes.2" targetNode="//@contextPatterns.58/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub1"/>
+    </localEdges>
+    <signatureNodes name="p53dub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53DUB"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.58/@localEdges.1" outgoingEdges="//@contextPatterns.58/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.58/@localEdges.1 //@contextPatterns.58/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.58/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub1s" incomingEdges="//@contextPatterns.58/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53PolyDeUbiquitination2">
+    <localEdges sourceNode="//@contextPatterns.59/@signatureNodes.1" targetNode="//@contextPatterns.59/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.59/@signatureNodes.2" targetNode="//@contextPatterns.59/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.59/@signatureNodes.2" targetNode="//@contextPatterns.59/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub2"/>
+    </localEdges>
+    <signatureNodes name="p53dub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53DUB"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.59/@localEdges.1" outgoingEdges="//@contextPatterns.59/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.59/@localEdges.1 //@contextPatterns.59/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.59/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub2s" incomingEdges="//@contextPatterns.59/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub1s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53PolyDeUbiquitination3">
+    <localEdges sourceNode="//@contextPatterns.60/@signatureNodes.1" targetNode="//@contextPatterns.60/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.60/@signatureNodes.2" targetNode="//@contextPatterns.60/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.60/@signatureNodes.2" targetNode="//@contextPatterns.60/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub3"/>
+    </localEdges>
+    <signatureNodes name="p53dub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53DUB"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.60/@localEdges.1" outgoingEdges="//@contextPatterns.60/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.60/@localEdges.1 //@contextPatterns.60/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.60/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub3s" incomingEdges="//@contextPatterns.60/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub2s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53PolyDeUbiquitination4">
+    <localEdges sourceNode="//@contextPatterns.61/@signatureNodes.1" targetNode="//@contextPatterns.61/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.61/@signatureNodes.2" targetNode="//@contextPatterns.61/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.61/@signatureNodes.2" targetNode="//@contextPatterns.61/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub4"/>
+    </localEdges>
+    <signatureNodes name="p53dub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53DUB"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.61/@localEdges.1" outgoingEdges="//@contextPatterns.61/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.61/@localEdges.1 //@contextPatterns.61/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.61/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub4s" incomingEdges="//@contextPatterns.61/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub3s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53ProteasomeBinding">
+    <localEdges sourceNode="//@contextPatterns.62/@signatureNodes.1" targetNode="//@contextPatterns.62/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_p"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.62/@signatureNodes.2" targetNode="//@contextPatterns.62/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.62/@signatureNodes.2" targetNode="//@contextPatterns.62/@signatureNodes.4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub4"/>
+    </localEdges>
+    <signatureNodes name="prot">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.62/@localEdges.1" outgoingEdges="//@contextPatterns.62/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.62/@localEdges.1 //@contextPatterns.62/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="ps" incomingEdges="//@contextPatterns.62/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub4s" incomingEdges="//@contextPatterns.62/@localEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </signatureNodes>
+    <signatureNodes name="us">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53Degradation">
+    <localEdges sourceNode="//@contextPatterns.63/@signatureNodes.1" targetNode="//@contextPatterns.63/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Proteasome_x"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.63/@signatureNodes.1" targetNode="//@contextPatterns.63/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub4"/>
+    </localEdges>
+    <signatureNodes name="prot" incomingEdges="//@contextPatterns.63/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.63/@localEdges.0 //@contextPatterns.63/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="atp">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATP"/>
+    </signatureNodes>
+    <signatureNodes name="ub4s" incomingEdges="//@contextPatterns.63/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="mdm2mRNASynthesis">
+    <invocations invokedPattern="//@contextPatterns.10">
+      <mapping key="//@contextPatterns.64/@signatureNodes.0" value="//@contextPatterns.10/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.12">
+      <mapping key="//@contextPatterns.64/@signatureNodes.0" value="//@contextPatterns.12/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.14">
+      <mapping key="//@contextPatterns.64/@signatureNodes.0" value="//@contextPatterns.14/@signatureNodes.0"/>
+    </invocations>
+    <localEdges sourceNode="//@contextPatterns.64/@signatureNodes.0" targetNode="//@contextPatterns.64/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_u"/>
+    </localEdges>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.64/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.64/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="mdm2mRNADegradation">
+    <signatureNodes name="mdm2mRna">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2mRNA"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Mdm2Synthesis">
+    <signatureNodes name="mdm2mRna">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2mRNA"/>
+    </signatureNodes>
+    <signatureNodes name="us">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="unbs">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="mdm2Ubiquination">
+    <localEdges sourceNode="//@contextPatterns.67/@signatureNodes.0" targetNode="//@contextPatterns.67/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.67/@signatureNodes.2" targetNode="//@contextPatterns.67/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_unb"/>
+    </localEdges>
+    <signatureNodes name="e2" outgoingEdges="//@contextPatterns.67/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </signatureNodes>
+    <signatureNodes name="ubis" incomingEdges="//@contextPatterns.67/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.67/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="unbs" incomingEdges="//@contextPatterns.67/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub1s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="mdm2PolyUbiquination1">
+    <localEdges sourceNode="//@contextPatterns.68/@signatureNodes.0" targetNode="//@contextPatterns.68/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.68/@signatureNodes.2" targetNode="//@contextPatterns.68/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub1"/>
+    </localEdges>
+    <signatureNodes name="e2" outgoingEdges="//@contextPatterns.68/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </signatureNodes>
+    <signatureNodes name="ubis" incomingEdges="//@contextPatterns.68/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.68/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ub1s" incomingEdges="//@contextPatterns.68/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </signatureNodes>
+    <signatureNodes name="unbs">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub2s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="mdm2PolyUbiquination2">
+    <localEdges sourceNode="//@contextPatterns.69/@signatureNodes.0" targetNode="//@contextPatterns.69/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.69/@signatureNodes.2" targetNode="//@contextPatterns.69/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub2"/>
+    </localEdges>
+    <signatureNodes name="e2" outgoingEdges="//@contextPatterns.69/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </signatureNodes>
+    <signatureNodes name="ubis" incomingEdges="//@contextPatterns.69/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.69/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ub2s" incomingEdges="//@contextPatterns.69/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </signatureNodes>
+    <signatureNodes name="unbs">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub3s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="mdm2PolyUbiquination3">
+    <localEdges sourceNode="//@contextPatterns.70/@signatureNodes.0" targetNode="//@contextPatterns.70/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.70/@signatureNodes.2" targetNode="//@contextPatterns.70/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub3"/>
+    </localEdges>
+    <signatureNodes name="e2" outgoingEdges="//@contextPatterns.70/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </signatureNodes>
+    <signatureNodes name="ubis" incomingEdges="//@contextPatterns.70/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.70/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ub3s" incomingEdges="//@contextPatterns.70/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </signatureNodes>
+    <signatureNodes name="unbs">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub4s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="mdm2deubiquination">
+    <localEdges sourceNode="//@contextPatterns.71/@signatureNodes.1" targetNode="//@contextPatterns.71/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub1"/>
+    </localEdges>
+    <signatureNodes name="mdm2dub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2DUB"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.71/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ub1s" incomingEdges="//@contextPatterns.71/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </signatureNodes>
+    <signatureNodes name="unbs">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="mdm2polyDeubiquination1">
+    <localEdges sourceNode="//@contextPatterns.72/@signatureNodes.1" targetNode="//@contextPatterns.72/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub2"/>
+    </localEdges>
+    <signatureNodes name="mdm2dub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2DUB"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.72/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ub2s" incomingEdges="//@contextPatterns.72/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub1s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="mdm2polyDeubiquination2">
+    <localEdges sourceNode="//@contextPatterns.73/@signatureNodes.1" targetNode="//@contextPatterns.73/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub3"/>
+    </localEdges>
+    <signatureNodes name="mdm2dub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2DUB"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.73/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ub3s" incomingEdges="//@contextPatterns.73/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub2s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="mdm2polyDeubiquination3">
+    <localEdges sourceNode="//@contextPatterns.74/@signatureNodes.1" targetNode="//@contextPatterns.74/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub4"/>
+    </localEdges>
+    <signatureNodes name="mdm2dub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2DUB"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.74/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ub4s" incomingEdges="//@contextPatterns.74/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </signatureNodes>
+    <signatureNodes name="ub3s">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Mdm2ProteasomeBind">
+    <localEdges sourceNode="//@contextPatterns.75/@signatureNodes.1" targetNode="//@contextPatterns.75/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub4"/>
+    </localEdges>
+    <signatureNodes name="prot">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.75/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ub4s" incomingEdges="//@contextPatterns.75/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Mdm2Degradation">
+    <localEdges sourceNode="//@contextPatterns.76/@signatureNodes.0" targetNode="//@contextPatterns.76/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_Mdm2_ubi"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.76/@signatureNodes.1" targetNode="//@contextPatterns.76/@signatureNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub4"/>
+    </localEdges>
+    <signatureNodes name="prot" outgoingEdges="//@contextPatterns.76/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" incomingEdges="//@contextPatterns.76/@localEdges.0" outgoingEdges="//@contextPatterns.76/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="atp">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATP"/>
+    </signatureNodes>
+    <signatureNodes name="ub4s" incomingEdges="//@contextPatterns.76/@localEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="ATMActivation">
+    <signatureNodes name="atmi">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATMI"/>
+    </signatureNodes>
+    <signatureNodes name="damDNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//DamDNA"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="ATMInactivation">
+    <signatureNodes name="atma">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATMA"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53Phospho">
+    <invocations invokedPattern="//@contextPatterns.10">
+      <mapping key="//@contextPatterns.79/@signatureNodes.1" value="//@contextPatterns.10/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.12">
+      <mapping key="//@contextPatterns.79/@signatureNodes.1" value="//@contextPatterns.12/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.14">
+      <mapping key="//@contextPatterns.79/@signatureNodes.1" value="//@contextPatterns.14/@signatureNodes.0"/>
+    </invocations>
+    <localEdges sourceNode="//@contextPatterns.79/@signatureNodes.1" targetNode="//@contextPatterns.79/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_u"/>
+    </localEdges>
+    <signatureNodes name="atma">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATMA"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.79/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.79/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ps">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="P53DePhospho">
+    <invocations invokedPattern="//@contextPatterns.10">
+      <mapping key="//@contextPatterns.80/@signatureNodes.0" value="//@contextPatterns.10/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.12">
+      <mapping key="//@contextPatterns.80/@signatureNodes.0" value="//@contextPatterns.12/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.14">
+      <mapping key="//@contextPatterns.80/@signatureNodes.0" value="//@contextPatterns.14/@signatureNodes.0"/>
+    </invocations>
+    <localEdges sourceNode="//@contextPatterns.80/@signatureNodes.0" targetNode="//@contextPatterns.80/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_p"/>
+    </localEdges>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.80/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+    <signatureNodes name="ps" incomingEdges="//@contextPatterns.80/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </signatureNodes>
+    <signatureNodes name="us">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Mdm2Phospho">
+    <localEdges sourceNode="//@contextPatterns.81/@signatureNodes.1" targetNode="//@contextPatterns.81/@signatureNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </localEdges>
+    <signatureNodes name="atma">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATMA"/>
+    </signatureNodes>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.81/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="us" incomingEdges="//@contextPatterns.81/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+    <signatureNodes name="ps">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Mdm2DePhospho">
+    <localEdges sourceNode="//@contextPatterns.82/@signatureNodes.0" targetNode="//@contextPatterns.82/@signatureNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_p"/>
+    </localEdges>
+    <signatureNodes name="mdm2" outgoingEdges="//@contextPatterns.82/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+    <signatureNodes name="ps" incomingEdges="//@contextPatterns.82/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </signatureNodes>
+    <signatureNodes name="us">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="p53mRNASynthesis"/>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="p53mRNADegradation">
+    <signatureNodes name="p53mRna">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="IRDamage">
+    <signatureNodes name="ir">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//IR"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="DNARepair">
+    <signatureNodes name="damDNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//DamDNA"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="ROSDamage">
+    <signatureNodes name="ros">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ROS"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="BasalROSDamage">
+    <signatureNodes name="basalRos">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//BasalROS"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="obs_obs_mdm2">
+    <signatureNodes name="mdm2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="obs_obs_mdm2mRNA">
+    <signatureNodes name="mdm2mRna">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2mRNA"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="obs_obs_mdm2DUB">
+    <signatureNodes name="mdm2dub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2DUB"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="obs_obs_p53">
+    <signatureNodes name="p53">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="obs_obs_p53mRNA">
+    <signatureNodes name="p53mRna">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="obs_obs_p53DUB">
+    <signatureNodes name="p53dub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53DUB"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="obs_obs_p53gsk">
+    <localEdges sourceNode="//@contextPatterns.95/@signatureNodes.1" targetNode="//@contextPatterns.95/@signatureNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </localEdges>
+    <signatureNodes name="gsk" incomingEdges="//@contextPatterns.95/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </signatureNodes>
+    <signatureNodes name="p53" outgoingEdges="//@contextPatterns.95/@localEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="obs_obs_damDNA">
+    <signatureNodes name="damDNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//DamDNA"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="obs_obs_tauTangle">
+    <signatureNodes name="nft">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//NFT"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="obs_obs_abetaPlaque">
+    <signatureNodes name="abetaPlaque">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AbetaPlaque"/>
+    </signatureNodes>
+  </contextPatterns>
+  <createPatterns name="GSK3b_p53">
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.0/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="gsk" incomingEdges="//@createPatterns.0/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.0/@contextNodes.0" targetNode="//@createPatterns.0/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="GSK3b_p53Bwd"/>
+  <createPatterns name="Mdm2mRNASynthesis">
+    <createdNodes name="mdm2mRNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2mRNA"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="Mdm2GSK3Phospho1">
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.3/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ps" incomingEdges="//@createPatterns.3/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.3/@contextNodes.0" targetNode="//@createPatterns.3/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_p"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="Mdm2GSK3Phospho2_3">
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.4/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ps" incomingEdges="//@createPatterns.4/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.4/@contextNodes.0" targetNode="//@createPatterns.4/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_p"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="TauSynthesis">
+    <contextNodes name="us" incomingEdges="//@createPatterns.5/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.5/@createdNodes.0" targetNode="//@createPatterns.5/@contextNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </createdEdges>
+    <createdNodes name="tau" outgoingEdges="//@createPatterns.5/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="Proteasome_Tau">
+    <contextNodes name="prot" outgoingEdges="//@createPatterns.6/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </contextNodes>
+    <contextNodes name="tau" incomingEdges="//@createPatterns.6/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.6/@contextNodes.0" targetNode="//@createPatterns.6/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_Tau_phos"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="TauDegradation"/>
+  <createPatterns name="TauMT">
+    <contextNodes name="mt" outgoingEdges="//@createPatterns.8/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT"/>
+    </contextNodes>
+    <contextNodes name="tau" incomingEdges="//@createPatterns.8/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.8/@contextNodes.0" targetNode="//@createPatterns.8/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT/MT_l_Tau_phos"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="TauMTBwd"/>
+  <createPatterns name="TauPhosphorylation1_3">
+    <contextNodes name="tau" outgoingEdges="//@createPatterns.10/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="p1s" incomingEdges="//@createPatterns.10/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.10/@contextNodes.0" targetNode="//@createPatterns.10/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p1"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="TauPhosphorylation2_4">
+    <contextNodes name="tau" outgoingEdges="//@createPatterns.11/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="p2s" incomingEdges="//@createPatterns.11/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P2_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.11/@contextNodes.0" targetNode="//@createPatterns.11/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p2"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="TauPhosphorylation5">
+    <contextNodes name="tau" outgoingEdges="//@createPatterns.12/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="p1s" incomingEdges="//@createPatterns.12/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.12/@contextNodes.0" targetNode="//@createPatterns.12/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p1"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="TauPhosphorylation6">
+    <contextNodes name="tau" outgoingEdges="//@createPatterns.13/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="p2s" incomingEdges="//@createPatterns.13/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P2_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.13/@contextNodes.0" targetNode="//@createPatterns.13/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p2"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="TauDephosphorylation">
+    <contextNodes name="tau" outgoingEdges="//@createPatterns.14/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="p1s" incomingEdges="//@createPatterns.14/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.14/@contextNodes.0" targetNode="//@createPatterns.14/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p1"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="TauAgg1">
+    <createdNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </createdNodes>
+    <createdNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="TauAgg2">
+    <createdNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="TauP1Agg1">
+    <createdNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </createdNodes>
+    <createdNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="TauP1Agg2">
+    <createdNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="TauP2Agg1">
+    <createdNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </createdNodes>
+    <createdNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="TauP2Agg2">
+    <createdNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="tangleForm1">
+    <createdNodes name="nft2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//NFT"/>
+    </createdNodes>
+    <createdNodes name="nft1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//NFT"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="tangleForm2">
+    <createdNodes name="nft2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//NFT"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="ProteasomeInhibitionAggTau">
+    <contextNodes name="prot" outgoingEdges="//@createPatterns.23/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </contextNodes>
+    <contextNodes name="agg" incomingEdges="//@createPatterns.23/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.23/@contextNodes.0" targetNode="//@createPatterns.23/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_AggTau_y"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="AbetaProduction">
+    <createdNodes name="abeta">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Abeta"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="AbetaDegradation"/>
+  <createPatterns name="AbetaAgg1">
+    <createdNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="AbetaAgg2">
+    <createdNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="AbetaPlaque1">
+    <createdNodes name="plaque1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AbetaPlaque"/>
+    </createdNodes>
+    <createdNodes name="plaque2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AbetaPlaque"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="AbetaPlaque2">
+    <createdNodes name="plaque2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AbetaPlaque"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="ProteasomeInhibitionAggAbeta">
+    <contextNodes name="agg" incomingEdges="//@createPatterns.30/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </contextNodes>
+    <contextNodes name="prot" outgoingEdges="//@createPatterns.30/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.30/@contextNodes.1" targetNode="//@createPatterns.30/@contextNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_AggAbeta_y"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="P53Transcription">
+    <createdNodes name="p53mRNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="AbetaROSProduction">
+    <createdNodes name="p53mRNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="P53Synthesis">
+    <contextNodes name="us" incomingEdges="//@createPatterns.33/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.33/@createdNodes.0" targetNode="//@createPatterns.33/@contextNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_u"/>
+    </createdEdges>
+    <createdNodes name="p53" outgoingEdges="//@createPatterns.33/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="P53_Mdm2">
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.34/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="mdm2" incomingEdges="//@createPatterns.34/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.34/@contextNodes.0" targetNode="//@createPatterns.34/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="P53_Mdm2Bwd"/>
+  <createPatterns name="E1Ub">
+    <contextNodes name="e1" outgoingEdges="//@createPatterns.36/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E1"/>
+    </contextNodes>
+    <contextNodes name="ubis" incomingEdges="//@createPatterns.36/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.36/@contextNodes.0" targetNode="//@createPatterns.36/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E1/E1_x_ubi"/>
+    </createdEdges>
+    <createdNodes name="amp">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AMP"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="E2Ub">
+    <contextNodes name="e2" outgoingEdges="//@createPatterns.37/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="ubis" incomingEdges="//@createPatterns.37/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.37/@contextNodes.0" targetNode="//@createPatterns.37/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="P53Ubiquitination">
+    <contextNodes name="e2" outgoingEdges="//@createPatterns.38/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@createPatterns.38/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.38/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub2s" incomingEdges="//@createPatterns.38/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.38/@contextNodes.0" targetNode="//@createPatterns.38/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_unb"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.38/@contextNodes.2" targetNode="//@createPatterns.38/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub2"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="P53PolyUbiquitination1">
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.39/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub2s" incomingEdges="//@createPatterns.39/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </contextNodes>
+    <contextNodes name="e2" outgoingEdges="//@createPatterns.39/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@createPatterns.39/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.39/@contextNodes.0" targetNode="//@createPatterns.39/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub2"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.39/@contextNodes.2" targetNode="//@createPatterns.39/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_unb"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="P53PolyUbiquitination2">
+    <contextNodes name="e2" outgoingEdges="//@createPatterns.40/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@createPatterns.40/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.40/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub3s" incomingEdges="//@createPatterns.40/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.40/@contextNodes.0" targetNode="//@createPatterns.40/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_unb"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.40/@contextNodes.2" targetNode="//@createPatterns.40/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub3"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="P53PolyUbiquitination3">
+    <contextNodes name="e2" outgoingEdges="//@createPatterns.41/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@createPatterns.41/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.41/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub4s" incomingEdges="//@createPatterns.41/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.41/@contextNodes.0" targetNode="//@createPatterns.41/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_unb"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.41/@contextNodes.2" targetNode="//@createPatterns.41/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub4"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="P53DeUbiquitination">
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.42/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@createPatterns.42/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.42/@contextNodes.0" targetNode="//@createPatterns.42/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_u"/>
+    </createdEdges>
+    <createdNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="P53PolyDeUbiquitination2">
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.43/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub1s" incomingEdges="//@createPatterns.43/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.43/@contextNodes.0" targetNode="//@createPatterns.43/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub1"/>
+    </createdEdges>
+    <createdNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="P53PolyDeUbiquitination3">
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.44/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub2s" incomingEdges="//@createPatterns.44/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.44/@contextNodes.0" targetNode="//@createPatterns.44/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub2"/>
+    </createdEdges>
+    <createdNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="P53PolyDeUbiquitination4">
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.45/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub3s" incomingEdges="//@createPatterns.45/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.45/@contextNodes.0" targetNode="//@createPatterns.45/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub3"/>
+    </createdEdges>
+    <createdNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="P53ProteasomeBinding">
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.46/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@createPatterns.46/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.46/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="prot" incomingEdges="//@createPatterns.46/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.46/@contextNodes.0" targetNode="//@createPatterns.46/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.46/@contextNodes.2" targetNode="//@createPatterns.46/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Proteasome_x"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="P53Degradation">
+    <createdNodes name="ub2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+    <createdNodes name="ub1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+    <createdNodes name="ub4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+    <createdNodes name="ub3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+    <createdNodes name="adp">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ADP"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="mdm2mRNASynthesis">
+    <createdNodes name="mdm2mRna">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2mRNA"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="mdm2mRNADegradation"/>
+  <createPatterns name="Mdm2Synthesis">
+    <contextNodes name="us" incomingEdges="//@createPatterns.50/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@createPatterns.50/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.50/@createdNodes.0" targetNode="//@createPatterns.50/@contextNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.50/@createdNodes.0" targetNode="//@createPatterns.50/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_unb"/>
+    </createdEdges>
+    <createdNodes name="mdm2" outgoingEdges="//@createPatterns.50/@createdEdges.0 //@createPatterns.50/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="mdm2Ubiquination">
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.51/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub1s" incomingEdges="//@createPatterns.51/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </contextNodes>
+    <contextNodes name="e2" outgoingEdges="//@createPatterns.51/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@createPatterns.51/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.51/@contextNodes.0" targetNode="//@createPatterns.51/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub1"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.51/@contextNodes.2" targetNode="//@createPatterns.51/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_unb"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="mdm2PolyUbiquination1">
+    <contextNodes name="e2" outgoingEdges="//@createPatterns.52/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@createPatterns.52/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.52/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub2s" incomingEdges="//@createPatterns.52/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.52/@contextNodes.0" targetNode="//@createPatterns.52/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_unb"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.52/@contextNodes.2" targetNode="//@createPatterns.52/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub2"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="mdm2PolyUbiquination2">
+    <contextNodes name="e2" outgoingEdges="//@createPatterns.53/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@createPatterns.53/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.53/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub3s" incomingEdges="//@createPatterns.53/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.53/@contextNodes.0" targetNode="//@createPatterns.53/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_unb"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.53/@contextNodes.2" targetNode="//@createPatterns.53/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub3"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="mdm2PolyUbiquination3">
+    <contextNodes name="e2" outgoingEdges="//@createPatterns.54/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@createPatterns.54/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.54/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub4s" incomingEdges="//@createPatterns.54/@createdEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.54/@contextNodes.0" targetNode="//@createPatterns.54/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_unb"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.54/@contextNodes.2" targetNode="//@createPatterns.54/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub4"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="mdm2deubiquination">
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.55/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@createPatterns.55/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.55/@contextNodes.0" targetNode="//@createPatterns.55/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_unb"/>
+    </createdEdges>
+    <createdNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="mdm2polyDeubiquination1">
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.56/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub1s" incomingEdges="//@createPatterns.56/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.56/@contextNodes.0" targetNode="//@createPatterns.56/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub1"/>
+    </createdEdges>
+    <createdNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="mdm2polyDeubiquination2">
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.57/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub2s" incomingEdges="//@createPatterns.57/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.57/@contextNodes.0" targetNode="//@createPatterns.57/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub2"/>
+    </createdEdges>
+    <createdNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="mdm2polyDeubiquination3">
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.58/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub3s" incomingEdges="//@createPatterns.58/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.58/@contextNodes.0" targetNode="//@createPatterns.58/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub3"/>
+    </createdEdges>
+    <createdNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="Mdm2ProteasomeBind">
+    <contextNodes name="mdm2" incomingEdges="//@createPatterns.59/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="prot" outgoingEdges="//@createPatterns.59/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.59/@contextNodes.1" targetNode="//@createPatterns.59/@contextNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_Mdm2_ubi"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="Mdm2Degradation">
+    <createdNodes name="ub2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+    <createdNodes name="ub1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+    <createdNodes name="ub4">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+    <createdNodes name="ub3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </createdNodes>
+    <createdNodes name="adp">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ADP"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="ATMActivation">
+    <createdNodes name="atma">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATMA"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="ATMInactivation">
+    <createdNodes name="atmi">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATMI"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="P53Phospho">
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.63/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ps" incomingEdges="//@createPatterns.63/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.63/@contextNodes.0" targetNode="//@createPatterns.63/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_p"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="P53DePhospho">
+    <contextNodes name="p53" outgoingEdges="//@createPatterns.64/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@createPatterns.64/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.64/@contextNodes.0" targetNode="//@createPatterns.64/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_u"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="Mdm2Phospho">
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.65/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ps" incomingEdges="//@createPatterns.65/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.65/@contextNodes.0" targetNode="//@createPatterns.65/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_p"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="Mdm2DePhospho">
+    <contextNodes name="mdm2" outgoingEdges="//@createPatterns.66/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@createPatterns.66/@createdEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.66/@contextNodes.0" targetNode="//@createPatterns.66/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="p53mRNASynthesis">
+    <createdNodes name="p53mRna">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="p53mRNADegradation"/>
+  <createPatterns name="IRDamage">
+    <createdNodes name="damDNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//DamDNA"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="DNARepair"/>
+  <createPatterns name="ROSDamage">
+    <createdNodes name="damDNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//DamDNA"/>
+    </createdNodes>
+  </createPatterns>
+  <createPatterns name="BasalROSDamage">
+    <createdNodes name="damDNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//DamDNA"/>
+    </createdNodes>
+  </createPatterns>
+  <deletePatterns name="GSK3b_p53"/>
+  <deletePatterns name="GSK3b_p53Bwd">
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.1/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="gsk" incomingEdges="//@deletePatterns.1/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//GSK3b"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.1/@contextNodes.0" targetNode="//@deletePatterns.1/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_GSK3b_x"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="Mdm2mRNASynthesis"/>
+  <deletePatterns name="Mdm2GSK3Phospho1">
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.3/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@deletePatterns.3/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.3/@contextNodes.0" targetNode="//@deletePatterns.3/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="Mdm2GSK3Phospho2_3">
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.4/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@deletePatterns.4/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.4/@contextNodes.0" targetNode="//@deletePatterns.4/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="TauSynthesis"/>
+  <deletePatterns name="Proteasome_Tau"/>
+  <deletePatterns name="TauDegradation">
+    <contextNodes name="prot" outgoingEdges="//@deletePatterns.7/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@deletePatterns.7/@deletedEdges.0 //@deletePatterns.7/@deletedEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.7/@deletedNodes.0" targetNode="//@deletePatterns.7/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.7/@contextNodes.0" targetNode="//@deletePatterns.7/@deletedNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_Tau_phos"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.7/@deletedNodes.1" targetNode="//@deletePatterns.7/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </deletedEdges>
+    <deletedNodes name="tau" incomingEdges="//@deletePatterns.7/@deletedEdges.1" outgoingEdges="//@deletePatterns.7/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+    <deletedNodes name="tau" outgoingEdges="//@deletePatterns.7/@deletedEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="TauMT"/>
+  <deletePatterns name="TauMTBwd">
+    <contextNodes name="tau" incomingEdges="//@deletePatterns.9/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="mt" outgoingEdges="//@deletePatterns.9/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.9/@contextNodes.1" targetNode="//@deletePatterns.9/@contextNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//MT/MT_l_Tau_phos"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="TauPhosphorylation1_3">
+    <contextNodes name="tau" outgoingEdges="//@deletePatterns.10/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@deletePatterns.10/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.10/@contextNodes.0" targetNode="//@deletePatterns.10/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="TauPhosphorylation2_4">
+    <contextNodes name="tau" outgoingEdges="//@deletePatterns.11/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="p1s" incomingEdges="//@deletePatterns.11/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.11/@contextNodes.0" targetNode="//@deletePatterns.11/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p1"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="TauPhosphorylation5">
+    <contextNodes name="tau" outgoingEdges="//@deletePatterns.12/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@deletePatterns.12/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.12/@contextNodes.0" targetNode="//@deletePatterns.12/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_u"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="TauPhosphorylation6">
+    <contextNodes name="tau" outgoingEdges="//@deletePatterns.13/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="p1s" incomingEdges="//@deletePatterns.13/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P1_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.13/@contextNodes.0" targetNode="//@deletePatterns.13/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p1"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="TauDephosphorylation">
+    <contextNodes name="tau" outgoingEdges="//@deletePatterns.14/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </contextNodes>
+    <contextNodes name="p2s" incomingEdges="//@deletePatterns.14/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P2_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.14/@contextNodes.0" targetNode="//@deletePatterns.14/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau/Tau_phos_p2"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="TauAgg1">
+    <deletedNodes name="tau2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+    <deletedNodes name="tau1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="TauAgg2">
+    <deletedNodes name="tau1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="TauP1Agg1">
+    <deletedNodes name="tau1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+    <deletedNodes name="tau2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="TauP1Agg2">
+    <deletedNodes name="tau1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="TauP2Agg1">
+    <deletedNodes name="tau2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+    <deletedNodes name="tau1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="TauP2Agg2">
+    <deletedNodes name="tau1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Tau"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="tangleForm1">
+    <deletedNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </deletedNodes>
+    <deletedNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="tangleForm2">
+    <deletedNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggTau"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="ProteasomeInhibitionAggTau"/>
+  <deletePatterns name="AbetaProduction"/>
+  <deletePatterns name="AbetaDegradation">
+    <deletedNodes name="abeta">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Abeta"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="AbetaAgg1">
+    <deletedNodes name="abeta2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Abeta"/>
+    </deletedNodes>
+    <deletedNodes name="abeta1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Abeta"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="AbetaAgg2">
+    <deletedNodes name="abeta1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Abeta"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="AbetaPlaque1">
+    <deletedNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </deletedNodes>
+    <deletedNodes name="agg2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="AbetaPlaque2">
+    <deletedNodes name="agg1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//AggAbeta"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="ProteasomeInhibitionAggAbeta"/>
+  <deletePatterns name="P53Transcription"/>
+  <deletePatterns name="AbetaROSProduction"/>
+  <deletePatterns name="P53Synthesis"/>
+  <deletePatterns name="P53_Mdm2"/>
+  <deletePatterns name="P53_Mdm2Bwd">
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.35/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="mdm2" incomingEdges="//@deletePatterns.35/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.35/@contextNodes.0" targetNode="//@deletePatterns.35/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="E1Ub">
+    <contextNodes name="e1" outgoingEdges="//@deletePatterns.36/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E1"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@deletePatterns.36/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.36/@contextNodes.0" targetNode="//@deletePatterns.36/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E1/E1_x_unb"/>
+    </deletedEdges>
+    <deletedNodes name="atp">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATP"/>
+    </deletedNodes>
+    <deletedNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="E2Ub">
+    <contextNodes name="e2" outgoingEdges="//@deletePatterns.37/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@deletePatterns.37/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.37/@contextNodes.0" targetNode="//@deletePatterns.37/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_unb"/>
+    </deletedEdges>
+    <deletedNodes name="ub">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Ub"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="P53Ubiquitination">
+    <contextNodes name="e2" outgoingEdges="//@deletePatterns.38/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="ubis" incomingEdges="//@deletePatterns.38/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </contextNodes>
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.38/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@deletePatterns.38/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.38/@contextNodes.0" targetNode="//@deletePatterns.38/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.38/@contextNodes.2" targetNode="//@deletePatterns.38/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_u"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="P53PolyUbiquitination1">
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.39/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub1s" incomingEdges="//@deletePatterns.39/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </contextNodes>
+    <contextNodes name="e2" outgoingEdges="//@deletePatterns.39/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="ubis" incomingEdges="//@deletePatterns.39/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.39/@contextNodes.0" targetNode="//@deletePatterns.39/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub1"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.39/@contextNodes.2" targetNode="//@deletePatterns.39/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="P53PolyUbiquitination2">
+    <contextNodes name="e2" outgoingEdges="//@deletePatterns.40/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="ubis" incomingEdges="//@deletePatterns.40/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </contextNodes>
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.40/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub2s" incomingEdges="//@deletePatterns.40/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.40/@contextNodes.0" targetNode="//@deletePatterns.40/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.40/@contextNodes.2" targetNode="//@deletePatterns.40/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub2"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="P53PolyUbiquitination3">
+    <contextNodes name="e2" outgoingEdges="//@deletePatterns.41/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="ubis" incomingEdges="//@deletePatterns.41/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </contextNodes>
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.41/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub3s" incomingEdges="//@deletePatterns.41/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.41/@contextNodes.0" targetNode="//@deletePatterns.41/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.41/@contextNodes.2" targetNode="//@deletePatterns.41/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub3"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="P53DeUbiquitination">
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.42/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub1s" incomingEdges="//@deletePatterns.42/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.42/@contextNodes.0" targetNode="//@deletePatterns.42/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub1"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="P53PolyDeUbiquitination2">
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.43/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub2s" incomingEdges="//@deletePatterns.43/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.43/@contextNodes.0" targetNode="//@deletePatterns.43/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub2"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="P53PolyDeUbiquitination3">
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.44/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub3s" incomingEdges="//@deletePatterns.44/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.44/@contextNodes.0" targetNode="//@deletePatterns.44/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub3"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="P53PolyDeUbiquitination4">
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.45/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ub4s" incomingEdges="//@deletePatterns.45/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.45/@contextNodes.0" targetNode="//@deletePatterns.45/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub4"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="P53ProteasomeBinding">
+    <contextNodes name="mdm2" incomingEdges="//@deletePatterns.46/@deletedEdges.1" outgoingEdges="//@deletePatterns.46/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.46/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ps" incomingEdges="//@deletePatterns.46/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.46/@contextNodes.0" targetNode="//@deletePatterns.46/@contextNodes.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_p"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.46/@contextNodes.1" targetNode="//@deletePatterns.46/@contextNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Mdm2_z"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="P53Degradation">
+    <contextNodes name="ub4s" incomingEdges="//@deletePatterns.47/@deletedEdges.1 //@deletePatterns.47/@deletedEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.47/@deletedNodes.2" targetNode="//@deletePatterns.47/@deletedNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Proteasome_x"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.47/@deletedNodes.2" targetNode="//@deletePatterns.47/@contextNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub4"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.47/@deletedNodes.3" targetNode="//@deletePatterns.47/@deletedNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_Proteasome_x"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.47/@deletedNodes.3" targetNode="//@deletePatterns.47/@contextNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_ub4"/>
+    </deletedEdges>
+    <deletedNodes name="atp">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATP"/>
+    </deletedNodes>
+    <deletedNodes name="prot" incomingEdges="//@deletePatterns.47/@deletedEdges.0 //@deletePatterns.47/@deletedEdges.2">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </deletedNodes>
+    <deletedNodes name="p53" outgoingEdges="//@deletePatterns.47/@deletedEdges.0 //@deletePatterns.47/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </deletedNodes>
+    <deletedNodes name="p53" outgoingEdges="//@deletePatterns.47/@deletedEdges.2 //@deletePatterns.47/@deletedEdges.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="mdm2mRNASynthesis"/>
+  <deletePatterns name="mdm2mRNADegradation">
+    <deletedNodes name="mdm2mRna">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2mRNA"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="Mdm2Synthesis"/>
+  <deletePatterns name="mdm2Ubiquination">
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.51/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="unbs" incomingEdges="//@deletePatterns.51/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UNB_s"/>
+    </contextNodes>
+    <contextNodes name="e2" outgoingEdges="//@deletePatterns.51/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="ubis" incomingEdges="//@deletePatterns.51/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.51/@contextNodes.0" targetNode="//@deletePatterns.51/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_unb"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.51/@contextNodes.2" targetNode="//@deletePatterns.51/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="mdm2PolyUbiquination1">
+    <contextNodes name="e2" outgoingEdges="//@deletePatterns.52/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="ubis" incomingEdges="//@deletePatterns.52/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </contextNodes>
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.52/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub1s" incomingEdges="//@deletePatterns.52/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.52/@contextNodes.0" targetNode="//@deletePatterns.52/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.52/@contextNodes.2" targetNode="//@deletePatterns.52/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub1"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="mdm2PolyUbiquination2">
+    <contextNodes name="e2" outgoingEdges="//@deletePatterns.53/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="ubis" incomingEdges="//@deletePatterns.53/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </contextNodes>
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.53/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub2s" incomingEdges="//@deletePatterns.53/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.53/@contextNodes.0" targetNode="//@deletePatterns.53/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.53/@contextNodes.2" targetNode="//@deletePatterns.53/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub2"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="mdm2PolyUbiquination3">
+    <contextNodes name="e2" outgoingEdges="//@deletePatterns.54/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2"/>
+    </contextNodes>
+    <contextNodes name="ubis" incomingEdges="//@deletePatterns.54/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UBI_s"/>
+    </contextNodes>
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.54/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub3s" incomingEdges="//@deletePatterns.54/@deletedEdges.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.54/@contextNodes.0" targetNode="//@deletePatterns.54/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//E2/E2_x_ubi"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.54/@contextNodes.2" targetNode="//@deletePatterns.54/@contextNodes.3">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub3"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="mdm2deubiquination">
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.55/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub1s" incomingEdges="//@deletePatterns.55/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB1_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.55/@contextNodes.0" targetNode="//@deletePatterns.55/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub1"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="mdm2polyDeubiquination1">
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.56/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub2s" incomingEdges="//@deletePatterns.56/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB2_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.56/@contextNodes.0" targetNode="//@deletePatterns.56/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub2"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="mdm2polyDeubiquination2">
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.57/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub3s" incomingEdges="//@deletePatterns.57/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB3_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.57/@contextNodes.0" targetNode="//@deletePatterns.57/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub3"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="mdm2polyDeubiquination3">
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.58/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ub4s" incomingEdges="//@deletePatterns.58/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//UB4_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.58/@contextNodes.0" targetNode="//@deletePatterns.58/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_ubi_ub4"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="Mdm2ProteasomeBind"/>
+  <deletePatterns name="Mdm2Degradation">
+    <contextNodes name="mdm2" incomingEdges="//@deletePatterns.60/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="prot" outgoingEdges="//@deletePatterns.60/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.60/@contextNodes.1" targetNode="//@deletePatterns.60/@contextNodes.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Proteasome/Proteasome_x_Mdm2_ubi"/>
+    </deletedEdges>
+    <deletedNodes name="atp">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATP"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="ATMActivation">
+    <deletedNodes name="atmi">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATMI"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="ATMInactivation">
+    <deletedNodes name="atma">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//ATMA"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="P53Phospho">
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.63/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@deletePatterns.63/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.63/@contextNodes.0" targetNode="//@deletePatterns.63/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_u"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="P53DePhospho">
+    <contextNodes name="p53" outgoingEdges="//@deletePatterns.64/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53"/>
+    </contextNodes>
+    <contextNodes name="ps" incomingEdges="//@deletePatterns.64/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.64/@contextNodes.0" targetNode="//@deletePatterns.64/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53/P53_b_p"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="Mdm2Phospho">
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.65/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="us" incomingEdges="//@deletePatterns.65/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.65/@contextNodes.0" targetNode="//@deletePatterns.65/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_u"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="Mdm2DePhospho">
+    <contextNodes name="mdm2" outgoingEdges="//@deletePatterns.66/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2"/>
+    </contextNodes>
+    <contextNodes name="ps" incomingEdges="//@deletePatterns.66/@deletedEdges.0">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.66/@contextNodes.0" targetNode="//@deletePatterns.66/@contextNodes.1">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//Mdm2/Mdm2_z_p"/>
+    </deletedEdges>
+  </deletePatterns>
+  <deletePatterns name="p53mRNASynthesis"/>
+  <deletePatterns name="p53mRNADegradation">
+    <deletedNodes name="p53mRna">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="IRDamage"/>
+  <deletePatterns name="DNARepair">
+    <deletedNodes name="damDNA">
+      <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//DamDNA"/>
+    </deletedNodes>
+  </deletePatterns>
+  <deletePatterns name="ROSDamage"/>
+  <deletePatterns name="BasalROSDamage"/>
+</IBeXLanguage:IBeXPatternSet>

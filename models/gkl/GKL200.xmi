@@ -388,7 +388,7 @@
       </pattern>
     </body>
   </elements>
-  <elements xmi:type="dotDsl:TerminateTime">
-    <time xmi:type="dotDsl:NumberLiteral" value="30.0"/>
+  <elements xmi:type="dotDsl:TerminateIterations">
+    <iterations xmi:type="dotDsl:NumberLiteral" value="30000.0"/>
   </elements>
 </dotDsl:ReactionModel>
