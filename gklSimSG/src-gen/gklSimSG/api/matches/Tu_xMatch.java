@@ -1,12 +1,12 @@
 package gklSimSG.api.matches;
 
+import GKL800Model.P;
+import GKL800Model.P_s;
+import GKL800Model.T;
+import GKL800Model.U_s;
 import gklSimSG.api.rules.Tu_xRule;
 import org.emoflon.ibex.common.operational.IMatch;
 import org.emoflon.ibex.gt.api.GraphTransformationMatch;
-import UNTITLEDModel.P;
-import UNTITLEDModel.P_s;
-import UNTITLEDModel.T;
-import UNTITLEDModel.U_s;
 
 /**
  * A match for the rule <code>Tu_x()</code>.

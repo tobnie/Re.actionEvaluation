@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Automatic-Module-Name: GeneralTestSimSG
+Automatic-Module-Name: gklSimSG
 Bundle-SymbolicName: gklSimSG;singleton:=true
-Bundle-Name: GKL
+Bundle-Name: gklSimSG
 Bundle-Version: 0.0.1.qualifier
 Require-Bundle: org.eclipse.emf.ecore,
  org.eclipse.emf.ecore.xmi,
@@ -15,5 +15,4 @@ Bundle-ManifestVersion: 2
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-Vendor: 
-Export-Package: gklSimSG.benchmark,
- reactionContainer
+Export-Package: benchmark

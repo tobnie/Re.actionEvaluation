@@ -1,12 +1,12 @@
 package gklSimSG.api.matches;
 
+import GKL800Model.K;
+import GKL800Model.P_s;
+import GKL800Model.T;
+import GKL800Model.U_s;
 import gklSimSG.api.rules.Tp_yRule;
 import org.emoflon.ibex.common.operational.IMatch;
 import org.emoflon.ibex.gt.api.GraphTransformationMatch;
-import UNTITLEDModel.K;
-import UNTITLEDModel.P_s;
-import UNTITLEDModel.T;
-import UNTITLEDModel.U_s;
 
 /**
  * A match for the rule <code>Tp_y()</code>.

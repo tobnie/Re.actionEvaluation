@@ -2,9 +2,9 @@
  */
 package reactionContainer.impl;
 
-import UNTITLEDModel.UNTITLEDModelPackage;
+import GKL800Model.GKL800ModelPackage;
 
-import UNTITLEDModel.impl.UNTITLEDModelPackageImpl;
+import GKL800Model.impl.GKL800ModelPackageImpl;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -97,18 +97,18 @@ public class ReactionContainerPackageImpl extends EPackageImpl implements Reacti
 		isInited = true;
 
 		// Obtain or create and register interdependencies
-		Object registeredPackage = EPackage.Registry.INSTANCE.getEPackage(UNTITLEDModelPackage.eNS_URI);
-		UNTITLEDModelPackageImpl theUNTITLEDModelPackage = (UNTITLEDModelPackageImpl) (registeredPackage instanceof UNTITLEDModelPackageImpl
+		Object registeredPackage = EPackage.Registry.INSTANCE.getEPackage(GKL800ModelPackage.eNS_URI);
+		GKL800ModelPackageImpl theGKL800ModelPackage = (GKL800ModelPackageImpl) (registeredPackage instanceof GKL800ModelPackageImpl
 				? registeredPackage
-				: UNTITLEDModelPackage.eINSTANCE);
+				: GKL800ModelPackage.eINSTANCE);
 
 		// Create package meta-data objects
 		theReactionContainerPackage.createPackageContents();
-		theUNTITLEDModelPackage.createPackageContents();
+		theGKL800ModelPackage.createPackageContents();
 
 		// Initialize created meta-data
 		theReactionContainerPackage.initializePackageContents();
-		theUNTITLEDModelPackage.initializePackageContents();
+		theGKL800ModelPackage.initializePackageContents();
 
 		// Mark meta-data to indicate it can't be changed
 		theReactionContainerPackage.freeze();

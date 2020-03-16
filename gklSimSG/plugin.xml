@@ -7,10 +7,10 @@
 <plugin>
 
    <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated GKL200Model -->
+      <!-- @generated GKLModel -->
       <package
-            uri="platform:/resource/gklSimSG/model/GKL200Model.ecore"
-            class="GKL200Model.GKL200ModelPackage"/>
+            uri="platform:/resource/gklSimSG/model/GKLModel.ecore"
+            class="GKLModel.GKLModelPackage"/>
    </extension>
 
    <extension point="org.eclipse.emf.ecore.generated_package">
@@ -21,10 +21,10 @@
    </extension>
 
    <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated GKL1600Model -->
+      <!-- @generated GKL200Model -->
       <package
-            uri="platform:/resource/gklSimSG/model/GKLModel.ecore"
-            class="GKL1600Model.GKL1600ModelPackage"/>
+            uri="platform:/resource/gklSimSG/model/GKL200Model.ecore"
+            class="GKL200Model.GKL200ModelPackage"/>
    </extension>
 
    <extension point="org.eclipse.emf.ecore.generated_package">
@@ -43,20 +43,6 @@
 
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated GKLModel -->
-      <package
-            uri="platform:/resource/gklSimSG/model/GKLModel.ecore"
-            class="GKLModel.GKLModelPackage"/>
-   </extension>
-
-   <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated UNTITLEDModel -->
-      <package
-            uri="platform:/resource/gklSimSG/model/GKLModel.ecore"
-            class="UNTITLEDModel.UNTITLEDModelPackage"/>
-   </extension>
-
-   <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated GKL200Model -->
       <package
             uri="platform:/resource/reactionContainer/model/reactionContainer.ecore"
             class="reactionContainer.ReactionContainerPackage"/>

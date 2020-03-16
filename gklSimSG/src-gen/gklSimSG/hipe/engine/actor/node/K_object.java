@@ -38,7 +38,7 @@ import hipe.engine.message.junction.MatchDeletedRight;
 		
 public class K_object extends AbstractActor {
 	
-	private List<Port<GKL1600Model.K>> ports;		
+	private List<Port<GKL800Model.K>> ports;		
 		
 	public K_object() {
 	}
@@ -46,10 +46,10 @@ public class K_object extends AbstractActor {
 	public void initActor(InitActor m) {
 		Map<String, ActorRef> name2actor = m.name2actor;
 		ports = new LinkedList<>();
-		ports.add(new PortNodeMatchLeft<GKL1600Model.K>(getSelf(), name2actor.get("KT_x_25_junction"), this::returnTrue));
-		ports.add(new PortNodeMatchRight<GKL1600Model.K>(getSelf(), name2actor.get("KT_y_39_junction"), this::returnTrue));
-		ports.add(new PortNodeRight<GKL1600Model.K>(getSelf(), name2actor.get("T_T_x_K_a_0_reference"), this::returnTrue));
-		ports.add(new PortNodeRight<GKL1600Model.K>(getSelf(), name2actor.get("T_T_y_K_a_0_reference"), this::returnTrue));
+		ports.add(new PortNodeMatchRight<GKL800Model.K>(getSelf(), name2actor.get("KT_x_25_junction"), this::returnTrue));
+		ports.add(new PortNodeMatchRight<GKL800Model.K>(getSelf(), name2actor.get("KT_y_39_junction"), this::returnTrue));
+		ports.add(new PortNodeRight<GKL800Model.K>(getSelf(), name2actor.get("T_T_x_K_a_0_reference"), this::returnTrue));
+		ports.add(new PortNodeRight<GKL800Model.K>(getSelf(), name2actor.get("T_T_y_K_a_0_reference"), this::returnTrue));
 	}
 
 	@Override
@@ -93,27 +93,27 @@ public class K_object extends AbstractActor {
 		message.edgeActor.tell(message, getSelf());
 	}
 	
-	private void addNode(ObjectAdded<GKL1600Model.K> message) {
-		for(Port<GKL1600Model.K> port : ports) {
+	private void addNode(ObjectAdded<GKL800Model.K> message) {
+		for(Port<GKL800Model.K> port : ports) {
 			port.sendAdd(message, message.node);
 		}
 		message.initialMessage.decrement();
 	}
 	
-	private void removeNode(ObjectDeleted<GKL1600Model.K> message) {
-		for(Port<GKL1600Model.K> port : ports) {
+	private void removeNode(ObjectDeleted<GKL800Model.K> message) {
+		for(Port<GKL800Model.K> port : ports) {
 			port.sendRemove(message, message.node);
 		}		
 		message.initialMessage.decrement();
 	}
 	
-	private void changeAttribute(AttributeChanged<GKL1600Model.K> message) {
+	private void changeAttribute(AttributeChanged<GKL800Model.K> message) {
 		for(Port<?> port : ports) {
 			message.initialMessage.increment();
 			port.forwardMessage(message);
 		}
 		
-		for(Port<GKL1600Model.K> port : ports) {
+		for(Port<GKL800Model.K> port : ports) {
 			port.sendAttributeChanged(message, message.node);
 		}
 		message.initialMessage.decrement();

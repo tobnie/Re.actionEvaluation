@@ -1,10 +1,10 @@
 package gklSimSG.api.matches;
 
+import GKL800Model.P_s;
+import GKL800Model.T;
 import gklSimSG.api.rules.Obs_T_pp_unboundRule;
 import org.emoflon.ibex.common.operational.IMatch;
 import org.emoflon.ibex.gt.api.GraphTransformationMatch;
-import UNTITLEDModel.P_s;
-import UNTITLEDModel.T;
 
 /**
  * A match for the rule <code>obs_T_pp_unbound()</code>.

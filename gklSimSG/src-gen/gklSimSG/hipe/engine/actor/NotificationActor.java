@@ -45,23 +45,23 @@ public class NotificationActor extends AbstractActor {
 	}
 	
 	private void initializeExploration() {
-		explorationConsumer.put(GKL1600Model.UNTITLEDModelPackage.eINSTANCE.getP(), obj -> {
+		explorationConsumer.put(GKL800Model.GKL800ModelPackage.eINSTANCE.getP(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(GKL1600Model.UNTITLEDModelPackage.eINSTANCE.getT(), obj -> {
+		explorationConsumer.put(GKL800Model.GKL800ModelPackage.eINSTANCE.getK(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(GKL1600Model.UNTITLEDModelPackage.eINSTANCE.getK(), obj -> {
+		explorationConsumer.put(GKL800Model.GKL800ModelPackage.eINSTANCE.getU_s(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(GKL1600Model.UNTITLEDModelPackage.eINSTANCE.getU_s(), obj -> {
+		explorationConsumer.put(GKL800Model.GKL800ModelPackage.eINSTANCE.getP_s(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(GKL1600Model.UNTITLEDModelPackage.eINSTANCE.getP_s(), obj -> {
+		explorationConsumer.put(GKL800Model.GKL800ModelPackage.eINSTANCE.getT(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});

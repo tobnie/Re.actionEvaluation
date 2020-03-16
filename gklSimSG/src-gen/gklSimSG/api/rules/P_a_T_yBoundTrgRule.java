@@ -1,5 +1,6 @@
 package gklSimSG.api.rules;
 
+import GKL800Model.T;
 import gklSimSG.api.GklSimSGAPI;
 import gklSimSG.api.matches.P_a_T_yBoundTrgMatch;
 import java.util.ArrayList;
@@ -8,7 +9,6 @@ import java.util.Objects;
 import org.emoflon.ibex.common.operational.IMatch;
 import org.emoflon.ibex.gt.api.GraphTransformationRule;
 import org.emoflon.ibex.gt.engine.GraphTransformationInterpreter;
-import UNTITLEDModel.T;
 
 /**
  * The rule <code>P_a_T_yBoundTrg()</code> which does the following:

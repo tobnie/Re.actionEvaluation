@@ -1,10 +1,10 @@
 package gklSimSG.api.matches;
 
+import GKL800Model.P;
+import GKL800Model.T;
 import gklSimSG.api.rules.PT_yBwdRule;
 import org.emoflon.ibex.common.operational.IMatch;
 import org.emoflon.ibex.gt.api.GraphTransformationMatch;
-import UNTITLEDModel.P;
-import UNTITLEDModel.T;
 
 /**
  * A match for the rule <code>PT_yBwd()</code>.

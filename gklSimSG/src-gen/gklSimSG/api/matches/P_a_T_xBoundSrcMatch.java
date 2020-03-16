@@ -1,9 +1,9 @@
 package gklSimSG.api.matches;
 
+import GKL800Model.P;
 import gklSimSG.api.rules.P_a_T_xBoundSrcRule;
 import org.emoflon.ibex.common.operational.IMatch;
 import org.emoflon.ibex.gt.api.GraphTransformationMatch;
-import UNTITLEDModel.P;
 
 /**
  * A match for the rule <code>P_a_T_xBoundSrc()</code>.

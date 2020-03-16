@@ -1,5 +1,9 @@
 package gklSimSG.api.rules;
 
+import GKL800Model.K;
+import GKL800Model.P_s;
+import GKL800Model.T;
+import GKL800Model.U_s;
 import gklSimSG.api.GklSimSGAPI;
 import gklSimSG.api.matches.Tp_yMatch;
 import java.util.ArrayList;
@@ -8,10 +12,6 @@ import java.util.Objects;
 import org.emoflon.ibex.common.operational.IMatch;
 import org.emoflon.ibex.gt.api.GraphTransformationRule;
 import org.emoflon.ibex.gt.engine.GraphTransformationInterpreter;
-import UNTITLEDModel.K;
-import UNTITLEDModel.P_s;
-import UNTITLEDModel.T;
-import UNTITLEDModel.U_s;
 
 /**
  * The rule <code>Tp_y()</code> which does the following:

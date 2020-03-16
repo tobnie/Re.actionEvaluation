@@ -34,11 +34,11 @@ public class T_T_y_K_a_0_reference extends AbstractActor {
 
 	private List<Port<EdgeMatch>> ports;
 
-	private Map<GKL1600Model.T, Set<EdgeMatch>> sourceElements = new HashMap<GKL1600Model.T, Set<EdgeMatch>>();
-	private Map<GKL1600Model.K, Set<EdgeMatch>> targetElements = new HashMap<GKL1600Model.K, Set<EdgeMatch>>();
+	private Map<GKL800Model.T, Set<EdgeMatch>> sourceElements = new HashMap<GKL800Model.T, Set<EdgeMatch>>();
+	private Map<GKL800Model.K, Set<EdgeMatch>> targetElements = new HashMap<GKL800Model.K, Set<EdgeMatch>>();
 	private HiPESet<EdgeMatch> matches = new HiPESet<>();
 	
-	private Map<GKL1600Model.K, Set<GKL1600Model.T>> pending = new HashMap<>();
+	private Map<GKL800Model.K, Set<GKL800Model.T>> pending = new HashMap<>();
 
 	private int finishedNodes = 0;
 	
@@ -108,7 +108,7 @@ public class T_T_y_K_a_0_reference extends AbstractActor {
 		}
 	}
 
-	private void addMatch(InputMessage message, GKL1600Model.T source, GKL1600Model.K target) {
+	private void addMatch(InputMessage message, GKL800Model.T source, GKL800Model.K target) {
 		EdgeMatch match = new EdgeMatch(source, target);
 		if(!matches.add(match))
  			return;
@@ -135,22 +135,22 @@ public class T_T_y_K_a_0_reference extends AbstractActor {
 	}
 	
 	private void addPendingMatch(Object source, Object target) {
-		Set<GKL1600Model.T> sourcePending = pending.get(target);
+		Set<GKL800Model.T> sourcePending = pending.get(target);
 		if(sourcePending == null) {
-			sourcePending = new HashSet<GKL1600Model.T>();
-			pending.put((GKL1600Model.K) target, sourcePending);
+			sourcePending = new HashSet<GKL800Model.T>();
+			pending.put((GKL800Model.K) target, sourcePending);
 		}
-		sourcePending.add((GKL1600Model.T) source);
+		sourcePending.add((GKL800Model.T) source);
 	}
 	
-	private void leftAdded(NodeAddedLeft<GKL1600Model.T> message) {
+	private void leftAdded(NodeAddedLeft<GKL800Model.T> message) {
 		if(sourceElements.containsKey(message.input)) {
 			message.initialMessage.decrement();
 			return;
 		}
 			
 		sourceElements.put(message.input, null);
-		GKL1600Model.K target = (GKL1600Model.K) message.input.getT_y_K_a();
+		GKL800Model.K target = (GKL800Model.K) message.input.getT_y_K_a();
 		if(targetElements.containsKey(target))
 			addMatch(message.initialMessage, message.input, target);
 		else
@@ -158,7 +158,7 @@ public class T_T_y_K_a_0_reference extends AbstractActor {
 		message.initialMessage.decrement();
 	}
 
-	private void rightAdded(NodeAddedRight<GKL1600Model.K> message) {
+	private void rightAdded(NodeAddedRight<GKL800Model.K> message) {
 		if(targetElements.containsKey(message.input)) {
 			message.initialMessage.decrement();
 			return;
@@ -166,8 +166,8 @@ public class T_T_y_K_a_0_reference extends AbstractActor {
 		
 		targetElements.put(message.input, null);
 		if(pending.containsKey(message.input)) {
-			Set<GKL1600Model.T> pendingsSources = pending.get(message.input);
-			for(GKL1600Model.T source : pendingsSources) {
+			Set<GKL800Model.T> pendingsSources = pending.get(message.input);
+			for(GKL800Model.T source : pendingsSources) {
 				addMatch(message.initialMessage, source, message.input);
 			}
 			pending.remove(message.input);
@@ -175,7 +175,7 @@ public class T_T_y_K_a_0_reference extends AbstractActor {
 		message.initialMessage.decrement();
 	}
 
-	private void leftRemoved(NodeDeletedLeft<GKL1600Model.T> message) {
+	private void leftRemoved(NodeDeletedLeft<GKL800Model.T> message) {
 		Set<EdgeMatch> sourceMatches = sourceElements.get(message.input);
 		if(sourceMatches == null) {
 			message.initialMessage.decrement();
@@ -195,14 +195,14 @@ public class T_T_y_K_a_0_reference extends AbstractActor {
 			}
 			
 			// remove waiting source from pending matches
-			Set<GKL1600Model.T> sourcePending = pending.get(match.target());
+			Set<GKL800Model.T> sourcePending = pending.get(match.target());
 			if(sourcePending == null) continue;
 			sourcePending.remove(match.source());
 		}
 		message.initialMessage.decrement();
 	}
 
-	private void rightRemoved(NodeDeletedRight<GKL1600Model.K> message) {
+	private void rightRemoved(NodeDeletedRight<GKL800Model.K> message) {
 		Set<EdgeMatch> targetMatches = targetElements.get(message.input);
 		if(targetMatches == null) {
 			message.initialMessage.decrement();
@@ -227,7 +227,7 @@ public class T_T_y_K_a_0_reference extends AbstractActor {
 		message.initialMessage.decrement();
 	}
 
-	private void addReference(ReferenceAdded<GKL1600Model.T, GKL1600Model.K> message) {
+	private void addReference(ReferenceAdded<GKL800Model.T, GKL800Model.K> message) {
 		if (sourceElements.containsKey(message.source)) {
 			if (targetElements.containsKey(message.target)) {
 				addMatch(message.initialMessage, message.source, message.target);
@@ -239,8 +239,8 @@ public class T_T_y_K_a_0_reference extends AbstractActor {
 		message.initialMessage.decrement();
 	}
 	
-	private void removeReference(ReferenceDeleted<GKL1600Model.T, GKL1600Model.K> message) {
-		Set<GKL1600Model.T> pendingSources = pending.get(message.target);
+	private void removeReference(ReferenceDeleted<GKL800Model.T, GKL800Model.K> message) {
+		Set<GKL800Model.T> pendingSources = pending.get(message.target);
 		if(pendingSources != null) {
 			pendingSources.remove(message.source);
 		}
@@ -272,7 +272,7 @@ public class T_T_y_K_a_0_reference extends AbstractActor {
 			port.forwardMessage(message);
 		}
 						
-		if(message.node instanceof GKL1600Model.T) {
+		if(message.node instanceof GKL800Model.T) {
 			leftChanged(message);
 		}
 		else {
