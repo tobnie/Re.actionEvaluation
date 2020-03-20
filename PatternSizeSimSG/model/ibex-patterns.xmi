@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ASCII"?>
+<IBeXLanguage:IBeXPatternSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:IBeXLanguage="platform:/resource/org.emoflon.ibex.common/model/Common.ecore">
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="U_a_V_aBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.0/@signatureNodes.0" targetNode="//@contextPatterns.0/@localNodes.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.0/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.0/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="U_a_V_aBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.1/@localNodes.0" targetNode="//@contextPatterns.1/@signatureNodes.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.1/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.1/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="W_a_X_aBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.2/@signatureNodes.0" targetNode="//@contextPatterns.2/@localNodes.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.2/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.2/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="W_a_X_aBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.3/@localNodes.0" targetNode="//@contextPatterns.3/@signatureNodes.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.3/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.3/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Y_a_Z_aBoundSrc">
+    <localEdges sourceNode="//@contextPatterns.4/@signatureNodes.0" targetNode="//@contextPatterns.4/@localNodes.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+    </localEdges>
+    <localNodes name="trg" incomingEdges="//@contextPatterns.4/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+    </localNodes>
+    <signatureNodes name="src" outgoingEdges="//@contextPatterns.4/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="Y_a_Z_aBoundTrg">
+    <localEdges sourceNode="//@contextPatterns.5/@localNodes.0" targetNode="//@contextPatterns.5/@signatureNodes.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+    </localEdges>
+    <localNodes name="src" outgoingEdges="//@contextPatterns.5/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+    </localNodes>
+    <signatureNodes name="trg" incomingEdges="//@contextPatterns.5/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="osc">
+    <invocations invokedPattern="//@contextPatterns.0">
+      <mapping key="//@contextPatterns.6/@signatureNodes.0" value="//@contextPatterns.0/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.1">
+      <mapping key="//@contextPatterns.6/@signatureNodes.1" value="//@contextPatterns.1/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.2">
+      <mapping key="//@contextPatterns.6/@signatureNodes.2" value="//@contextPatterns.2/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.3">
+      <mapping key="//@contextPatterns.6/@signatureNodes.3" value="//@contextPatterns.3/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.4">
+      <mapping key="//@contextPatterns.6/@signatureNodes.4" value="//@contextPatterns.4/@signatureNodes.0"/>
+    </invocations>
+    <invocations invokedPattern="//@contextPatterns.5">
+      <mapping key="//@contextPatterns.6/@signatureNodes.5" value="//@contextPatterns.5/@signatureNodes.0"/>
+    </invocations>
+    <signatureNodes name="u">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+    </signatureNodes>
+    <signatureNodes name="v">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+    </signatureNodes>
+    <signatureNodes name="w">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+    </signatureNodes>
+    <signatureNodes name="x">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+    </signatureNodes>
+    <signatureNodes name="y">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+    </signatureNodes>
+    <signatureNodes name="z">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+    </signatureNodes>
+  </contextPatterns>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="oscBwd">
+    <localEdges sourceNode="//@contextPatterns.7/@signatureNodes.0" targetNode="//@contextPatterns.7/@signatureNodes.1">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.7/@signatureNodes.2" targetNode="//@contextPatterns.7/@signatureNodes.3">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+    </localEdges>
+    <localEdges sourceNode="//@contextPatterns.7/@signatureNodes.4" targetNode="//@contextPatterns.7/@signatureNodes.5">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+    </localEdges>
+    <signatureNodes name="u" outgoingEdges="//@contextPatterns.7/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+    </signatureNodes>
+    <signatureNodes name="v" incomingEdges="//@contextPatterns.7/@localEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+    </signatureNodes>
+    <signatureNodes name="w" outgoingEdges="//@contextPatterns.7/@localEdges.1">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+    </signatureNodes>
+    <signatureNodes name="x" incomingEdges="//@contextPatterns.7/@localEdges.1">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+    </signatureNodes>
+    <signatureNodes name="y" outgoingEdges="//@contextPatterns.7/@localEdges.2">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+    </signatureNodes>
+    <signatureNodes name="z" incomingEdges="//@contextPatterns.7/@localEdges.2">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+    </signatureNodes>
+  </contextPatterns>
+  <createPatterns name="osc">
+    <contextNodes name="x" incomingEdges="//@createPatterns.0/@createdEdges.1">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+    </contextNodes>
+    <contextNodes name="w" outgoingEdges="//@createPatterns.0/@createdEdges.1">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+    </contextNodes>
+    <contextNodes name="y" outgoingEdges="//@createPatterns.0/@createdEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+    </contextNodes>
+    <contextNodes name="z" incomingEdges="//@createPatterns.0/@createdEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+    </contextNodes>
+    <contextNodes name="v" incomingEdges="//@createPatterns.0/@createdEdges.2">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+    </contextNodes>
+    <contextNodes name="u" outgoingEdges="//@createPatterns.0/@createdEdges.2">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+    </contextNodes>
+    <createdEdges sourceNode="//@createPatterns.0/@contextNodes.2" targetNode="//@createPatterns.0/@contextNodes.3">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.0/@contextNodes.1" targetNode="//@createPatterns.0/@contextNodes.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+    </createdEdges>
+    <createdEdges sourceNode="//@createPatterns.0/@contextNodes.5" targetNode="//@createPatterns.0/@contextNodes.4">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+    </createdEdges>
+  </createPatterns>
+  <createPatterns name="oscBwd"/>
+  <deletePatterns name="osc"/>
+  <deletePatterns name="oscBwd">
+    <contextNodes name="u" outgoingEdges="//@deletePatterns.1/@deletedEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+    </contextNodes>
+    <contextNodes name="v" incomingEdges="//@deletePatterns.1/@deletedEdges.0">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+    </contextNodes>
+    <contextNodes name="z" incomingEdges="//@deletePatterns.1/@deletedEdges.2">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+    </contextNodes>
+    <contextNodes name="y" outgoingEdges="//@deletePatterns.1/@deletedEdges.2">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+    </contextNodes>
+    <contextNodes name="w" outgoingEdges="//@deletePatterns.1/@deletedEdges.1">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+    </contextNodes>
+    <contextNodes name="x" incomingEdges="//@deletePatterns.1/@deletedEdges.1">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+    </contextNodes>
+    <deletedEdges sourceNode="//@deletePatterns.1/@contextNodes.0" targetNode="//@deletePatterns.1/@contextNodes.1">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.1/@contextNodes.4" targetNode="//@deletePatterns.1/@contextNodes.5">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+    </deletedEdges>
+    <deletedEdges sourceNode="//@deletePatterns.1/@contextNodes.3" targetNode="//@deletePatterns.1/@contextNodes.2">
+      <type href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+    </deletedEdges>
+  </deletePatterns>
+</IBeXLanguage:IBeXPatternSet>

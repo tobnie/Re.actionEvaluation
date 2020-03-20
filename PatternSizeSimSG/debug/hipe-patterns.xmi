@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HiPEPattern:HiPEContainer xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:HiPEPattern="platform:/resource/hipe.pattern/model/HiPEPattern" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xsi:schemaLocation="platform:/resource/hipe.pattern/model/HiPEPattern java://hipe.pattern.HiPEPatternPackage http://www.eclipse.org/emf/2002/Ecore java://org.eclipse.emf.ecore.EcorePackage">
+  <patterns xmi:type="HiPEPattern:HiPEPattern" name="U_a_V_aBoundSrc" partialPatterns="//@patterns.8" nodes="//@nodes.0 //@nodes.1" edges="//@edges.0" invokedBy="//@patterns.6/@patternInvocations.0"/>
+  <patterns xmi:type="HiPEPattern:HiPEPattern" name="U_a_V_aBoundTrg" partialPatterns="//@patterns.11" nodes="//@nodes.2 //@nodes.3" edges="//@edges.1" invokedBy="//@patterns.6/@patternInvocations.1"/>
+  <patterns xmi:type="HiPEPattern:HiPEPattern" name="W_a_X_aBoundSrc" partialPatterns="//@patterns.14" nodes="//@nodes.4 //@nodes.5" edges="//@edges.2" invokedBy="//@patterns.6/@patternInvocations.2"/>
+  <patterns xmi:type="HiPEPattern:HiPEPattern" name="W_a_X_aBoundTrg" partialPatterns="//@patterns.17" nodes="//@nodes.6 //@nodes.7" edges="//@edges.3" invokedBy="//@patterns.6/@patternInvocations.3"/>
+  <patterns xmi:type="HiPEPattern:HiPEPattern" name="Y_a_Z_aBoundSrc" partialPatterns="//@patterns.20" nodes="//@nodes.8 //@nodes.9" edges="//@edges.4" invokedBy="//@patterns.6/@patternInvocations.4"/>
+  <patterns xmi:type="HiPEPattern:HiPEPattern" name="Y_a_Z_aBoundTrg" partialPatterns="//@patterns.23" nodes="//@nodes.10 //@nodes.11" edges="//@edges.5" invokedBy="//@patterns.6/@patternInvocations.5"/>
+  <patterns xmi:type="HiPEPattern:HiPEPattern" name="osc" partialPatterns="//@patterns.53" nodes="//@nodes.12 //@nodes.13 //@nodes.14 //@nodes.15 //@nodes.16 //@nodes.17">
+    <patternInvocations xmi:type="HiPEPattern:HiPEPatternInvocation" invokedPattern="//@patterns.0" positive="false">
+      <invocationNodeMap xmi:type="HiPEPattern:HiPENodeToHiPENodeMap" key="//@nodes.12" value="//@nodes.0"/>
+    </patternInvocations>
+    <patternInvocations xmi:type="HiPEPattern:HiPEPatternInvocation" invokedPattern="//@patterns.1" positive="false">
+      <invocationNodeMap xmi:type="HiPEPattern:HiPENodeToHiPENodeMap" key="//@nodes.13" value="//@nodes.2"/>
+    </patternInvocations>
+    <patternInvocations xmi:type="HiPEPattern:HiPEPatternInvocation" invokedPattern="//@patterns.2" positive="false">
+      <invocationNodeMap xmi:type="HiPEPattern:HiPENodeToHiPENodeMap" key="//@nodes.14" value="//@nodes.4"/>
+    </patternInvocations>
+    <patternInvocations xmi:type="HiPEPattern:HiPEPatternInvocation" invokedPattern="//@patterns.3" positive="false">
+      <invocationNodeMap xmi:type="HiPEPattern:HiPENodeToHiPENodeMap" key="//@nodes.15" value="//@nodes.6"/>
+    </patternInvocations>
+    <patternInvocations xmi:type="HiPEPattern:HiPEPatternInvocation" invokedPattern="//@patterns.4" positive="false">
+      <invocationNodeMap xmi:type="HiPEPattern:HiPENodeToHiPENodeMap" key="//@nodes.16" value="//@nodes.8"/>
+    </patternInvocations>
+    <patternInvocations xmi:type="HiPEPattern:HiPEPatternInvocation" invokedPattern="//@patterns.5" positive="false">
+      <invocationNodeMap xmi:type="HiPEPattern:HiPENodeToHiPENodeMap" key="//@nodes.17" value="//@nodes.10"/>
+    </patternInvocations>
+  </patterns>
+  <patterns xmi:type="HiPEPattern:HiPEPattern" name="oscBwd" partialPatterns="//@patterns.37" nodes="//@nodes.18 //@nodes.19 //@nodes.20 //@nodes.21 //@nodes.22 //@nodes.23" edges="//@edges.6 //@edges.7 //@edges.8"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="U_a_V_aBoundSrc_1" partialPatterns="//@patterns.9 //@patterns.10" nodes="//@nodes.0 //@nodes.1" edges="//@edges.0" parentPattern="//@patterns.0 //@patterns.48" overlaps="//@nodes.0 //@nodes.1" invokedNodes="//@nodes.0 //@nodes.1" patternType="EDGE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="U_a_V_aBoundSrc_2" nodes="//@nodes.0" parentPattern="//@patterns.8" invokedNodes="//@nodes.0" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="U_a_V_aBoundSrc_3" nodes="//@nodes.1" parentPattern="//@patterns.8" invokedNodes="//@nodes.1" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="U_a_V_aBoundTrg_4" partialPatterns="//@patterns.12 //@patterns.13" nodes="//@nodes.3 //@nodes.2" edges="//@edges.1" parentPattern="//@patterns.1 //@patterns.49" overlaps="//@nodes.3 //@nodes.2" invokedNodes="//@nodes.3 //@nodes.2" patternType="EDGE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="U_a_V_aBoundTrg_5" nodes="//@nodes.3" parentPattern="//@patterns.11" invokedNodes="//@nodes.3" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="U_a_V_aBoundTrg_6" nodes="//@nodes.2" parentPattern="//@patterns.11" invokedNodes="//@nodes.2" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="W_a_X_aBoundSrc_7" partialPatterns="//@patterns.15 //@patterns.16" nodes="//@nodes.4 //@nodes.5" edges="//@edges.2" parentPattern="//@patterns.2 //@patterns.50" overlaps="//@nodes.4 //@nodes.5" invokedNodes="//@nodes.4 //@nodes.5" patternType="EDGE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="W_a_X_aBoundSrc_8" nodes="//@nodes.4" parentPattern="//@patterns.14" invokedNodes="//@nodes.4" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="W_a_X_aBoundSrc_9" nodes="//@nodes.5" parentPattern="//@patterns.14" invokedNodes="//@nodes.5" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="W_a_X_aBoundTrg_10" partialPatterns="//@patterns.18 //@patterns.19" nodes="//@nodes.7 //@nodes.6" edges="//@edges.3" parentPattern="//@patterns.3 //@patterns.51" overlaps="//@nodes.7 //@nodes.6" invokedNodes="//@nodes.7 //@nodes.6" patternType="EDGE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="W_a_X_aBoundTrg_11" nodes="//@nodes.7" parentPattern="//@patterns.17" invokedNodes="//@nodes.7" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="W_a_X_aBoundTrg_12" nodes="//@nodes.6" parentPattern="//@patterns.17" invokedNodes="//@nodes.6" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="Y_a_Z_aBoundSrc_13" partialPatterns="//@patterns.21 //@patterns.22" nodes="//@nodes.8 //@nodes.9" edges="//@edges.4" parentPattern="//@patterns.4 //@patterns.52" overlaps="//@nodes.8 //@nodes.9" invokedNodes="//@nodes.8 //@nodes.9" patternType="EDGE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="Y_a_Z_aBoundSrc_14" nodes="//@nodes.8" parentPattern="//@patterns.20" invokedNodes="//@nodes.8" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="Y_a_Z_aBoundSrc_15" nodes="//@nodes.9" parentPattern="//@patterns.20" invokedNodes="//@nodes.9" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="Y_a_Z_aBoundTrg_16" partialPatterns="//@patterns.24 //@patterns.25" nodes="//@nodes.11 //@nodes.10" edges="//@edges.5" parentPattern="//@patterns.5 //@patterns.53" overlaps="//@nodes.11 //@nodes.10" invokedNodes="//@nodes.11 //@nodes.10" patternType="EDGE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="Y_a_Z_aBoundTrg_17" nodes="//@nodes.11" parentPattern="//@patterns.23" invokedNodes="//@nodes.11" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="Y_a_Z_aBoundTrg_18" nodes="//@nodes.10" parentPattern="//@patterns.23" invokedNodes="//@nodes.10" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_19" partialPatterns="//@patterns.27 //@patterns.28" nodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" parentPattern="//@patterns.48" overlaps="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" invokedNodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_20" partialPatterns="//@patterns.29 //@patterns.30" nodes="//@nodes.12 //@nodes.17" parentPattern="//@patterns.26" overlaps="//@nodes.12 //@nodes.17" invokedNodes="//@nodes.12 //@nodes.17"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_21" partialPatterns="//@patterns.31 //@patterns.32" nodes="//@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" parentPattern="//@patterns.26" overlaps="//@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" invokedNodes="//@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_22" nodes="//@nodes.12" parentPattern="//@patterns.27" invokedNodes="//@nodes.12" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_23" nodes="//@nodes.17" parentPattern="//@patterns.27" invokedNodes="//@nodes.17" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_24" partialPatterns="//@patterns.33 //@patterns.34" nodes="//@nodes.15 //@nodes.16" parentPattern="//@patterns.28" overlaps="//@nodes.15 //@nodes.16" invokedNodes="//@nodes.15 //@nodes.16"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_25" partialPatterns="//@patterns.35 //@patterns.36" nodes="//@nodes.13 //@nodes.14" parentPattern="//@patterns.28" overlaps="//@nodes.13 //@nodes.14" invokedNodes="//@nodes.13 //@nodes.14"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_26" nodes="//@nodes.15" parentPattern="//@patterns.31" invokedNodes="//@nodes.15" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_27" nodes="//@nodes.16" parentPattern="//@patterns.31" invokedNodes="//@nodes.16" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_28" nodes="//@nodes.13" parentPattern="//@patterns.32" invokedNodes="//@nodes.13" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_29" nodes="//@nodes.14" parentPattern="//@patterns.32" invokedNodes="//@nodes.14" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_30" partialPatterns="//@patterns.38 //@patterns.39" nodes="//@nodes.22 //@nodes.23 //@nodes.18 //@nodes.19 //@nodes.20 //@nodes.21" edges="//@edges.8 //@edges.6 //@edges.7" parentPattern="//@patterns.7" overlaps="//@nodes.22 //@nodes.23 //@nodes.18 //@nodes.19 //@nodes.20 //@nodes.21" invokedNodes="//@nodes.22 //@nodes.23 //@nodes.18 //@nodes.19 //@nodes.20 //@nodes.21"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_31" partialPatterns="//@patterns.40 //@patterns.41" nodes="//@nodes.22 //@nodes.23" edges="//@edges.8" parentPattern="//@patterns.37" overlaps="//@nodes.22 //@nodes.23" invokedNodes="//@nodes.22 //@nodes.23" patternType="EDGE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_32" partialPatterns="//@patterns.42 //@patterns.43" nodes="//@nodes.18 //@nodes.19 //@nodes.20 //@nodes.21" edges="//@edges.6 //@edges.7" parentPattern="//@patterns.37" overlaps="//@nodes.18 //@nodes.19 //@nodes.20 //@nodes.21" invokedNodes="//@nodes.18 //@nodes.19 //@nodes.20 //@nodes.21"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_33" nodes="//@nodes.22" parentPattern="//@patterns.38" invokedNodes="//@nodes.22" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_34" nodes="//@nodes.23" parentPattern="//@patterns.38" invokedNodes="//@nodes.23" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_35" partialPatterns="//@patterns.44 //@patterns.45" nodes="//@nodes.18 //@nodes.19" edges="//@edges.6" parentPattern="//@patterns.39" overlaps="//@nodes.18 //@nodes.19" invokedNodes="//@nodes.18 //@nodes.19" patternType="EDGE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_36" partialPatterns="//@patterns.46 //@patterns.47" nodes="//@nodes.20 //@nodes.21" edges="//@edges.7" parentPattern="//@patterns.39" overlaps="//@nodes.20 //@nodes.21" invokedNodes="//@nodes.20 //@nodes.21" patternType="EDGE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_37" nodes="//@nodes.18" parentPattern="//@patterns.42" invokedNodes="//@nodes.18" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_38" nodes="//@nodes.19" parentPattern="//@patterns.42" invokedNodes="//@nodes.19" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_39" nodes="//@nodes.20" parentPattern="//@patterns.43" invokedNodes="//@nodes.20" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="oscBwd_40" nodes="//@nodes.21" parentPattern="//@patterns.43" invokedNodes="//@nodes.21" patternType="NODE"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_41" partialPatterns="//@patterns.26 //@patterns.8" nodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" parentPattern="//@patterns.49" overlaps="//@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14 //@nodes.12 //@nodes.17" positive="false" invokedNodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" invocation="//@patterns.6/@patternInvocations.0"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_42" partialPatterns="//@patterns.48 //@patterns.11" nodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" parentPattern="//@patterns.50" overlaps="//@nodes.15 //@nodes.16 //@nodes.1 //@nodes.13 //@nodes.14 //@nodes.12 //@nodes.17 //@nodes.0" positive="false" invokedNodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" invocation="//@patterns.6/@patternInvocations.1"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_43" partialPatterns="//@patterns.49 //@patterns.14" nodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" parentPattern="//@patterns.51" overlaps="//@nodes.15 //@nodes.2 //@nodes.16 //@nodes.3 //@nodes.13 //@nodes.14 //@nodes.12 //@nodes.17" positive="false" invokedNodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" invocation="//@patterns.6/@patternInvocations.2"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_44" partialPatterns="//@patterns.50 //@patterns.17" nodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" parentPattern="//@patterns.52" overlaps="//@nodes.15 //@nodes.4 //@nodes.16 //@nodes.13 //@nodes.14 //@nodes.5 //@nodes.12 //@nodes.17" positive="false" invokedNodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" invocation="//@patterns.6/@patternInvocations.3"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_45" partialPatterns="//@patterns.51 //@patterns.20" nodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" parentPattern="//@patterns.53" overlaps="//@nodes.15 //@nodes.16 //@nodes.6 //@nodes.13 //@nodes.14 //@nodes.7 //@nodes.12 //@nodes.17" positive="false" invokedNodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" invocation="//@patterns.6/@patternInvocations.4"/>
+  <patterns xmi:type="HiPEPattern:HiPEPartialPattern" name="osc_46" partialPatterns="//@patterns.52 //@patterns.23" nodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" parentPattern="//@patterns.6" overlaps="//@nodes.15 //@nodes.16 //@nodes.9 //@nodes.13 //@nodes.14 //@nodes.12 //@nodes.17 //@nodes.8" positive="false" invokedNodes="//@nodes.12 //@nodes.17 //@nodes.15 //@nodes.16 //@nodes.13 //@nodes.14" invocation="//@patterns.6/@patternInvocations.5"/>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="src" abstractPatterns="//@patterns.0 //@patterns.8 //@patterns.9" invokingPartialPatterns="//@patterns.8 //@patterns.9">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="trg" local="true" abstractPatterns="//@patterns.0 //@patterns.8 //@patterns.10" invokingPartialPatterns="//@patterns.8 //@patterns.10">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="trg" abstractPatterns="//@patterns.1 //@patterns.11 //@patterns.13" invokingPartialPatterns="//@patterns.11 //@patterns.13">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="src" local="true" abstractPatterns="//@patterns.1 //@patterns.11 //@patterns.12" invokingPartialPatterns="//@patterns.11 //@patterns.12">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="src" abstractPatterns="//@patterns.2 //@patterns.14 //@patterns.15" invokingPartialPatterns="//@patterns.14 //@patterns.15">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="trg" local="true" abstractPatterns="//@patterns.2 //@patterns.14 //@patterns.16" invokingPartialPatterns="//@patterns.14 //@patterns.16">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="trg" abstractPatterns="//@patterns.3 //@patterns.17 //@patterns.19" invokingPartialPatterns="//@patterns.17 //@patterns.19">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="src" local="true" abstractPatterns="//@patterns.3 //@patterns.17 //@patterns.18" invokingPartialPatterns="//@patterns.17 //@patterns.18">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="src" abstractPatterns="//@patterns.4 //@patterns.20 //@patterns.21" invokingPartialPatterns="//@patterns.20 //@patterns.21">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="trg" local="true" abstractPatterns="//@patterns.4 //@patterns.20 //@patterns.22" invokingPartialPatterns="//@patterns.20 //@patterns.22">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="trg" abstractPatterns="//@patterns.5 //@patterns.23 //@patterns.25" invokingPartialPatterns="//@patterns.23 //@patterns.25">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="src" local="true" abstractPatterns="//@patterns.5 //@patterns.23 //@patterns.24" invokingPartialPatterns="//@patterns.23 //@patterns.24">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="u" abstractPatterns="//@patterns.6 //@patterns.26 //@patterns.27 //@patterns.29 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53" invokingPartialPatterns="//@patterns.26 //@patterns.27 //@patterns.29 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="v" abstractPatterns="//@patterns.6 //@patterns.26 //@patterns.28 //@patterns.32 //@patterns.35 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53" invokingPartialPatterns="//@patterns.26 //@patterns.28 //@patterns.32 //@patterns.35 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="w" abstractPatterns="//@patterns.6 //@patterns.26 //@patterns.28 //@patterns.32 //@patterns.36 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53" invokingPartialPatterns="//@patterns.26 //@patterns.28 //@patterns.32 //@patterns.36 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="x" abstractPatterns="//@patterns.6 //@patterns.26 //@patterns.28 //@patterns.31 //@patterns.33 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53" invokingPartialPatterns="//@patterns.26 //@patterns.28 //@patterns.31 //@patterns.33 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="y" abstractPatterns="//@patterns.6 //@patterns.26 //@patterns.28 //@patterns.31 //@patterns.34 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53" invokingPartialPatterns="//@patterns.26 //@patterns.28 //@patterns.31 //@patterns.34 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="z" abstractPatterns="//@patterns.6 //@patterns.26 //@patterns.27 //@patterns.30 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53" invokingPartialPatterns="//@patterns.26 //@patterns.27 //@patterns.30 //@patterns.48 //@patterns.49 //@patterns.50 //@patterns.51 //@patterns.52 //@patterns.53">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="u" abstractPatterns="//@patterns.7 //@patterns.37 //@patterns.39 //@patterns.42 //@patterns.44" invokingPartialPatterns="//@patterns.37 //@patterns.39 //@patterns.42 //@patterns.44">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="v" abstractPatterns="//@patterns.7 //@patterns.37 //@patterns.39 //@patterns.42 //@patterns.45" invokingPartialPatterns="//@patterns.37 //@patterns.39 //@patterns.42 //@patterns.45">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="w" abstractPatterns="//@patterns.7 //@patterns.37 //@patterns.39 //@patterns.43 //@patterns.46" invokingPartialPatterns="//@patterns.37 //@patterns.39 //@patterns.43 //@patterns.46">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="x" abstractPatterns="//@patterns.7 //@patterns.37 //@patterns.39 //@patterns.43 //@patterns.47" invokingPartialPatterns="//@patterns.37 //@patterns.39 //@patterns.43 //@patterns.47">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="y" abstractPatterns="//@patterns.7 //@patterns.37 //@patterns.38 //@patterns.40" invokingPartialPatterns="//@patterns.37 //@patterns.38 //@patterns.40">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+  </nodes>
+  <nodes xmi:type="HiPEPattern:HiPENode" name="z" abstractPatterns="//@patterns.7 //@patterns.37 //@patterns.38 //@patterns.41" invokingPartialPatterns="//@patterns.37 //@patterns.38 //@patterns.41">
+    <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+  </nodes>
+  <edges xmi:type="HiPEPattern:HiPEEdge" name="U_U_a_V_a" source="//@nodes.0" target="//@nodes.1" abstractPatterns="//@patterns.0 //@patterns.8">
+    <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+  </edges>
+  <edges xmi:type="HiPEPattern:HiPEEdge" name="U_U_a_V_a" source="//@nodes.3" target="//@nodes.2" abstractPatterns="//@patterns.1 //@patterns.11">
+    <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+  </edges>
+  <edges xmi:type="HiPEPattern:HiPEEdge" name="W_W_a_X_a" source="//@nodes.4" target="//@nodes.5" abstractPatterns="//@patterns.2 //@patterns.14">
+    <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+  </edges>
+  <edges xmi:type="HiPEPattern:HiPEEdge" name="W_W_a_X_a" source="//@nodes.7" target="//@nodes.6" abstractPatterns="//@patterns.3 //@patterns.17">
+    <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+  </edges>
+  <edges xmi:type="HiPEPattern:HiPEEdge" name="Y_Y_a_Z_a" source="//@nodes.8" target="//@nodes.9" abstractPatterns="//@patterns.4 //@patterns.20">
+    <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+  </edges>
+  <edges xmi:type="HiPEPattern:HiPEEdge" name="Y_Y_a_Z_a" source="//@nodes.11" target="//@nodes.10" abstractPatterns="//@patterns.5 //@patterns.23">
+    <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+  </edges>
+  <edges xmi:type="HiPEPattern:HiPEEdge" name="U_U_a_V_a" source="//@nodes.18" target="//@nodes.19" abstractPatterns="//@patterns.7 //@patterns.37 //@patterns.39 //@patterns.42">
+    <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+  </edges>
+  <edges xmi:type="HiPEPattern:HiPEEdge" name="W_W_a_X_a" source="//@nodes.20" target="//@nodes.21" abstractPatterns="//@patterns.7 //@patterns.37 //@patterns.39 //@patterns.43">
+    <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+  </edges>
+  <edges xmi:type="HiPEPattern:HiPEEdge" name="Y_Y_a_Z_a" source="//@nodes.22" target="//@nodes.23" abstractPatterns="//@patterns.7 //@patterns.37 //@patterns.38">
+    <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+  </edges>
+</HiPEPattern:HiPEContainer>

@@ -4,19 +4,19 @@ import org.simsg.core.simulation.Simulation;
 import org.simsg.core.simulation.SimulationConfigurator;
 import org.simsg.core.utils.Runtimer;
 
-import gklSimSG.api.GklSimSGSimSGApi;
+import PatternSizeSimSG.api.PatternSizeSimSGSimSGApi;
 import reactionContainer.ReactionContainerPackage;
 
-public class GKLBenchmark {
+public class PatternSizeBenchmark {
 
 	public static void main(String[] args) {
 		ReactionContainerPackage.eINSTANCE.eClass();
-		GklSimSGSimSGApi api = new GklSimSGSimSGApi();
+		PatternSizeSimSGSimSGApi api = new PatternSizeSimSGSimSGApi();
 		api.configureForHiPE();
 		api.configureStochasticSimulation();
 		SimulationConfigurator config = api.getSimulationConfigurator();
 
-		config.setModel("GKL1600Model");
+		config.setModel("Params6Model");
 		config.addObservableStatistic();
 
 		Simulation sim = config.createSimulation();

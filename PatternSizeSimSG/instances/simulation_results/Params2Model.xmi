@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reactionContainer:Container xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Params2Model="platform:/resource/PatternSizeSimSG/model/Params2Model.ecore" xmlns:reactionContainer="platform:/resource/reactionContainer/model/reactionContainer.ecore" xsi:schemaLocation="platform:/resource/PatternSizeSimSG/model/Params2Model.ecore java://Params2Model.Params2ModelPackage platform:/resource/reactionContainer/model/reactionContainer.ecore java://reactionContainer.ReactionContainerPackage" modelName="Params2Model">
+  <agents xmi:type="Params2Model:U" ID="126699507346500" U_a_V_a="//@agents.37"/>
+  <agents xmi:type="Params2Model:V" ID="126699507399200"/>
+  <agents xmi:type="Params2Model:U" ID="126699507431200" U_a_V_a="//@agents.39"/>
+  <agents xmi:type="Params2Model:V" ID="126699507434800"/>
+  <agents xmi:type="Params2Model:U" ID="126699507442000" U_a_V_a="//@agents.9"/>
+  <agents xmi:type="Params2Model:V" ID="126699507444500"/>
+  <agents xmi:type="Params2Model:U" ID="126699507450500" U_a_V_a="//@agents.11"/>
+  <agents xmi:type="Params2Model:V" ID="126699507452900"/>
+  <agents xmi:type="Params2Model:U" ID="126699507458300"/>
+  <agents xmi:type="Params2Model:V" ID="126699507460500"/>
+  <agents xmi:type="Params2Model:U" ID="126699507465600"/>
+  <agents xmi:type="Params2Model:V" ID="126699507467600"/>
+  <agents xmi:type="Params2Model:U" ID="126699507472600"/>
+  <agents xmi:type="Params2Model:V" ID="126699507474600"/>
+  <agents xmi:type="Params2Model:U" ID="126699507479700" U_a_V_a="//@agents.33"/>
+  <agents xmi:type="Params2Model:V" ID="126699507481800"/>
+  <agents xmi:type="Params2Model:U" ID="126699507486700"/>
+  <agents xmi:type="Params2Model:V" ID="126699507488800"/>
+  <agents xmi:type="Params2Model:U" ID="126699507496600" U_a_V_a="//@agents.15"/>
+  <agents xmi:type="Params2Model:V" ID="126699507499500"/>
+  <agents xmi:type="Params2Model:U" ID="126699507504600"/>
+  <agents xmi:type="Params2Model:V" ID="126699507506600"/>
+  <agents xmi:type="Params2Model:U" ID="126699507511500" U_a_V_a="//@agents.5"/>
+  <agents xmi:type="Params2Model:V" ID="126699507513500"/>
+  <agents xmi:type="Params2Model:U" ID="126699507518500" U_a_V_a="//@agents.19"/>
+  <agents xmi:type="Params2Model:V" ID="126699507520500"/>
+  <agents xmi:type="Params2Model:U" ID="126699507525400"/>
+  <agents xmi:type="Params2Model:V" ID="126699507527400"/>
+  <agents xmi:type="Params2Model:U" ID="126699507532200" U_a_V_a="//@agents.3"/>
+  <agents xmi:type="Params2Model:V" ID="126699507536900"/>
+  <agents xmi:type="Params2Model:U" ID="126699507542100" U_a_V_a="//@agents.17"/>
+  <agents xmi:type="Params2Model:V" ID="126699507544300"/>
+  <agents xmi:type="Params2Model:U" ID="126699507549200" U_a_V_a="//@agents.35"/>
+  <agents xmi:type="Params2Model:V" ID="126699507551800"/>
+  <agents xmi:type="Params2Model:U" ID="126699507556800" U_a_V_a="//@agents.1"/>
+  <agents xmi:type="Params2Model:V" ID="126699507558900"/>
+  <agents xmi:type="Params2Model:U" ID="126699507563600" U_a_V_a="//@agents.27"/>
+  <agents xmi:type="Params2Model:V" ID="126699507565600"/>
+  <agents xmi:type="Params2Model:U" ID="126699507570400" U_a_V_a="//@agents.29"/>
+  <agents xmi:type="Params2Model:V" ID="126699507572500"/>
+</reactionContainer:Container>

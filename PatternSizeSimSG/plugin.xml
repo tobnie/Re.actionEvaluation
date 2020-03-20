@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated 2ParamsModel -->
+      <package
+            uri="platform:/resource/PatternSizeSimSG/model/2ParamsModel.ecore"
+            class="2ParamsModel.2ParamsModelPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Params2Model -->
+      <package
+            uri="platform:/resource/PatternSizeSimSG/model/Params2Model.ecore"
+            class="Params2Model.Params2ModelPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Params3Model -->
+      <package
+            uri="platform:/resource/PatternSizeSimSG/model/Params3Model.ecore"
+            class="Params3Model.Params3ModelPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Params4Model -->
+      <package
+            uri="platform:/resource/PatternSizeSimSG/model/Params4Model.ecore"
+            class="Params4Model.Params4ModelPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Params5Model -->
+      <package
+            uri="platform:/resource/PatternSizeSimSG/model/Params5Model.ecore"
+            class="Params5Model.Params5ModelPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated Params6Model -->
+      <package
+            uri="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore"
+            class="Params6Model.Params6ModelPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated 2ParamsModel -->
+      <package
+            uri="platform:/resource/reactionContainer/model/reactionContainer.ecore"
+            class="reactionContainer.ReactionContainerPackage"/>
+   </extension>
+
+</plugin>

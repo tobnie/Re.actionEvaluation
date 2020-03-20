@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dotDsl:ReactionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dotDsl="http://www.xtext.org/biochemics/DotDsl" xsi:schemaLocation="http://www.xtext.org/biochemics/DotDsl java://org.xtext.biochemics.dotDsl.DotDslPackage">
+  <elements xmi:type="dotDsl:AgentDeclaration">
+    <declaredAgents xmi:type="dotDsl:Agent" name="U">
+      <sites xmi:type="dotDsl:Site" name="a"/>
+      <sites xmi:type="dotDsl:Site" name="b"/>
+    </declaredAgents>
+  </elements>
+  <elements xmi:type="dotDsl:AgentDeclaration">
+    <declaredAgents xmi:type="dotDsl:Agent" name="V">
+      <sites xmi:type="dotDsl:Site" name="a"/>
+      <sites xmi:type="dotDsl:Site" name="b"/>
+    </declaredAgents>
+  </elements>
+  <elements xmi:type="dotDsl:AgentDeclaration">
+    <declaredAgents xmi:type="dotDsl:Agent" name="W">
+      <sites xmi:type="dotDsl:Site" name="a"/>
+      <sites xmi:type="dotDsl:Site" name="b"/>
+    </declaredAgents>
+  </elements>
+  <elements xmi:type="dotDsl:AgentDeclaration">
+    <declaredAgents xmi:type="dotDsl:Agent" name="X">
+      <sites xmi:type="dotDsl:Site" name="a"/>
+      <sites xmi:type="dotDsl:Site" name="b"/>
+    </declaredAgents>
+  </elements>
+  <elements xmi:type="dotDsl:AgentDeclaration">
+    <declaredAgents xmi:type="dotDsl:Agent" name="Y">
+      <sites xmi:type="dotDsl:Site" name="a"/>
+      <sites xmi:type="dotDsl:Site" name="b"/>
+    </declaredAgents>
+  </elements>
+  <elements xmi:type="dotDsl:AgentDeclaration">
+    <declaredAgents xmi:type="dotDsl:Agent" name="Z">
+      <sites xmi:type="dotDsl:Site" name="a"/>
+      <sites xmi:type="dotDsl:Site" name="b"/>
+    </declaredAgents>
+  </elements>
+  <elements xmi:type="dotDsl:Initialisation">
+    <head xmi:type="dotDsl:InitialisationHead">
+      <cnt xmi:type="dotDsl:NumberLiteral" value="20.0"/>
+    </head>
+    <body xmi:type="dotDsl:InitialisationBody">
+      <signature xmi:type="dotDsl:Signature">
+        <instances xmi:type="dotDsl:AgentInstance" name="u" instanceOf="//@elements.0/@declaredAgents.0"/>
+        <instances xmi:type="dotDsl:AgentInstance" name="v" instanceOf="//@elements.1/@declaredAgents.0"/>
+        <instances xmi:type="dotDsl:AgentInstance" name="w" instanceOf="//@elements.2/@declaredAgents.0"/>
+        <instances xmi:type="dotDsl:AgentInstance" name="x" instanceOf="//@elements.3/@declaredAgents.0"/>
+        <instances xmi:type="dotDsl:AgentInstance" name="y" instanceOf="//@elements.4/@declaredAgents.0"/>
+        <instances xmi:type="dotDsl:AgentInstance" name="z" instanceOf="//@elements.5/@declaredAgents.0"/>
+      </signature>
+      <pattern xmi:type="dotDsl:Bonds">
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.6/@body/@signature/@instances.0"/>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.6/@body/@signature/@instances.1"/>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.6/@body/@signature/@instances.2"/>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.6/@body/@signature/@instances.3"/>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.6/@body/@signature/@instances.4"/>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.6/@body/@signature/@instances.5"/>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+      </pattern>
+    </body>
+  </elements>
+  <elements xmi:type="dotDsl:Rule">
+    <head xmi:type="dotDsl:RuleHead" name="osc">
+      <signature xmi:type="dotDsl:Signature">
+        <instances xmi:type="dotDsl:AgentInstance" name="u" instanceOf="//@elements.0/@declaredAgents.0"/>
+        <instances xmi:type="dotDsl:AgentInstance" name="v" instanceOf="//@elements.1/@declaredAgents.0"/>
+        <instances xmi:type="dotDsl:AgentInstance" name="w" instanceOf="//@elements.2/@declaredAgents.0"/>
+        <instances xmi:type="dotDsl:AgentInstance" name="x" instanceOf="//@elements.3/@declaredAgents.0"/>
+        <instances xmi:type="dotDsl:AgentInstance" name="y" instanceOf="//@elements.4/@declaredAgents.0"/>
+        <instances xmi:type="dotDsl:AgentInstance" name="z" instanceOf="//@elements.5/@declaredAgents.0"/>
+      </signature>
+    </head>
+    <body xmi:type="dotDsl:RuleBody" ruleType="&lt;=>">
+      <lhs xmi:type="dotDsl:Bonds">
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.0">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.0/@declaredAgents.0/@sites.0"/>
+          </left>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.1">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.1/@declaredAgents.0/@sites.0"/>
+          </left>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.2">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.2/@declaredAgents.0/@sites.0"/>
+          </left>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.3">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.3/@declaredAgents.0/@sites.0"/>
+          </left>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.4">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.4/@declaredAgents.0/@sites.0"/>
+          </left>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.5">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.5/@declaredAgents.0/@sites.0"/>
+          </left>
+          <right xmi:type="dotDsl:BondSideOrWildcard">
+            <wildcard xmi:type="dotDsl:Wildcard" nothing="true"/>
+          </right>
+        </bonds>
+      </lhs>
+      <rhs xmi:type="dotDsl:Bonds">
+        <bonds xmi:type="dotDsl:Bond" bondType="+">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.0">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.0/@declaredAgents.0/@sites.0"/>
+          </left>
+          <right xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.1">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.1/@declaredAgents.0/@sites.0"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond" bondType="+">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.2">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.2/@declaredAgents.0/@sites.0"/>
+          </left>
+          <right xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.3">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.3/@declaredAgents.0/@sites.0"/>
+          </right>
+        </bonds>
+        <bonds xmi:type="dotDsl:Bond" bondType="+">
+          <left xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.4">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.4/@declaredAgents.0/@sites.0"/>
+          </left>
+          <right xmi:type="dotDsl:BondSide" abstractAgent="//@elements.7/@head/@signature/@instances.5">
+            <siteInstance xmi:type="dotDsl:SiteInstance" site="//@elements.5/@declaredAgents.0/@sites.0"/>
+          </right>
+        </bonds>
+      </rhs>
+      <rates xmi:type="dotDsl:Rates" rateBackwardSet="true">
+        <rateForward xmi:type="dotDsl:NumberLiteral" value="1.0"/>
+        <rateBackward xmi:type="dotDsl:NumberLiteral" value="1.0"/>
+      </rates>
+    </body>
+  </elements>
+  <elements xmi:type="dotDsl:TerminateIterations">
+    <iterations xmi:type="dotDsl:NumberLiteral" value="1000.0"/>
+  </elements>
+</dotDsl:ReactionModel>

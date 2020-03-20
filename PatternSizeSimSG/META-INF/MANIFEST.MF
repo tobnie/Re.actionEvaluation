@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: PatternSizeSimSG
+Bundle-SymbolicName: PatternSizeSimSG;singleton:=true
+Bundle-Name: PatternSizeSimSG
+Bundle-Version: 0.0.1.qualifier
+Require-Bundle: org.eclipse.emf.ecore,
+ org.eclipse.emf.ecore.xmi,
+ reactionContainer;bundle-version="0.1.0",
+ org.simsg.core;bundle-version="1.0.0",
+ org.emoflon.ibex.common,
+ org.emoflon.ibex.gt,
+ SimulationDefinition,
+ org.emoflon.ibex.gt.democles,
+ org.emoflon.ibex.gt.hipe
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: 

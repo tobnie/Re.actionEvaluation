@@ -1,0 +1,12 @@
+agent U: a, b
+agent V: a, b
+agent W: a, b
+agent X: a, b
+agent Y: a, b
+agent Z: a, b
+
+init 20 (u: U, v: V, w: W, x: X, y: Y, z: Z): u//0, v//0, w//0, x//0, y//0, z//0
+
+rule osc(u: U, v: V, w: W, x: X, y: Y, z: Z): u.a//0, v.a//0, w.a//0, x.a//0, y.a//0, z.a//0 <=> u.a+v.a,  w.a+x.a, y.a+z.a @1.0, 1.0
+
+terminate iterations = 1000	

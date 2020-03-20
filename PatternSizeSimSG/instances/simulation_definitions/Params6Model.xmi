@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.simsg:SimDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:GTLanguage="platform:/resource/org.emoflon.ibex.gt/model/Gt.ecore" xmlns:IBeXLanguage="platform:/resource/org.emoflon.ibex.common/model/Common.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:org.simsg="http://www.simsg.org/simulationdefinition/simulationdefinition" xsi:schemaLocation="platform:/resource/org.emoflon.ibex.gt/model/Gt.ecore java://GTLanguage.GTLanguagePackage platform:/resource/org.emoflon.ibex.common/model/Common.ecore java://IBeXLanguage.IBeXLanguagePackage http://www.eclipse.org/emf/2002/Ecore java://org.eclipse.emf.ecore.EcorePackage http://www.simsg.org/simulationdefinition/simulationdefinition java://SimulationDefinition.SimulationDefinitionPackage" name="Params6Model" simulationModelURI="../../re.actionEvaluation/PatternSizeSimSG/instances/simulation_instances/Params6Model.xmi" gtRulesURI="../../re.actionEvaluation/PatternSizeSimSG/model/gtRules.xmi" ibexPatternsURI="../../re.actionEvaluation/PatternSizeSimSG/model/ibex-patterns.xmi">
+  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.6" rate="1.0"/>
+  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.7" rate="1.0"/>
+  <terminationConditions xmi:type="org.simsg:SimpleTerminationCondition" maxIterations="1000"/>
+  <GtRuleSet xmi:type="GTLanguage:GTRuleSet">
+    <rules xmi:type="GTLanguage:GTRule" name="U_a_V_aBoundSrc" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.0/@nodes.0">
+      <nodes xmi:type="GTLanguage:GTNode" name="src">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+      </nodes>
+    </rules>
+    <rules xmi:type="GTLanguage:GTRule" name="U_a_V_aBoundTrg" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.1/@nodes.0">
+      <nodes xmi:type="GTLanguage:GTNode" name="trg">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+      </nodes>
+    </rules>
+    <rules xmi:type="GTLanguage:GTRule" name="W_a_X_aBoundSrc" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.2/@nodes.0">
+      <nodes xmi:type="GTLanguage:GTNode" name="src">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+      </nodes>
+    </rules>
+    <rules xmi:type="GTLanguage:GTRule" name="W_a_X_aBoundTrg" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.3/@nodes.0">
+      <nodes xmi:type="GTLanguage:GTNode" name="trg">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+      </nodes>
+    </rules>
+    <rules xmi:type="GTLanguage:GTRule" name="Y_a_Z_aBoundSrc" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.4/@nodes.0">
+      <nodes xmi:type="GTLanguage:GTNode" name="src">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+      </nodes>
+    </rules>
+    <rules xmi:type="GTLanguage:GTRule" name="Y_a_Z_aBoundTrg" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.5/@nodes.0">
+      <nodes xmi:type="GTLanguage:GTNode" name="trg">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+      </nodes>
+    </rules>
+    <rules xmi:type="GTLanguage:GTRule" name="osc" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.6/@nodes.0 //@GtRuleSet/@rules.6/@nodes.1 //@GtRuleSet/@rules.6/@nodes.2 //@GtRuleSet/@rules.6/@nodes.3 //@GtRuleSet/@rules.6/@nodes.4 //@GtRuleSet/@rules.6/@nodes.5">
+      <nodes xmi:type="GTLanguage:GTNode" name="u">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+      </nodes>
+      <nodes xmi:type="GTLanguage:GTNode" name="v">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+      </nodes>
+      <nodes xmi:type="GTLanguage:GTNode" name="w">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+      </nodes>
+      <nodes xmi:type="GTLanguage:GTNode" name="x">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+      </nodes>
+      <nodes xmi:type="GTLanguage:GTNode" name="y">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+      </nodes>
+      <nodes xmi:type="GTLanguage:GTNode" name="z">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+      </nodes>
+    </rules>
+    <rules xmi:type="GTLanguage:GTRule" name="oscBwd" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.7/@nodes.0 //@GtRuleSet/@rules.7/@nodes.1 //@GtRuleSet/@rules.7/@nodes.2 //@GtRuleSet/@rules.7/@nodes.3 //@GtRuleSet/@rules.7/@nodes.4 //@GtRuleSet/@rules.7/@nodes.5">
+      <nodes xmi:type="GTLanguage:GTNode" name="u">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+      </nodes>
+      <nodes xmi:type="GTLanguage:GTNode" name="v">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+      </nodes>
+      <nodes xmi:type="GTLanguage:GTNode" name="w">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+      </nodes>
+      <nodes xmi:type="GTLanguage:GTNode" name="x">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+      </nodes>
+      <nodes xmi:type="GTLanguage:GTNode" name="y">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+      </nodes>
+      <nodes xmi:type="GTLanguage:GTNode" name="z">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+      </nodes>
+    </rules>
+  </GtRuleSet>
+  <ibexPatternSet xmi:type="IBeXLanguage:IBeXPatternSet">
+    <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="U_a_V_aBoundSrc">
+      <localEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@contextPatterns.0/@signatureNodes.0" targetNode="//@ibexPatternSet/@contextPatterns.0/@localNodes.0">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+      </localEdges>
+      <localNodes xmi:type="IBeXLanguage:IBeXNode" name="trg" incomingEdges="//@ibexPatternSet/@contextPatterns.0/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+      </localNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="src" outgoingEdges="//@ibexPatternSet/@contextPatterns.0/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+      </signatureNodes>
+    </contextPatterns>
+    <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="U_a_V_aBoundTrg">
+      <localEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@contextPatterns.1/@localNodes.0" targetNode="//@ibexPatternSet/@contextPatterns.1/@signatureNodes.0">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+      </localEdges>
+      <localNodes xmi:type="IBeXLanguage:IBeXNode" name="src" outgoingEdges="//@ibexPatternSet/@contextPatterns.1/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+      </localNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="trg" incomingEdges="//@ibexPatternSet/@contextPatterns.1/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+      </signatureNodes>
+    </contextPatterns>
+    <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="W_a_X_aBoundSrc">
+      <localEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@contextPatterns.2/@signatureNodes.0" targetNode="//@ibexPatternSet/@contextPatterns.2/@localNodes.0">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+      </localEdges>
+      <localNodes xmi:type="IBeXLanguage:IBeXNode" name="trg" incomingEdges="//@ibexPatternSet/@contextPatterns.2/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+      </localNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="src" outgoingEdges="//@ibexPatternSet/@contextPatterns.2/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+      </signatureNodes>
+    </contextPatterns>
+    <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="W_a_X_aBoundTrg">
+      <localEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@contextPatterns.3/@localNodes.0" targetNode="//@ibexPatternSet/@contextPatterns.3/@signatureNodes.0">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+      </localEdges>
+      <localNodes xmi:type="IBeXLanguage:IBeXNode" name="src" outgoingEdges="//@ibexPatternSet/@contextPatterns.3/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+      </localNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="trg" incomingEdges="//@ibexPatternSet/@contextPatterns.3/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+      </signatureNodes>
+    </contextPatterns>
+    <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="Y_a_Z_aBoundSrc">
+      <localEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@contextPatterns.4/@signatureNodes.0" targetNode="//@ibexPatternSet/@contextPatterns.4/@localNodes.0">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+      </localEdges>
+      <localNodes xmi:type="IBeXLanguage:IBeXNode" name="trg" incomingEdges="//@ibexPatternSet/@contextPatterns.4/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+      </localNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="src" outgoingEdges="//@ibexPatternSet/@contextPatterns.4/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+      </signatureNodes>
+    </contextPatterns>
+    <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="Y_a_Z_aBoundTrg">
+      <localEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@contextPatterns.5/@localNodes.0" targetNode="//@ibexPatternSet/@contextPatterns.5/@signatureNodes.0">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+      </localEdges>
+      <localNodes xmi:type="IBeXLanguage:IBeXNode" name="src" outgoingEdges="//@ibexPatternSet/@contextPatterns.5/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+      </localNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="trg" incomingEdges="//@ibexPatternSet/@contextPatterns.5/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+      </signatureNodes>
+    </contextPatterns>
+    <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="osc">
+      <invocations xmi:type="IBeXLanguage:IBeXPatternInvocation" invokedPattern="//@ibexPatternSet/@contextPatterns.0">
+        <mapping xmi:type="IBeXLanguage:IBeXNodeToNodeMapping" key="//@ibexPatternSet/@contextPatterns.6/@signatureNodes.0" value="//@ibexPatternSet/@contextPatterns.0/@signatureNodes.0"/>
+      </invocations>
+      <invocations xmi:type="IBeXLanguage:IBeXPatternInvocation" invokedPattern="//@ibexPatternSet/@contextPatterns.1">
+        <mapping xmi:type="IBeXLanguage:IBeXNodeToNodeMapping" key="//@ibexPatternSet/@contextPatterns.6/@signatureNodes.1" value="//@ibexPatternSet/@contextPatterns.1/@signatureNodes.0"/>
+      </invocations>
+      <invocations xmi:type="IBeXLanguage:IBeXPatternInvocation" invokedPattern="//@ibexPatternSet/@contextPatterns.2">
+        <mapping xmi:type="IBeXLanguage:IBeXNodeToNodeMapping" key="//@ibexPatternSet/@contextPatterns.6/@signatureNodes.2" value="//@ibexPatternSet/@contextPatterns.2/@signatureNodes.0"/>
+      </invocations>
+      <invocations xmi:type="IBeXLanguage:IBeXPatternInvocation" invokedPattern="//@ibexPatternSet/@contextPatterns.3">
+        <mapping xmi:type="IBeXLanguage:IBeXNodeToNodeMapping" key="//@ibexPatternSet/@contextPatterns.6/@signatureNodes.3" value="//@ibexPatternSet/@contextPatterns.3/@signatureNodes.0"/>
+      </invocations>
+      <invocations xmi:type="IBeXLanguage:IBeXPatternInvocation" invokedPattern="//@ibexPatternSet/@contextPatterns.4">
+        <mapping xmi:type="IBeXLanguage:IBeXNodeToNodeMapping" key="//@ibexPatternSet/@contextPatterns.6/@signatureNodes.4" value="//@ibexPatternSet/@contextPatterns.4/@signatureNodes.0"/>
+      </invocations>
+      <invocations xmi:type="IBeXLanguage:IBeXPatternInvocation" invokedPattern="//@ibexPatternSet/@contextPatterns.5">
+        <mapping xmi:type="IBeXLanguage:IBeXNodeToNodeMapping" key="//@ibexPatternSet/@contextPatterns.6/@signatureNodes.5" value="//@ibexPatternSet/@contextPatterns.5/@signatureNodes.0"/>
+      </invocations>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="u">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+      </signatureNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="v">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+      </signatureNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="w">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+      </signatureNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="x">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+      </signatureNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="y">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+      </signatureNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="z">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+      </signatureNodes>
+    </contextPatterns>
+    <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="oscBwd">
+      <localEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@contextPatterns.7/@signatureNodes.0" targetNode="//@ibexPatternSet/@contextPatterns.7/@signatureNodes.1">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+      </localEdges>
+      <localEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@contextPatterns.7/@signatureNodes.2" targetNode="//@ibexPatternSet/@contextPatterns.7/@signatureNodes.3">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+      </localEdges>
+      <localEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@contextPatterns.7/@signatureNodes.4" targetNode="//@ibexPatternSet/@contextPatterns.7/@signatureNodes.5">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+      </localEdges>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="u" outgoingEdges="//@ibexPatternSet/@contextPatterns.7/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+      </signatureNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="v" incomingEdges="//@ibexPatternSet/@contextPatterns.7/@localEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+      </signatureNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="w" outgoingEdges="//@ibexPatternSet/@contextPatterns.7/@localEdges.1">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+      </signatureNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="x" incomingEdges="//@ibexPatternSet/@contextPatterns.7/@localEdges.1">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+      </signatureNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="y" outgoingEdges="//@ibexPatternSet/@contextPatterns.7/@localEdges.2">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+      </signatureNodes>
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="z" incomingEdges="//@ibexPatternSet/@contextPatterns.7/@localEdges.2">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+      </signatureNodes>
+    </contextPatterns>
+    <createPatterns xmi:type="IBeXLanguage:IBeXCreatePattern" name="osc">
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="x" incomingEdges="//@ibexPatternSet/@createPatterns.0/@createdEdges.1">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+      </contextNodes>
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="w" outgoingEdges="//@ibexPatternSet/@createPatterns.0/@createdEdges.1">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+      </contextNodes>
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="y" outgoingEdges="//@ibexPatternSet/@createPatterns.0/@createdEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+      </contextNodes>
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="z" incomingEdges="//@ibexPatternSet/@createPatterns.0/@createdEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+      </contextNodes>
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="v" incomingEdges="//@ibexPatternSet/@createPatterns.0/@createdEdges.2">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+      </contextNodes>
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="u" outgoingEdges="//@ibexPatternSet/@createPatterns.0/@createdEdges.2">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+      </contextNodes>
+      <createdEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@createPatterns.0/@contextNodes.2" targetNode="//@ibexPatternSet/@createPatterns.0/@contextNodes.3">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+      </createdEdges>
+      <createdEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@createPatterns.0/@contextNodes.1" targetNode="//@ibexPatternSet/@createPatterns.0/@contextNodes.0">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+      </createdEdges>
+      <createdEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@createPatterns.0/@contextNodes.5" targetNode="//@ibexPatternSet/@createPatterns.0/@contextNodes.4">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+      </createdEdges>
+    </createPatterns>
+    <createPatterns xmi:type="IBeXLanguage:IBeXCreatePattern" name="oscBwd"/>
+    <deletePatterns xmi:type="IBeXLanguage:IBeXDeletePattern" name="osc"/>
+    <deletePatterns xmi:type="IBeXLanguage:IBeXDeletePattern" name="oscBwd">
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="u" outgoingEdges="//@ibexPatternSet/@deletePatterns.1/@deletedEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U"/>
+      </contextNodes>
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="v" incomingEdges="//@ibexPatternSet/@deletePatterns.1/@deletedEdges.0">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//V"/>
+      </contextNodes>
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="z" incomingEdges="//@ibexPatternSet/@deletePatterns.1/@deletedEdges.2">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Z"/>
+      </contextNodes>
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="y" outgoingEdges="//@ibexPatternSet/@deletePatterns.1/@deletedEdges.2">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y"/>
+      </contextNodes>
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="w" outgoingEdges="//@ibexPatternSet/@deletePatterns.1/@deletedEdges.1">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W"/>
+      </contextNodes>
+      <contextNodes xmi:type="IBeXLanguage:IBeXNode" name="x" incomingEdges="//@ibexPatternSet/@deletePatterns.1/@deletedEdges.1">
+        <type xmi:type="ecore:EClass" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//X"/>
+      </contextNodes>
+      <deletedEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@deletePatterns.1/@contextNodes.0" targetNode="//@ibexPatternSet/@deletePatterns.1/@contextNodes.1">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//U/U_a_V_a"/>
+      </deletedEdges>
+      <deletedEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@deletePatterns.1/@contextNodes.4" targetNode="//@ibexPatternSet/@deletePatterns.1/@contextNodes.5">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//W/W_a_X_a"/>
+      </deletedEdges>
+      <deletedEdges xmi:type="IBeXLanguage:IBeXEdge" sourceNode="//@ibexPatternSet/@deletePatterns.1/@contextNodes.3" targetNode="//@ibexPatternSet/@deletePatterns.1/@contextNodes.2">
+        <type xmi:type="ecore:EReference" href="platform:/resource/PatternSizeSimSG/model/Params6Model.ecore#//Y/Y_a_Z_a"/>
+      </deletedEdges>
+    </deletePatterns>
+  </ibexPatternSet>
+</org.simsg:SimDefinition>
