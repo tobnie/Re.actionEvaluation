@@ -25,7 +25,7 @@ import hipe.generic.actor.junction.GenericJunctionActor;
 
 import hipe.network.JunctionNode;
 
-public class tangleForm1_178_junction extends GenericJunctionActor{
+public class tangleForm1_180_junction extends GenericJunctionActor{
 	
 	@Override
 	protected void initializePorts(Map<String, ActorRef> name2actor, JunctionNode node) {

@@ -23,12 +23,12 @@ import static akka.pattern.Patterns.ask;
 import AlzheimersSimSG.hipe.engine.actor.NotificationActor;
 import AlzheimersSimSG.hipe.engine.actor.DispatchActor;
 import AlzheimersSimSG.hipe.engine.actor.junction.Mdm2GSK3Phospho2_3_71_junction;
-import AlzheimersSimSG.hipe.engine.actor.junction.TauAgg1_148_junction;
-import AlzheimersSimSG.hipe.engine.actor.junction.TauP1Agg1_158_junction;
-import AlzheimersSimSG.hipe.engine.actor.junction.TauP2Agg1_168_junction;
-import AlzheimersSimSG.hipe.engine.actor.junction.tangleForm1_178_junction;
-import AlzheimersSimSG.hipe.engine.actor.junction.AbetaAgg1_191_junction;
-import AlzheimersSimSG.hipe.engine.actor.junction.AbetaPlaque1_197_junction;
+import AlzheimersSimSG.hipe.engine.actor.junction.TauAgg1_150_junction;
+import AlzheimersSimSG.hipe.engine.actor.junction.TauP1Agg1_160_junction;
+import AlzheimersSimSG.hipe.engine.actor.junction.TauP2Agg1_170_junction;
+import AlzheimersSimSG.hipe.engine.actor.junction.tangleForm1_180_junction;
+import AlzheimersSimSG.hipe.engine.actor.junction.AbetaAgg1_193_junction;
+import AlzheimersSimSG.hipe.engine.actor.junction.AbetaPlaque1_199_junction;
 
 import hipe.engine.IHiPEEngine;
 import hipe.engine.message.InitActor;
@@ -274,6 +274,8 @@ public class HiPEEngine implements IHiPEEngine{
 		productionNodes2pattern.put("Mdm2Phospho_production", "Mdm2Phospho");
 		classes.put("Mdm2DePhospho_production", GenericProductionActor.class);
 		productionNodes2pattern.put("Mdm2DePhospho_production", "Mdm2DePhospho");
+		classes.put("p53mRNASynthesis_production", GenericProductionActor.class);
+		productionNodes2pattern.put("p53mRNASynthesis_production", "p53mRNASynthesis");
 		classes.put("p53mRNADegradation_production", GenericProductionActor.class);
 		productionNodes2pattern.put("p53mRNADegradation_production", "p53mRNADegradation");
 		classes.put("IRDamage_production", GenericProductionActor.class);
@@ -309,9 +311,9 @@ public class HiPEEngine implements IHiPEEngine{
 	
 	public void createJunctionNodes() {
 		classes.put("GSK3b_p53_49_junction", GenericJunctionActor.class);
-		classes.put("GSK3b_p53_517_nacjunction", GenericNACJunctionActor.class);
-		classes.put("GSK3b_p53_518_nacjunction", GenericNACJunctionActor.class);
-		classes.put("GSK3b_p53_519_nacjunction", GenericNACJunctionActor.class);
+		classes.put("GSK3b_p53_520_nacjunction", GenericNACJunctionActor.class);
+		classes.put("GSK3b_p53_521_nacjunction", GenericNACJunctionActor.class);
+		classes.put("GSK3b_p53_522_nacjunction", GenericNACJunctionActor.class);
 		classes.put("Mdm2GSK3Phospho1_59_junction", GenericJunctionActor.class);
 		classes.put("Mdm2GSK3Phospho1_64_junction", GenericJunctionActor.class);
 		classes.put("Mdm2GSK3Phospho1_60_junction", GenericJunctionActor.class);
@@ -320,131 +322,132 @@ public class HiPEEngine implements IHiPEEngine{
 		classes.put("Mdm2GSK3Phospho2_3_77_junction", GenericJunctionActor.class);
 		classes.put("Mdm2GSK3Phospho2_3_73_junction", GenericJunctionActor.class);
 		classes.put("Mdm2GSK3Phospho2_3_71_junction", Mdm2GSK3Phospho2_3_71_junction.class);
-		classes.put("Proteasome_Tau_87_junction", GenericJunctionActor.class);
-		classes.put("TauDegradation_92_junction", GenericJunctionActor.class);
-		classes.put("TauMT_98_junction", GenericJunctionActor.class);
-		classes.put("TauMT_520_nacjunction", GenericNACJunctionActor.class);
-		classes.put("TauMTBwd_103_junction", GenericJunctionActor.class);
+		classes.put("TauSynthesis_86_junction", GenericJunctionActor.class);
+		classes.put("Proteasome_Tau_89_junction", GenericJunctionActor.class);
+		classes.put("TauDegradation_94_junction", GenericJunctionActor.class);
+		classes.put("TauMT_100_junction", GenericJunctionActor.class);
+		classes.put("TauMT_523_nacjunction", GenericNACJunctionActor.class);
+		classes.put("TauMTBwd_105_junction", GenericJunctionActor.class);
+		classes.put("TauPhosphorylation1_3_113_junction", GenericJunctionActor.class);
 		classes.put("TauPhosphorylation1_3_111_junction", GenericJunctionActor.class);
-		classes.put("TauPhosphorylation1_3_109_junction", GenericJunctionActor.class);
+		classes.put("TauPhosphorylation2_4_122_junction", GenericJunctionActor.class);
 		classes.put("TauPhosphorylation2_4_120_junction", GenericJunctionActor.class);
-		classes.put("TauPhosphorylation2_4_118_junction", GenericJunctionActor.class);
-		classes.put("TauPhosphorylation5_128_junction", GenericJunctionActor.class);
-		classes.put("TauPhosphorylation5_127_junction", GenericJunctionActor.class);
-		classes.put("TauPhosphorylation6_135_junction", GenericJunctionActor.class);
-		classes.put("TauPhosphorylation6_134_junction", GenericJunctionActor.class);
-		classes.put("TauDephosphorylation_142_junction", GenericJunctionActor.class);
-		classes.put("TauDephosphorylation_141_junction", GenericJunctionActor.class);
-		classes.put("TauAgg1_148_junction", TauAgg1_148_junction.class);
-		classes.put("TauAgg2_153_junction", GenericJunctionActor.class);
-		classes.put("TauP1Agg1_158_junction", TauP1Agg1_158_junction.class);
-		classes.put("TauP1Agg2_163_junction", GenericJunctionActor.class);
-		classes.put("TauP2Agg1_168_junction", TauP2Agg1_168_junction.class);
-		classes.put("TauP2Agg2_173_junction", GenericJunctionActor.class);
-		classes.put("tangleForm1_178_junction", tangleForm1_178_junction.class);
-		classes.put("tangleForm2_181_junction", GenericJunctionActor.class);
-		classes.put("ProteasomeInhibitionAggTau_184_junction", GenericJunctionActor.class);
-		classes.put("AbetaAgg1_191_junction", AbetaAgg1_191_junction.class);
-		classes.put("AbetaAgg2_194_junction", GenericJunctionActor.class);
-		classes.put("AbetaPlaque1_197_junction", AbetaPlaque1_197_junction.class);
-		classes.put("AbetaPlaque2_200_junction", GenericJunctionActor.class);
-		classes.put("ProteasomeInhibitionAggAbeta_203_junction", GenericJunctionActor.class);
-		classes.put("P53Synthesis_208_junction", GenericJunctionActor.class);
-		classes.put("P53_Mdm2_211_junction", GenericJunctionActor.class);
-		classes.put("P53_Mdm2_521_nacjunction", GenericNACJunctionActor.class);
-		classes.put("P53_Mdm2_522_nacjunction", GenericNACJunctionActor.class);
-		classes.put("P53_Mdm2_523_nacjunction", GenericNACJunctionActor.class);
+		classes.put("TauPhosphorylation5_130_junction", GenericJunctionActor.class);
+		classes.put("TauPhosphorylation5_129_junction", GenericJunctionActor.class);
+		classes.put("TauPhosphorylation6_137_junction", GenericJunctionActor.class);
+		classes.put("TauPhosphorylation6_136_junction", GenericJunctionActor.class);
+		classes.put("TauDephosphorylation_144_junction", GenericJunctionActor.class);
+		classes.put("TauDephosphorylation_143_junction", GenericJunctionActor.class);
+		classes.put("TauAgg1_150_junction", TauAgg1_150_junction.class);
+		classes.put("TauAgg2_155_junction", GenericJunctionActor.class);
+		classes.put("TauP1Agg1_160_junction", TauP1Agg1_160_junction.class);
+		classes.put("TauP1Agg2_165_junction", GenericJunctionActor.class);
+		classes.put("TauP2Agg1_170_junction", TauP2Agg1_170_junction.class);
+		classes.put("TauP2Agg2_175_junction", GenericJunctionActor.class);
+		classes.put("tangleForm1_180_junction", tangleForm1_180_junction.class);
+		classes.put("tangleForm2_183_junction", GenericJunctionActor.class);
+		classes.put("ProteasomeInhibitionAggTau_186_junction", GenericJunctionActor.class);
+		classes.put("AbetaAgg1_193_junction", AbetaAgg1_193_junction.class);
+		classes.put("AbetaAgg2_196_junction", GenericJunctionActor.class);
+		classes.put("AbetaPlaque1_199_junction", AbetaPlaque1_199_junction.class);
+		classes.put("AbetaPlaque2_202_junction", GenericJunctionActor.class);
+		classes.put("ProteasomeInhibitionAggAbeta_205_junction", GenericJunctionActor.class);
+		classes.put("P53Synthesis_210_junction", GenericJunctionActor.class);
+		classes.put("P53_Mdm2_213_junction", GenericJunctionActor.class);
+		classes.put("P53_Mdm2_524_nacjunction", GenericNACJunctionActor.class);
+		classes.put("P53_Mdm2_525_nacjunction", GenericNACJunctionActor.class);
+		classes.put("P53_Mdm2_526_nacjunction", GenericNACJunctionActor.class);
 		classes.put("P53_Mdm2Bwd_triangle_0_triangleJunction", GenericTriangleJunctionActor.class);
-		classes.put("E1Ub_228_junction", GenericJunctionActor.class);
-		classes.put("E1Ub_225_junction", GenericJunctionActor.class);
-		classes.put("E1Ub_224_junction", GenericJunctionActor.class);
-		classes.put("E2Ub_234_junction", GenericJunctionActor.class);
+		classes.put("E1Ub_230_junction", GenericJunctionActor.class);
+		classes.put("E1Ub_227_junction", GenericJunctionActor.class);
+		classes.put("E1Ub_226_junction", GenericJunctionActor.class);
+		classes.put("E2Ub_236_junction", GenericJunctionActor.class);
+		classes.put("E2Ub_237_junction", GenericJunctionActor.class);
 		classes.put("E2Ub_235_junction", GenericJunctionActor.class);
-		classes.put("E2Ub_233_junction", GenericJunctionActor.class);
+		classes.put("P53Ubiquitination_248_junction", GenericJunctionActor.class);
 		classes.put("P53Ubiquitination_246_junction", GenericJunctionActor.class);
-		classes.put("P53Ubiquitination_244_junction", GenericJunctionActor.class);
 		classes.put("P53Ubiquitination_triangle_0_triangleJunction", GenericTriangleJunctionActor.class);
-		classes.put("P53Ubiquitination_243_junction", GenericJunctionActor.class);
+		classes.put("P53Ubiquitination_245_junction", GenericJunctionActor.class);
+		classes.put("P53PolyUbiquitination1_263_junction", GenericJunctionActor.class);
 		classes.put("P53PolyUbiquitination1_261_junction", GenericJunctionActor.class);
-		classes.put("P53PolyUbiquitination1_259_junction", GenericJunctionActor.class);
-		classes.put("P53PolyUbiquitination1_264_junction", GenericJunctionActor.class);
+		classes.put("P53PolyUbiquitination1_266_junction", GenericJunctionActor.class);
+		classes.put("P53PolyUbiquitination1_262_junction", GenericJunctionActor.class);
 		classes.put("P53PolyUbiquitination1_260_junction", GenericJunctionActor.class);
-		classes.put("P53PolyUbiquitination1_258_junction", GenericJunctionActor.class);
+		classes.put("P53PolyUbiquitination2_280_junction", GenericJunctionActor.class);
 		classes.put("P53PolyUbiquitination2_278_junction", GenericJunctionActor.class);
-		classes.put("P53PolyUbiquitination2_276_junction", GenericJunctionActor.class);
-		classes.put("P53PolyUbiquitination2_281_junction", GenericJunctionActor.class);
+		classes.put("P53PolyUbiquitination2_283_junction", GenericJunctionActor.class);
+		classes.put("P53PolyUbiquitination2_279_junction", GenericJunctionActor.class);
 		classes.put("P53PolyUbiquitination2_277_junction", GenericJunctionActor.class);
-		classes.put("P53PolyUbiquitination2_275_junction", GenericJunctionActor.class);
+		classes.put("P53PolyUbiquitination3_297_junction", GenericJunctionActor.class);
 		classes.put("P53PolyUbiquitination3_295_junction", GenericJunctionActor.class);
-		classes.put("P53PolyUbiquitination3_293_junction", GenericJunctionActor.class);
-		classes.put("P53PolyUbiquitination3_298_junction", GenericJunctionActor.class);
+		classes.put("P53PolyUbiquitination3_300_junction", GenericJunctionActor.class);
+		classes.put("P53PolyUbiquitination3_296_junction", GenericJunctionActor.class);
 		classes.put("P53PolyUbiquitination3_294_junction", GenericJunctionActor.class);
-		classes.put("P53PolyUbiquitination3_292_junction", GenericJunctionActor.class);
+		classes.put("P53DeUbiquitination_315_junction", GenericJunctionActor.class);
 		classes.put("P53DeUbiquitination_313_junction", GenericJunctionActor.class);
 		classes.put("P53DeUbiquitination_311_junction", GenericJunctionActor.class);
-		classes.put("P53DeUbiquitination_309_junction", GenericJunctionActor.class);
-		classes.put("P53PolyDeUbiquitination2_321_junction", GenericJunctionActor.class);
-		classes.put("P53PolyDeUbiquitination2_326_junction", GenericJunctionActor.class);
+		classes.put("P53PolyDeUbiquitination2_323_junction", GenericJunctionActor.class);
+		classes.put("P53PolyDeUbiquitination2_328_junction", GenericJunctionActor.class);
+		classes.put("P53PolyDeUbiquitination2_324_junction", GenericJunctionActor.class);
 		classes.put("P53PolyDeUbiquitination2_322_junction", GenericJunctionActor.class);
-		classes.put("P53PolyDeUbiquitination2_320_junction", GenericJunctionActor.class);
-		classes.put("P53PolyDeUbiquitination3_334_junction", GenericJunctionActor.class);
-		classes.put("P53PolyDeUbiquitination3_339_junction", GenericJunctionActor.class);
+		classes.put("P53PolyDeUbiquitination3_336_junction", GenericJunctionActor.class);
+		classes.put("P53PolyDeUbiquitination3_341_junction", GenericJunctionActor.class);
+		classes.put("P53PolyDeUbiquitination3_337_junction", GenericJunctionActor.class);
 		classes.put("P53PolyDeUbiquitination3_335_junction", GenericJunctionActor.class);
-		classes.put("P53PolyDeUbiquitination3_333_junction", GenericJunctionActor.class);
-		classes.put("P53PolyDeUbiquitination4_347_junction", GenericJunctionActor.class);
-		classes.put("P53PolyDeUbiquitination4_352_junction", GenericJunctionActor.class);
+		classes.put("P53PolyDeUbiquitination4_349_junction", GenericJunctionActor.class);
+		classes.put("P53PolyDeUbiquitination4_354_junction", GenericJunctionActor.class);
+		classes.put("P53PolyDeUbiquitination4_350_junction", GenericJunctionActor.class);
 		classes.put("P53PolyDeUbiquitination4_348_junction", GenericJunctionActor.class);
-		classes.put("P53PolyDeUbiquitination4_346_junction", GenericJunctionActor.class);
-		classes.put("P53ProteasomeBinding_360_junction", GenericJunctionActor.class);
-		classes.put("P53ProteasomeBinding_365_junction", GenericJunctionActor.class);
+		classes.put("P53ProteasomeBinding_362_junction", GenericJunctionActor.class);
+		classes.put("P53ProteasomeBinding_367_junction", GenericJunctionActor.class);
+		classes.put("P53ProteasomeBinding_363_junction", GenericJunctionActor.class);
 		classes.put("P53ProteasomeBinding_361_junction", GenericJunctionActor.class);
-		classes.put("P53ProteasomeBinding_359_junction", GenericJunctionActor.class);
+		classes.put("P53Degradation_376_junction", GenericJunctionActor.class);
 		classes.put("P53Degradation_374_junction", GenericJunctionActor.class);
-		classes.put("P53Degradation_372_junction", GenericJunctionActor.class);
-		classes.put("mdm2mRNASynthesis_524_nacjunction", GenericNACJunctionActor.class);
-		classes.put("mdm2mRNASynthesis_525_nacjunction", GenericNACJunctionActor.class);
-		classes.put("mdm2mRNASynthesis_526_nacjunction", GenericNACJunctionActor.class);
+		classes.put("mdm2mRNASynthesis_527_nacjunction", GenericNACJunctionActor.class);
+		classes.put("mdm2mRNASynthesis_528_nacjunction", GenericNACJunctionActor.class);
+		classes.put("mdm2mRNASynthesis_529_nacjunction", GenericNACJunctionActor.class);
+		classes.put("Mdm2Synthesis_388_junction", GenericJunctionActor.class);
 		classes.put("Mdm2Synthesis_386_junction", GenericJunctionActor.class);
-		classes.put("Mdm2Synthesis_384_junction", GenericJunctionActor.class);
-		classes.put("mdm2Ubiquination_391_junction", GenericJunctionActor.class);
 		createJunctionNodes_1();
 			}	
 		
 			private void createJunctionNodes_1() {
-		classes.put("mdm2Ubiquination_389_junction", GenericJunctionActor.class);
-		classes.put("mdm2PolyUbiquination1_403_junction", GenericJunctionActor.class);
+		classes.put("mdm2Ubiquination_393_junction", GenericJunctionActor.class);
+		classes.put("mdm2Ubiquination_391_junction", GenericJunctionActor.class);
+		classes.put("mdm2PolyUbiquination1_405_junction", GenericJunctionActor.class);
+		classes.put("mdm2PolyUbiquination1_402_junction", GenericJunctionActor.class);
 		classes.put("mdm2PolyUbiquination1_400_junction", GenericJunctionActor.class);
-		classes.put("mdm2PolyUbiquination1_398_junction", GenericJunctionActor.class);
-		classes.put("mdm2PolyUbiquination2_414_junction", GenericJunctionActor.class);
+		classes.put("mdm2PolyUbiquination2_416_junction", GenericJunctionActor.class);
+		classes.put("mdm2PolyUbiquination2_413_junction", GenericJunctionActor.class);
 		classes.put("mdm2PolyUbiquination2_411_junction", GenericJunctionActor.class);
-		classes.put("mdm2PolyUbiquination2_409_junction", GenericJunctionActor.class);
-		classes.put("mdm2PolyUbiquination3_425_junction", GenericJunctionActor.class);
+		classes.put("mdm2PolyUbiquination3_427_junction", GenericJunctionActor.class);
+		classes.put("mdm2PolyUbiquination3_424_junction", GenericJunctionActor.class);
 		classes.put("mdm2PolyUbiquination3_422_junction", GenericJunctionActor.class);
-		classes.put("mdm2PolyUbiquination3_420_junction", GenericJunctionActor.class);
-		classes.put("mdm2deubiquination_432_junction", GenericJunctionActor.class);
-		classes.put("mdm2deubiquination_431_junction", GenericJunctionActor.class);
-		classes.put("mdm2polyDeubiquination1_439_junction", GenericJunctionActor.class);
-		classes.put("mdm2polyDeubiquination1_438_junction", GenericJunctionActor.class);
-		classes.put("mdm2polyDeubiquination2_446_junction", GenericJunctionActor.class);
-		classes.put("mdm2polyDeubiquination2_445_junction", GenericJunctionActor.class);
-		classes.put("mdm2polyDeubiquination3_453_junction", GenericJunctionActor.class);
-		classes.put("mdm2polyDeubiquination3_452_junction", GenericJunctionActor.class);
-		classes.put("Mdm2ProteasomeBind_459_junction", GenericJunctionActor.class);
+		classes.put("mdm2deubiquination_434_junction", GenericJunctionActor.class);
+		classes.put("mdm2deubiquination_433_junction", GenericJunctionActor.class);
+		classes.put("mdm2polyDeubiquination1_441_junction", GenericJunctionActor.class);
+		classes.put("mdm2polyDeubiquination1_440_junction", GenericJunctionActor.class);
+		classes.put("mdm2polyDeubiquination2_448_junction", GenericJunctionActor.class);
+		classes.put("mdm2polyDeubiquination2_447_junction", GenericJunctionActor.class);
+		classes.put("mdm2polyDeubiquination3_455_junction", GenericJunctionActor.class);
+		classes.put("mdm2polyDeubiquination3_454_junction", GenericJunctionActor.class);
+		classes.put("Mdm2ProteasomeBind_461_junction", GenericJunctionActor.class);
+		classes.put("Mdm2Degradation_468_junction", GenericJunctionActor.class);
 		classes.put("Mdm2Degradation_466_junction", GenericJunctionActor.class);
-		classes.put("Mdm2Degradation_464_junction", GenericJunctionActor.class);
-		classes.put("ATMActivation_472_junction", GenericJunctionActor.class);
-		classes.put("P53Phospho_477_junction", GenericJunctionActor.class);
-		classes.put("P53Phospho_476_junction", GenericJunctionActor.class);
-		classes.put("P53Phospho_527_nacjunction", GenericNACJunctionActor.class);
-		classes.put("P53Phospho_528_nacjunction", GenericNACJunctionActor.class);
-		classes.put("P53Phospho_529_nacjunction", GenericNACJunctionActor.class);
-		classes.put("P53DePhospho_483_junction", GenericJunctionActor.class);
-		classes.put("P53DePhospho_530_nacjunction", GenericNACJunctionActor.class);
-		classes.put("P53DePhospho_531_nacjunction", GenericNACJunctionActor.class);
-		classes.put("P53DePhospho_532_nacjunction", GenericNACJunctionActor.class);
-		classes.put("Mdm2Phospho_489_junction", GenericJunctionActor.class);
-		classes.put("Mdm2Phospho_488_junction", GenericJunctionActor.class);
-		classes.put("Mdm2DePhospho_495_junction", GenericJunctionActor.class);
+		classes.put("ATMActivation_474_junction", GenericJunctionActor.class);
+		classes.put("P53Phospho_479_junction", GenericJunctionActor.class);
+		classes.put("P53Phospho_478_junction", GenericJunctionActor.class);
+		classes.put("P53Phospho_530_nacjunction", GenericNACJunctionActor.class);
+		classes.put("P53Phospho_531_nacjunction", GenericNACJunctionActor.class);
+		classes.put("P53Phospho_532_nacjunction", GenericNACJunctionActor.class);
+		classes.put("P53DePhospho_485_junction", GenericJunctionActor.class);
+		classes.put("P53DePhospho_533_nacjunction", GenericNACJunctionActor.class);
+		classes.put("P53DePhospho_534_nacjunction", GenericNACJunctionActor.class);
+		classes.put("P53DePhospho_535_nacjunction", GenericNACJunctionActor.class);
+		classes.put("Mdm2Phospho_491_junction", GenericJunctionActor.class);
+		classes.put("Mdm2Phospho_490_junction", GenericJunctionActor.class);
+		classes.put("Mdm2DePhospho_497_junction", GenericJunctionActor.class);
 	}
 	
 	public void createReferenceNodes() {
@@ -481,20 +484,21 @@ public class HiPEEngine implements IHiPEEngine{
 	public void createObjectNodes() {
 		classes.put("MT_object",MT_object.class);
 		classes.put("UB4_s_object",UB4_s_object.class);
+		classes.put("Container_object",Container_object.class);
 		classes.put("P1_s_object",P1_s_object.class);
 		classes.put("P2_s_object",P2_s_object.class);
 		classes.put("PPT_object",PPT_object.class);
 		classes.put("NFT_object",NFT_object.class);
 		classes.put("AbetaPlaque_object",AbetaPlaque_object.class);
 		classes.put("P53mRNA_object",P53mRNA_object.class);
-		classes.put("Ub_object",Ub_object.class);
 		classes.put("UBI_s_object",UBI_s_object.class);
+		classes.put("Ub_object",Ub_object.class);
 		classes.put("ATP_object",ATP_object.class);
 		classes.put("E1_object",E1_object.class);
 		classes.put("E2_object",E2_object.class);
 		classes.put("Mdm2mRNA_object",Mdm2mRNA_object.class);
-		classes.put("DamDNA_object",DamDNA_object.class);
 		classes.put("ATMI_object",ATMI_object.class);
+		classes.put("DamDNA_object",DamDNA_object.class);
 		classes.put("ATMA_object",ATMA_object.class);
 		classes.put("IR_object",IR_object.class);
 		classes.put("ROS_object",ROS_object.class);
@@ -611,20 +615,21 @@ public class HiPEEngine implements IHiPEEngine{
 
 class MT_object extends GenericObjectActor<AlzheimerModel.MT> { }
 class UB4_s_object extends GenericObjectActor<AlzheimerModel.UB4_s> { }
+class Container_object extends GenericObjectActor<reactionContainer.Container> { }
 class P1_s_object extends GenericObjectActor<AlzheimerModel.P1_s> { }
 class P2_s_object extends GenericObjectActor<AlzheimerModel.P2_s> { }
 class PPT_object extends GenericObjectActor<AlzheimerModel.PPT> { }
 class NFT_object extends GenericObjectActor<AlzheimerModel.NFT> { }
 class AbetaPlaque_object extends GenericObjectActor<AlzheimerModel.AbetaPlaque> { }
 class P53mRNA_object extends GenericObjectActor<AlzheimerModel.P53mRNA> { }
-class Ub_object extends GenericObjectActor<AlzheimerModel.Ub> { }
 class UBI_s_object extends GenericObjectActor<AlzheimerModel.UBI_s> { }
+class Ub_object extends GenericObjectActor<AlzheimerModel.Ub> { }
 class ATP_object extends GenericObjectActor<AlzheimerModel.ATP> { }
 class E1_object extends GenericObjectActor<AlzheimerModel.E1> { }
 class E2_object extends GenericObjectActor<AlzheimerModel.E2> { }
 class Mdm2mRNA_object extends GenericObjectActor<AlzheimerModel.Mdm2mRNA> { }
-class DamDNA_object extends GenericObjectActor<AlzheimerModel.DamDNA> { }
 class ATMI_object extends GenericObjectActor<AlzheimerModel.ATMI> { }
+class DamDNA_object extends GenericObjectActor<AlzheimerModel.DamDNA> { }
 class ATMA_object extends GenericObjectActor<AlzheimerModel.ATMA> { }
 class IR_object extends GenericObjectActor<AlzheimerModel.IR> { }
 class ROS_object extends GenericObjectActor<AlzheimerModel.ROS> { }

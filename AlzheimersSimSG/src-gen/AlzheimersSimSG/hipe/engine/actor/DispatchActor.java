@@ -56,13 +56,12 @@ public class DispatchActor extends AbstractActor {
 	}
 	
 	private void initializeAdd() {
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAMP(), obj -> {
-			AlzheimerModel.AMP _amp = (AlzheimerModel.AMP) obj;
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUB4_s(), obj -> {
-			AlzheimerModel.UB4_s _ub4_s = (AlzheimerModel.UB4_s) obj;
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAggTau(), obj -> {
+			AlzheimerModel.AggTau _aggtau = (AlzheimerModel.AggTau) obj;
 			util.newMessage();
-			name2actor.get("UB4_s_object").tell(new ObjectAdded<AlzheimerModel.UB4_s>(_ub4_s), getSelf());
+			name2actor.get("AggTau_object_SP0").tell(new ObjectAdded<AlzheimerModel.AggTau>(_aggtau), getSelf());
+			util.newMessage();
+			name2actor.get("AggTau_object_SP1").tell(new ObjectAdded<AlzheimerModel.AggTau>(_aggtau), getSelf());
 		});
 		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUB1_s(), obj -> {
 			AlzheimerModel.UB1_s _ub1_s = (AlzheimerModel.UB1_s) obj;
@@ -71,10 +70,10 @@ public class DispatchActor extends AbstractActor {
 			util.newMessage();
 			name2actor.get("UB1_s_object_SP1").tell(new ObjectAdded<AlzheimerModel.UB1_s>(_ub1_s), getSelf());
 		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP2_s(), obj -> {
-			AlzheimerModel.P2_s _p2_s = (AlzheimerModel.P2_s) obj;
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUb(), obj -> {
+			AlzheimerModel.Ub _ub = (AlzheimerModel.Ub) obj;
 			util.newMessage();
-			name2actor.get("P2_s_object").tell(new ObjectAdded<AlzheimerModel.P2_s>(_p2_s), getSelf());
+			name2actor.get("Ub_object").tell(new ObjectAdded<AlzheimerModel.Ub>(_ub), getSelf());
 		});
 		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMdm2DUB(), obj -> {
 			AlzheimerModel.Mdm2DUB _mdm2dub = (AlzheimerModel.Mdm2DUB) obj;
@@ -83,15 +82,20 @@ public class DispatchActor extends AbstractActor {
 			util.newMessage();
 			name2actor.get("Mdm2DUB_object_SP1").tell(new ObjectAdded<AlzheimerModel.Mdm2DUB>(_mdm2dub), getSelf());
 		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getIR(), obj -> {
-			AlzheimerModel.IR _ir = (AlzheimerModel.IR) obj;
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAggAbeta(), obj -> {
+			AlzheimerModel.AggAbeta _aggabeta = (AlzheimerModel.AggAbeta) obj;
 			util.newMessage();
-			name2actor.get("IR_object").tell(new ObjectAdded<AlzheimerModel.IR>(_ir), getSelf());
+			name2actor.get("AggAbeta_object_SP0").tell(new ObjectAdded<AlzheimerModel.AggAbeta>(_aggabeta), getSelf());
+			util.newMessage();
+			name2actor.get("AggAbeta_object_SP1").tell(new ObjectAdded<AlzheimerModel.AggAbeta>(_aggabeta), getSelf());
 		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getATMA(), obj -> {
-			AlzheimerModel.ATMA _atma = (AlzheimerModel.ATMA) obj;
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAMP(), obj -> {
+			AlzheimerModel.AMP _amp = (AlzheimerModel.AMP) obj;
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getE1(), obj -> {
+			AlzheimerModel.E1 _e1 = (AlzheimerModel.E1) obj;
 			util.newMessage();
-			name2actor.get("ATMA_object").tell(new ObjectAdded<AlzheimerModel.ATMA>(_atma), getSelf());
+			name2actor.get("E1_object").tell(new ObjectAdded<AlzheimerModel.E1>(_e1), getSelf());
 		});
 		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUB2_s(), obj -> {
 			AlzheimerModel.UB2_s _ub2_s = (AlzheimerModel.UB2_s) obj;
@@ -100,55 +104,15 @@ public class DispatchActor extends AbstractActor {
 			util.newMessage();
 			name2actor.get("UB2_s_object_SP1").tell(new ObjectAdded<AlzheimerModel.UB2_s>(_ub2_s), getSelf());
 		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAggTau(), obj -> {
-			AlzheimerModel.AggTau _aggtau = (AlzheimerModel.AggTau) obj;
-			util.newMessage();
-			name2actor.get("AggTau_object_SP0").tell(new ObjectAdded<AlzheimerModel.AggTau>(_aggtau), getSelf());
-			util.newMessage();
-			name2actor.get("AggTau_object_SP1").tell(new ObjectAdded<AlzheimerModel.AggTau>(_aggtau), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getNFT(), obj -> {
-			AlzheimerModel.NFT _nft = (AlzheimerModel.NFT) obj;
-			util.newMessage();
-			name2actor.get("NFT_object").tell(new ObjectAdded<AlzheimerModel.NFT>(_nft), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUNB_s(), obj -> {
-			AlzheimerModel.UNB_s _unb_s = (AlzheimerModel.UNB_s) obj;
-			util.newMessage();
-			name2actor.get("UNB_s_object_SP0").tell(new ObjectAdded<AlzheimerModel.UNB_s>(_unb_s), getSelf());
-			util.newMessage();
-			name2actor.get("UNB_s_object_SP1").tell(new ObjectAdded<AlzheimerModel.UNB_s>(_unb_s), getSelf());
-			util.newMessage();
-			name2actor.get("UNB_s_object_SP2").tell(new ObjectAdded<AlzheimerModel.UNB_s>(_unb_s), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAggAbeta(), obj -> {
-			AlzheimerModel.AggAbeta _aggabeta = (AlzheimerModel.AggAbeta) obj;
-			util.newMessage();
-			name2actor.get("AggAbeta_object_SP0").tell(new ObjectAdded<AlzheimerModel.AggAbeta>(_aggabeta), getSelf());
-			util.newMessage();
-			name2actor.get("AggAbeta_object_SP1").tell(new ObjectAdded<AlzheimerModel.AggAbeta>(_aggabeta), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUB3_s(), obj -> {
-			AlzheimerModel.UB3_s _ub3_s = (AlzheimerModel.UB3_s) obj;
-			util.newMessage();
-			name2actor.get("UB3_s_object_SP0").tell(new ObjectAdded<AlzheimerModel.UB3_s>(_ub3_s), getSelf());
-			util.newMessage();
-			name2actor.get("UB3_s_object_SP1").tell(new ObjectAdded<AlzheimerModel.UB3_s>(_ub3_s), getSelf());
-		});
 		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUBI_s(), obj -> {
 			AlzheimerModel.UBI_s _ubi_s = (AlzheimerModel.UBI_s) obj;
 			util.newMessage();
 			name2actor.get("UBI_s_object").tell(new ObjectAdded<AlzheimerModel.UBI_s>(_ubi_s), getSelf());
 		});
-		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getState(), obj -> {
-			reactionContainer.State _state = (reactionContainer.State) obj;
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getGSK3b(), obj -> {
-			AlzheimerModel.GSK3b _gsk3b = (AlzheimerModel.GSK3b) obj;
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMT(), obj -> {
+			AlzheimerModel.MT _mt = (AlzheimerModel.MT) obj;
 			util.newMessage();
-			name2actor.get("GSK3b_object_SP0").tell(new ObjectAdded<AlzheimerModel.GSK3b>(_gsk3b), getSelf());
-			util.newMessage();
-			name2actor.get("GSK3b_object_SP1").tell(new ObjectAdded<AlzheimerModel.GSK3b>(_gsk3b), getSelf());
+			name2actor.get("MT_object").tell(new ObjectAdded<AlzheimerModel.MT>(_mt), getSelf());
 		});
 		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP53(), obj -> {
 			AlzheimerModel.P53 _p53 = (AlzheimerModel.P53) obj;
@@ -161,21 +125,101 @@ public class DispatchActor extends AbstractActor {
 		});
 		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getContainer(), obj -> {
 			reactionContainer.Container _container = (reactionContainer.Container) obj;
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMT(), obj -> {
-			AlzheimerModel.MT _mt = (AlzheimerModel.MT) obj;
 			util.newMessage();
-			name2actor.get("MT_object").tell(new ObjectAdded<AlzheimerModel.MT>(_mt), getSelf());
+			name2actor.get("Container_object").tell(new ObjectAdded<reactionContainer.Container>(_container), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getTau(), obj -> {
+			AlzheimerModel.Tau _tau = (AlzheimerModel.Tau) obj;
+			util.newMessage();
+			name2actor.get("Tau_object_SP0").tell(new ObjectAdded<AlzheimerModel.Tau>(_tau), getSelf());
+			util.newMessage();
+			name2actor.get("Tau_object_SP1").tell(new ObjectAdded<AlzheimerModel.Tau>(_tau), getSelf());
 		});
 		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getATP(), obj -> {
 			AlzheimerModel.ATP _atp = (AlzheimerModel.ATP) obj;
 			util.newMessage();
 			name2actor.get("ATP_object").tell(new ObjectAdded<AlzheimerModel.ATP>(_atp), getSelf());
 		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getE1(), obj -> {
-			AlzheimerModel.E1 _e1 = (AlzheimerModel.E1) obj;
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getNFT(), obj -> {
+			AlzheimerModel.NFT _nft = (AlzheimerModel.NFT) obj;
 			util.newMessage();
-			name2actor.get("E1_object").tell(new ObjectAdded<AlzheimerModel.E1>(_e1), getSelf());
+			name2actor.get("NFT_object").tell(new ObjectAdded<AlzheimerModel.NFT>(_nft), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getATMI(), obj -> {
+			AlzheimerModel.ATMI _atmi = (AlzheimerModel.ATMI) obj;
+			util.newMessage();
+			name2actor.get("ATMI_object").tell(new ObjectAdded<AlzheimerModel.ATMI>(_atmi), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getU_s(), obj -> {
+			AlzheimerModel.U_s _u_s = (AlzheimerModel.U_s) obj;
+			util.newMessage();
+			name2actor.get("U_s_object_SP0").tell(new ObjectAdded<AlzheimerModel.U_s>(_u_s), getSelf());
+			util.newMessage();
+			name2actor.get("U_s_object_SP1").tell(new ObjectAdded<AlzheimerModel.U_s>(_u_s), getSelf());
+			util.newMessage();
+			name2actor.get("U_s_object_SP2").tell(new ObjectAdded<AlzheimerModel.U_s>(_u_s), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMdm2mRNA(), obj -> {
+			AlzheimerModel.Mdm2mRNA _mdm2mrna = (AlzheimerModel.Mdm2mRNA) obj;
+			util.newMessage();
+			name2actor.get("Mdm2mRNA_object").tell(new ObjectAdded<AlzheimerModel.Mdm2mRNA>(_mdm2mrna), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAbetaPlaque(), obj -> {
+			AlzheimerModel.AbetaPlaque _abetaplaque = (AlzheimerModel.AbetaPlaque) obj;
+			util.newMessage();
+			name2actor.get("AbetaPlaque_object").tell(new ObjectAdded<AlzheimerModel.AbetaPlaque>(_abetaplaque), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getBasalROS(), obj -> {
+			AlzheimerModel.BasalROS _basalros = (AlzheimerModel.BasalROS) obj;
+			util.newMessage();
+			name2actor.get("BasalROS_object").tell(new ObjectAdded<AlzheimerModel.BasalROS>(_basalros), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getROS(), obj -> {
+			AlzheimerModel.ROS _ros = (AlzheimerModel.ROS) obj;
+			util.newMessage();
+			name2actor.get("ROS_object").tell(new ObjectAdded<AlzheimerModel.ROS>(_ros), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP2_s(), obj -> {
+			AlzheimerModel.P2_s _p2_s = (AlzheimerModel.P2_s) obj;
+			util.newMessage();
+			name2actor.get("P2_s_object").tell(new ObjectAdded<AlzheimerModel.P2_s>(_p2_s), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMdm2(), obj -> {
+			AlzheimerModel.Mdm2 _mdm2 = (AlzheimerModel.Mdm2) obj;
+			util.newMessage();
+			name2actor.get("Mdm2_object_SP0").tell(new ObjectAdded<AlzheimerModel.Mdm2>(_mdm2), getSelf());
+			util.newMessage();
+			name2actor.get("Mdm2_object_SP1").tell(new ObjectAdded<AlzheimerModel.Mdm2>(_mdm2), getSelf());
+			util.newMessage();
+			name2actor.get("Mdm2_object_SP2").tell(new ObjectAdded<AlzheimerModel.Mdm2>(_mdm2), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getADP(), obj -> {
+			AlzheimerModel.ADP _adp = (AlzheimerModel.ADP) obj;
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP1_s(), obj -> {
+			AlzheimerModel.P1_s _p1_s = (AlzheimerModel.P1_s) obj;
+			util.newMessage();
+			name2actor.get("P1_s_object").tell(new ObjectAdded<AlzheimerModel.P1_s>(_p1_s), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUB3_s(), obj -> {
+			AlzheimerModel.UB3_s _ub3_s = (AlzheimerModel.UB3_s) obj;
+			util.newMessage();
+			name2actor.get("UB3_s_object_SP0").tell(new ObjectAdded<AlzheimerModel.UB3_s>(_ub3_s), getSelf());
+			util.newMessage();
+			name2actor.get("UB3_s_object_SP1").tell(new ObjectAdded<AlzheimerModel.UB3_s>(_ub3_s), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getE2(), obj -> {
+			AlzheimerModel.E2 _e2 = (AlzheimerModel.E2) obj;
+			util.newMessage();
+			name2actor.get("E2_object").tell(new ObjectAdded<AlzheimerModel.E2>(_e2), getSelf());
+		});
+		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getAgent(), obj -> {
+			reactionContainer.Agent _agent = (reactionContainer.Agent) obj;
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUB4_s(), obj -> {
+			AlzheimerModel.UB4_s _ub4_s = (AlzheimerModel.UB4_s) obj;
+			util.newMessage();
+			name2actor.get("UB4_s_object").tell(new ObjectAdded<AlzheimerModel.UB4_s>(_ub4_s), getSelf());
 		});
 		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAbeta(), obj -> {
 			AlzheimerModel.Abeta _abeta = (AlzheimerModel.Abeta) obj;
@@ -183,6 +227,42 @@ public class DispatchActor extends AbstractActor {
 			name2actor.get("Abeta_object_SP0").tell(new ObjectAdded<AlzheimerModel.Abeta>(_abeta), getSelf());
 			util.newMessage();
 			name2actor.get("Abeta_object_SP1").tell(new ObjectAdded<AlzheimerModel.Abeta>(_abeta), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getATMA(), obj -> {
+			AlzheimerModel.ATMA _atma = (AlzheimerModel.ATMA) obj;
+			util.newMessage();
+			name2actor.get("ATMA_object").tell(new ObjectAdded<AlzheimerModel.ATMA>(_atma), getSelf());
+		});
+		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getState(), obj -> {
+			reactionContainer.State _state = (reactionContainer.State) obj;
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getGSK3b(), obj -> {
+			AlzheimerModel.GSK3b _gsk3b = (AlzheimerModel.GSK3b) obj;
+			util.newMessage();
+			name2actor.get("GSK3b_object_SP0").tell(new ObjectAdded<AlzheimerModel.GSK3b>(_gsk3b), getSelf());
+			util.newMessage();
+			name2actor.get("GSK3b_object_SP1").tell(new ObjectAdded<AlzheimerModel.GSK3b>(_gsk3b), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP53DUB(), obj -> {
+			AlzheimerModel.P53DUB _p53dub = (AlzheimerModel.P53DUB) obj;
+			util.newMessage();
+			name2actor.get("P53DUB_object_SP0").tell(new ObjectAdded<AlzheimerModel.P53DUB>(_p53dub), getSelf());
+			util.newMessage();
+			name2actor.get("P53DUB_object_SP1").tell(new ObjectAdded<AlzheimerModel.P53DUB>(_p53dub), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getDamDNA(), obj -> {
+			AlzheimerModel.DamDNA _damdna = (AlzheimerModel.DamDNA) obj;
+			util.newMessage();
+			name2actor.get("DamDNA_object").tell(new ObjectAdded<AlzheimerModel.DamDNA>(_damdna), getSelf());
+		});
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUNB_s(), obj -> {
+			AlzheimerModel.UNB_s _unb_s = (AlzheimerModel.UNB_s) obj;
+			util.newMessage();
+			name2actor.get("UNB_s_object_SP0").tell(new ObjectAdded<AlzheimerModel.UNB_s>(_unb_s), getSelf());
+			util.newMessage();
+			name2actor.get("UNB_s_object_SP1").tell(new ObjectAdded<AlzheimerModel.UNB_s>(_unb_s), getSelf());
+			util.newMessage();
+			name2actor.get("UNB_s_object_SP2").tell(new ObjectAdded<AlzheimerModel.UNB_s>(_unb_s), getSelf());
 		});
 		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getProteasome(), obj -> {
 			AlzheimerModel.Proteasome _proteasome = (AlzheimerModel.Proteasome) obj;
@@ -200,98 +280,20 @@ public class DispatchActor extends AbstractActor {
 			util.newMessage();
 			name2actor.get("P_s_object_SP1").tell(new ObjectAdded<AlzheimerModel.P_s>(_p_s), getSelf());
 		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getPPT(), obj -> {
-			AlzheimerModel.PPT _ppt = (AlzheimerModel.PPT) obj;
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getIR(), obj -> {
+			AlzheimerModel.IR _ir = (AlzheimerModel.IR) obj;
 			util.newMessage();
-			name2actor.get("PPT_object").tell(new ObjectAdded<AlzheimerModel.PPT>(_ppt), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getTau(), obj -> {
-			AlzheimerModel.Tau _tau = (AlzheimerModel.Tau) obj;
-			util.newMessage();
-			name2actor.get("Tau_object_SP0").tell(new ObjectAdded<AlzheimerModel.Tau>(_tau), getSelf());
-			util.newMessage();
-			name2actor.get("Tau_object_SP1").tell(new ObjectAdded<AlzheimerModel.Tau>(_tau), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getE2(), obj -> {
-			AlzheimerModel.E2 _e2 = (AlzheimerModel.E2) obj;
-			util.newMessage();
-			name2actor.get("E2_object").tell(new ObjectAdded<AlzheimerModel.E2>(_e2), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP1_s(), obj -> {
-			AlzheimerModel.P1_s _p1_s = (AlzheimerModel.P1_s) obj;
-			util.newMessage();
-			name2actor.get("P1_s_object").tell(new ObjectAdded<AlzheimerModel.P1_s>(_p1_s), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAbetaPlaque(), obj -> {
-			AlzheimerModel.AbetaPlaque _abetaplaque = (AlzheimerModel.AbetaPlaque) obj;
-			util.newMessage();
-			name2actor.get("AbetaPlaque_object").tell(new ObjectAdded<AlzheimerModel.AbetaPlaque>(_abetaplaque), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getROS(), obj -> {
-			AlzheimerModel.ROS _ros = (AlzheimerModel.ROS) obj;
-			util.newMessage();
-			name2actor.get("ROS_object").tell(new ObjectAdded<AlzheimerModel.ROS>(_ros), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP53DUB(), obj -> {
-			AlzheimerModel.P53DUB _p53dub = (AlzheimerModel.P53DUB) obj;
-			util.newMessage();
-			name2actor.get("P53DUB_object_SP0").tell(new ObjectAdded<AlzheimerModel.P53DUB>(_p53dub), getSelf());
-			util.newMessage();
-			name2actor.get("P53DUB_object_SP1").tell(new ObjectAdded<AlzheimerModel.P53DUB>(_p53dub), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUb(), obj -> {
-			AlzheimerModel.Ub _ub = (AlzheimerModel.Ub) obj;
-			util.newMessage();
-			name2actor.get("Ub_object").tell(new ObjectAdded<AlzheimerModel.Ub>(_ub), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getU_s(), obj -> {
-			AlzheimerModel.U_s _u_s = (AlzheimerModel.U_s) obj;
-			util.newMessage();
-			name2actor.get("U_s_object_SP0").tell(new ObjectAdded<AlzheimerModel.U_s>(_u_s), getSelf());
-			util.newMessage();
-			name2actor.get("U_s_object_SP1").tell(new ObjectAdded<AlzheimerModel.U_s>(_u_s), getSelf());
-			util.newMessage();
-			name2actor.get("U_s_object_SP2").tell(new ObjectAdded<AlzheimerModel.U_s>(_u_s), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getBasalROS(), obj -> {
-			AlzheimerModel.BasalROS _basalros = (AlzheimerModel.BasalROS) obj;
-			util.newMessage();
-			name2actor.get("BasalROS_object").tell(new ObjectAdded<AlzheimerModel.BasalROS>(_basalros), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getATMI(), obj -> {
-			AlzheimerModel.ATMI _atmi = (AlzheimerModel.ATMI) obj;
-			util.newMessage();
-			name2actor.get("ATMI_object").tell(new ObjectAdded<AlzheimerModel.ATMI>(_atmi), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMdm2(), obj -> {
-			AlzheimerModel.Mdm2 _mdm2 = (AlzheimerModel.Mdm2) obj;
-			util.newMessage();
-			name2actor.get("Mdm2_object_SP0").tell(new ObjectAdded<AlzheimerModel.Mdm2>(_mdm2), getSelf());
-			util.newMessage();
-			name2actor.get("Mdm2_object_SP1").tell(new ObjectAdded<AlzheimerModel.Mdm2>(_mdm2), getSelf());
-			util.newMessage();
-			name2actor.get("Mdm2_object_SP2").tell(new ObjectAdded<AlzheimerModel.Mdm2>(_mdm2), getSelf());
+			name2actor.get("IR_object").tell(new ObjectAdded<AlzheimerModel.IR>(_ir), getSelf());
 		});
 		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP53mRNA(), obj -> {
 			AlzheimerModel.P53mRNA _p53mrna = (AlzheimerModel.P53mRNA) obj;
 			util.newMessage();
 			name2actor.get("P53mRNA_object").tell(new ObjectAdded<AlzheimerModel.P53mRNA>(_p53mrna), getSelf());
 		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getADP(), obj -> {
-			AlzheimerModel.ADP _adp = (AlzheimerModel.ADP) obj;
-		});
-		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getAgent(), obj -> {
-			reactionContainer.Agent _agent = (reactionContainer.Agent) obj;
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMdm2mRNA(), obj -> {
-			AlzheimerModel.Mdm2mRNA _mdm2mrna = (AlzheimerModel.Mdm2mRNA) obj;
+		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getPPT(), obj -> {
+			AlzheimerModel.PPT _ppt = (AlzheimerModel.PPT) obj;
 			util.newMessage();
-			name2actor.get("Mdm2mRNA_object").tell(new ObjectAdded<AlzheimerModel.Mdm2mRNA>(_mdm2mrna), getSelf());
-		});
-		type2addConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getDamDNA(), obj -> {
-			AlzheimerModel.DamDNA _damdna = (AlzheimerModel.DamDNA) obj;
-			util.newMessage();
-			name2actor.get("DamDNA_object").tell(new ObjectAdded<AlzheimerModel.DamDNA>(_damdna), getSelf());
+			name2actor.get("PPT_object").tell(new ObjectAdded<AlzheimerModel.PPT>(_ppt), getSelf());
 		});
 	}
 	
@@ -637,13 +639,13 @@ public class DispatchActor extends AbstractActor {
 			util.newMessage();
 			name2actor.get("P53mRNA_object").tell(new ObjectDeleted<AlzheimerModel.P53mRNA>((AlzheimerModel.P53mRNA) node), getSelf());
 		}
-		if (node instanceof AlzheimerModel.Ub) {
-			util.newMessage();
-			name2actor.get("Ub_object").tell(new ObjectDeleted<AlzheimerModel.Ub>((AlzheimerModel.Ub) node), getSelf());
-		}
 		if (node instanceof AlzheimerModel.UBI_s) {
 			util.newMessage();
 			name2actor.get("UBI_s_object").tell(new ObjectDeleted<AlzheimerModel.UBI_s>((AlzheimerModel.UBI_s) node), getSelf());
+		}
+		if (node instanceof AlzheimerModel.Ub) {
+			util.newMessage();
+			name2actor.get("Ub_object").tell(new ObjectDeleted<AlzheimerModel.Ub>((AlzheimerModel.Ub) node), getSelf());
 		}
 		if (node instanceof AlzheimerModel.ATP) {
 			util.newMessage();
@@ -661,13 +663,13 @@ public class DispatchActor extends AbstractActor {
 			util.newMessage();
 			name2actor.get("Mdm2mRNA_object").tell(new ObjectDeleted<AlzheimerModel.Mdm2mRNA>((AlzheimerModel.Mdm2mRNA) node), getSelf());
 		}
-		if (node instanceof AlzheimerModel.DamDNA) {
-			util.newMessage();
-			name2actor.get("DamDNA_object").tell(new ObjectDeleted<AlzheimerModel.DamDNA>((AlzheimerModel.DamDNA) node), getSelf());
-		}
 		if (node instanceof AlzheimerModel.ATMI) {
 			util.newMessage();
 			name2actor.get("ATMI_object").tell(new ObjectDeleted<AlzheimerModel.ATMI>((AlzheimerModel.ATMI) node), getSelf());
+		}
+		if (node instanceof AlzheimerModel.DamDNA) {
+			util.newMessage();
+			name2actor.get("DamDNA_object").tell(new ObjectDeleted<AlzheimerModel.DamDNA>((AlzheimerModel.DamDNA) node), getSelf());
 		}
 		if (node instanceof AlzheimerModel.ATMA) {
 			util.newMessage();
@@ -832,6 +834,10 @@ public class DispatchActor extends AbstractActor {
 		if (node instanceof AlzheimerModel.Mdm2DUB) {
 			util.newMessage();
 			name2actor.get("Mdm2DUB_object_SP1").tell(new ObjectDeleted<AlzheimerModel.Mdm2DUB>((AlzheimerModel.Mdm2DUB) node), getSelf());
+		}
+		if (node instanceof reactionContainer.Container) {
+			util.newMessage();
+			name2actor.get("Container_object").tell(new ObjectDeleted<reactionContainer.Container>((reactionContainer.Container) node), getSelf());
 		}
 	}
 }

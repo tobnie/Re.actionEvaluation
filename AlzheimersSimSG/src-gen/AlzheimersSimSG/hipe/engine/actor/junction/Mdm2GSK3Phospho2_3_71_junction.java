@@ -52,8 +52,8 @@ public class Mdm2GSK3Phospho2_3_71_junction extends GenericJunctionActor{
 	}
 	
 	public boolean check_constraint_1(HMatch match) {
-		AlzheimerModel.P53 p53_1 = (AlzheimerModel.P53) match.getNodes()[5];
 		AlzheimerModel.P53 p53_2 = (AlzheimerModel.P53) match.getNodes()[1];
+		AlzheimerModel.P53 p53_1 = (AlzheimerModel.P53) match.getNodes()[5];
 		boolean predicate = !p53_2.equals(p53_1);
 		match.setConstraintSatisfied(predicate);
 		return predicate;

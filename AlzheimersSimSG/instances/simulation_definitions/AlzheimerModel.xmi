@@ -15,20 +15,20 @@
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.28" rate="2.0E-4"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.29" rate="2.0E-4"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.30" rate="0.01"/>
-  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.31" rate="1.0E-8"/>
+  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.31" rate="5.0E-9"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.32" rate="1.0E-8"/>
-  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.33" rate="1.0E-8"/>
+  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.33" rate="5.0E-9"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.34" rate="1.0E-8"/>
-  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.35" rate="1.0E-7"/>
+  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.35" rate="5.0E-8"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.36" rate="1.0E-7"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.37" rate="0.001"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.38" rate="0.001"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.39" rate="1.0E-5"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.40" rate="5.0E-5"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.41" rate="5.0E-5"/>
-  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.42" rate="1.0E-8"/>
+  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.42" rate="5.0E-9"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.43" rate="1.0E-8"/>
-  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.44" rate="0.001"/>
+  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.44" rate="5.0E-4"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.45" rate="0.001"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.46" rate="1.0E-5"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.47" rate="1.0E-5"/>
@@ -36,7 +36,7 @@
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.49" rate="0.007"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.50" rate="0.001155"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.51" rate="0.0116"/>
-  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.52" rate="2.0E-4"/>
+  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.52" rate="4.0E-8"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.53" rate="0.001"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.54" rate="5.0E-5"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.55" rate="0.01"/>
@@ -47,7 +47,7 @@
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.60" rate="1.0E-7"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.61" rate="1.0E-7"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.62" rate="2.0E-6"/>
-  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.63" rate="0.005"/>
+  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.63" rate="1.0E-6"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.64" rate="5.0E-4"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.65" rate="5.0E-4"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.66" rate="4.95E-4"/>
@@ -60,7 +60,7 @@
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.73" rate="1.0E-7"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.74" rate="1.0E-7"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.75" rate="2.0E-6"/>
-  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.76" rate="0.01"/>
+  <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.76" rate="2.0E-6"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.77" rate="1.0E-4"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.78" rate="5.0E-4"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.79" rate="2.0E-4"/>
@@ -73,7 +73,7 @@
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.86" rate="2.0E-5"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.87" rate="1.0E-5"/>
   <ruleAnnotations xmi:type="org.simsg:StochasticRate" GTRule="//@GtRuleSet/@rules.88" rate="1.0E-9"/>
-  <terminationConditions xmi:type="org.simsg:SimpleTerminationCondition" maxIterations="100"/>
+  <terminationConditions xmi:type="org.simsg:SimpleTerminationCondition" maxIterations="30000"/>
   <observations xmi:type="org.simsg:PatternObservation" name="obs_obs_mdm2" pattern="//@ibexPatternSet/@contextPatterns.89"/>
   <observations xmi:type="org.simsg:PatternObservation" name="obs_obs_mdm2mRNA" pattern="//@ibexPatternSet/@contextPatterns.90"/>
   <observations xmi:type="org.simsg:PatternObservation" name="obs_obs_mdm2DUB" pattern="//@ibexPatternSet/@contextPatterns.91"/>
@@ -232,7 +232,10 @@
         <type xmi:type="ecore:EClass" href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
       </nodes>
     </rules>
-    <rules xmi:type="GTLanguage:GTRule" name="TauSynthesis" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.21/@nodes.0">
+    <rules xmi:type="GTLanguage:GTRule" name="TauSynthesis" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.21/@nodes.0 //@GtRuleSet/@rules.21/@nodes.1">
+      <nodes xmi:type="GTLanguage:GTNode" name="blank">
+        <type xmi:type="ecore:EClass" href="platform:/resource/reactionContainer/model/reactionContainer.ecore#//Container"/>
+      </nodes>
       <nodes xmi:type="GTLanguage:GTNode" name="us">
         <type xmi:type="ecore:EClass" href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
       </nodes>
@@ -1031,7 +1034,11 @@
         <type xmi:type="ecore:EClass" href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
       </nodes>
     </rules>
-    <rules xmi:type="GTLanguage:GTRule" name="p53mRNASynthesis" documentation="" executable="true"/>
+    <rules xmi:type="GTLanguage:GTRule" name="p53mRNASynthesis" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.83/@nodes.0">
+      <nodes xmi:type="GTLanguage:GTNode" name="blank">
+        <type xmi:type="ecore:EClass" href="platform:/resource/reactionContainer/model/reactionContainer.ecore#//Container"/>
+      </nodes>
+    </rules>
     <rules xmi:type="GTLanguage:GTRule" name="p53mRNADegradation" documentation="" executable="true" ruleNodes="//@GtRuleSet/@rules.84/@nodes.0">
       <nodes xmi:type="GTLanguage:GTNode" name="p53mRna">
         <type xmi:type="ecore:EClass" href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>
@@ -1393,6 +1400,9 @@
       </signatureNodes>
     </contextPatterns>
     <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="TauSynthesis">
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="blank">
+        <type xmi:type="ecore:EClass" href="platform:/resource/reactionContainer/model/reactionContainer.ecore#//Container"/>
+      </signatureNodes>
       <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="us">
         <type xmi:type="ecore:EClass" href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
       </signatureNodes>
@@ -2479,7 +2489,11 @@
         <type xmi:type="ecore:EClass" href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
       </signatureNodes>
     </contextPatterns>
-    <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="p53mRNASynthesis"/>
+    <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="p53mRNASynthesis">
+      <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="blank">
+        <type xmi:type="ecore:EClass" href="platform:/resource/reactionContainer/model/reactionContainer.ecore#//Container"/>
+      </signatureNodes>
+    </contextPatterns>
     <contextPatterns xmi:type="IBeXLanguage:IBeXContextPattern" name="p53mRNADegradation">
       <signatureNodes xmi:type="IBeXLanguage:IBeXNode" name="p53mRna">
         <type xmi:type="ecore:EClass" href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>

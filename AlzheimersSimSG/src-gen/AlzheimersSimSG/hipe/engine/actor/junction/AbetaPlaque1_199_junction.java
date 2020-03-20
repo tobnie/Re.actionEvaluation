@@ -25,12 +25,12 @@ import hipe.generic.actor.junction.GenericJunctionActor;
 
 import hipe.network.JunctionNode;
 
-public class TauP1Agg1_158_junction extends GenericJunctionActor{
+public class AbetaPlaque1_199_junction extends GenericJunctionActor{
 	
 	@Override
 	protected void initializePorts(Map<String, ActorRef> name2actor, JunctionNode node) {
 		ports = new LinkedList<>();
-		ports.add(new PortJunction(getSelf(), name2actor.get("TauP1Agg1_production"), this::check_constraint_3));
+		ports.add(new PortJunction(getSelf(), name2actor.get("AbetaPlaque1_production"), this::check_constraint_7));
 	}
 	
 	@Override
@@ -51,10 +51,10 @@ public class TauP1Agg1_158_junction extends GenericJunctionActor{
 		message.initialMessage.decrement();
 	}
 	
-	public boolean check_constraint_3(HMatch match) {
-		AlzheimerModel.Tau tau1 = (AlzheimerModel.Tau) match.getNodes()[1];
-		AlzheimerModel.Tau tau2 = (AlzheimerModel.Tau) match.getNodes()[0];
-		boolean predicate = !tau2.equals(tau1);
+	public boolean check_constraint_7(HMatch match) {
+		AlzheimerModel.AggAbeta agg2 = (AlzheimerModel.AggAbeta) match.getNodes()[0];
+		AlzheimerModel.AggAbeta agg1 = (AlzheimerModel.AggAbeta) match.getNodes()[1];
+		boolean predicate = !agg2.equals(agg1);
 		match.setConstraintSatisfied(predicate);
 		return predicate;
 	}

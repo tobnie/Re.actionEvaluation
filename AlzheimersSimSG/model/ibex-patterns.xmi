@@ -281,6 +281,9 @@
     </signatureNodes>
   </contextPatterns>
   <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="TauSynthesis">
+    <signatureNodes name="blank">
+      <type href="platform:/resource/reactionContainer/model/reactionContainer.ecore#//Container"/>
+    </signatureNodes>
     <signatureNodes name="us">
       <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
     </signatureNodes>
@@ -1367,7 +1370,11 @@
       <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
     </signatureNodes>
   </contextPatterns>
-  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="p53mRNASynthesis"/>
+  <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="p53mRNASynthesis">
+    <signatureNodes name="blank">
+      <type href="platform:/resource/reactionContainer/model/reactionContainer.ecore#//Container"/>
+    </signatureNodes>
+  </contextPatterns>
   <contextPatterns xsi:type="IBeXLanguage:IBeXContextPattern" name="p53mRNADegradation">
     <signatureNodes name="p53mRna">
       <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>

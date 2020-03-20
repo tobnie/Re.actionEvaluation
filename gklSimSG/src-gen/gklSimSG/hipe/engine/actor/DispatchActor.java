@@ -56,11 +56,15 @@ public class DispatchActor extends AbstractActor {
 	}
 	
 	private void initializeAdd() {
-		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getContainer(), obj -> {
-			reactionContainer.Container _container = (reactionContainer.Container) obj;
+		type2addConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getU_s(), obj -> {
+			GKL1600Model.U_s _u_s = (GKL1600Model.U_s) obj;
+			util.newMessage();
+			name2actor.get("U_s_object").tell(new ObjectAdded<GKL1600Model.U_s>(_u_s), getSelf());
 		});
-		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getState(), obj -> {
-			reactionContainer.State _state = (reactionContainer.State) obj;
+		type2addConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getP_s(), obj -> {
+			GKL1600Model.P_s _p_s = (GKL1600Model.P_s) obj;
+			util.newMessage();
+			name2actor.get("P_s_object").tell(new ObjectAdded<GKL1600Model.P_s>(_p_s), getSelf());
 		});
 		type2addConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getT(), obj -> {
 			GKL1600Model.T _t = (GKL1600Model.T) obj;
@@ -71,28 +75,24 @@ public class DispatchActor extends AbstractActor {
 			util.newMessage();
 			name2actor.get("T_object_SP2").tell(new ObjectAdded<GKL1600Model.T>(_t), getSelf());
 		});
+		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getAgent(), obj -> {
+			reactionContainer.Agent _agent = (reactionContainer.Agent) obj;
+		});
 		type2addConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getK(), obj -> {
 			GKL1600Model.K _k = (GKL1600Model.K) obj;
 			util.newMessage();
 			name2actor.get("K_object").tell(new ObjectAdded<GKL1600Model.K>(_k), getSelf());
 		});
+		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getContainer(), obj -> {
+			reactionContainer.Container _container = (reactionContainer.Container) obj;
+		});
+		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getState(), obj -> {
+			reactionContainer.State _state = (reactionContainer.State) obj;
+		});
 		type2addConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getP(), obj -> {
 			GKL1600Model.P _p = (GKL1600Model.P) obj;
 			util.newMessage();
 			name2actor.get("P_object").tell(new ObjectAdded<GKL1600Model.P>(_p), getSelf());
-		});
-		type2addConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getAgent(), obj -> {
-			reactionContainer.Agent _agent = (reactionContainer.Agent) obj;
-		});
-		type2addConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getU_s(), obj -> {
-			GKL1600Model.U_s _u_s = (GKL1600Model.U_s) obj;
-			util.newMessage();
-			name2actor.get("U_s_object").tell(new ObjectAdded<GKL1600Model.U_s>(_u_s), getSelf());
-		});
-		type2addConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getP_s(), obj -> {
-			GKL1600Model.P_s _p_s = (GKL1600Model.P_s) obj;
-			util.newMessage();
-			name2actor.get("P_s_object").tell(new ObjectAdded<GKL1600Model.P_s>(_p_s), getSelf());
 		});
 	}
 	

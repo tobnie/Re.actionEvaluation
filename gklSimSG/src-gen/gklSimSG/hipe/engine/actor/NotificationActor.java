@@ -49,6 +49,26 @@ public class NotificationActor extends AbstractActor {
 	}
 	
 	private void initializeExploration() {
+		explorationConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getU_s(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getP_s(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getT(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getAgent(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getK(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
 		explorationConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getContainer(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			reactionContainer.Container _container = (reactionContainer.Container) obj;
@@ -60,27 +80,7 @@ public class NotificationActor extends AbstractActor {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getT(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getK(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
 		explorationConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getP(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getAgent(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getU_s(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(GKL1600Model.GKL1600ModelPackage.eINSTANCE.getP_s(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});

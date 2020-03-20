@@ -1,0 +1,218 @@
+Warning: No termination condition was specified. Simulation will run indefinetly.
+Using user model folder: C://Users//tobia//eclipse-workspaces//re.actionEvaluation//AlzheimersSimSG/instances//
+Pattern aggtau_yBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern tau_phosBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern mdm2mrna_xBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern e1_xBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern e2_xBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern proteasome_xBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern gsk3b_xBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern aggabeta_yBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern mt_lBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern p53_bBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern mdm2_zBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern mdm2_ubiBound does not seem to have a generated api -> might be abstract or conidition.
+Actual engine: class AlzheimersSimSG.api.AlzheimersSimSGHiPEApp
+Completed: 1.0%, 300 iterations, 840.4095856976212 ms sim time.
+Completed: 2.0%, 600 iterations, 1476.7377780745517 ms sim time.
+Completed: 3.0%, 900 iterations, 1906.5270109486667 ms sim time.
+Completed: 4.0%, 1200 iterations, 2258.6959342771042 ms sim time.
+Completed: 5.0%, 1500 iterations, 2553.4649034024196 ms sim time.
+Completed: 6.0%, 1800 iterations, 2832.587283181198 ms sim time.
+Completed: 7.000000000000001%, 2100 iterations, 3090.500965774974 ms sim time.
+Completed: 8.0%, 2400 iterations, 3323.415053849979 ms sim time.
+Completed: 9.0%, 2700 iterations, 3548.306058452118 ms sim time.
+Completed: 10.0%, 3000 iterations, 3769.1000619693405 ms sim time.
+Completed: 11.0%, 3300 iterations, 3964.076854087454 ms sim time.
+Completed: 12.0%, 3600 iterations, 4140.315310263987 ms sim time.
+Completed: 13.0%, 3900 iterations, 4288.904083650509 ms sim time.
+Completed: 14.000000000000002%, 4200 iterations, 4428.347197109909 ms sim time.
+Completed: 15.0%, 4500 iterations, 4559.320634772188 ms sim time.
+Completed: 16.0%, 4800 iterations, 4693.31497696263 ms sim time.
+Completed: 17.0%, 5100 iterations, 4812.504110905153 ms sim time.
+Completed: 18.0%, 5400 iterations, 4929.158649049226 ms sim time.
+Completed: 19.0%, 5700 iterations, 5032.084998883389 ms sim time.
+Completed: 20.0%, 6000 iterations, 5136.229511924091 ms sim time.
+Completed: 21.0%, 6300 iterations, 5236.961194815739 ms sim time.
+Completed: 22.0%, 6600 iterations, 5339.340628230365 ms sim time.
+Completed: 23.0%, 6900 iterations, 5432.181274857345 ms sim time.
+Completed: 24.0%, 7200 iterations, 5525.258846264221 ms sim time.
+Completed: 25.0%, 7500 iterations, 5617.837966061137 ms sim time.
+Completed: 26.0%, 7800 iterations, 5708.108794140325 ms sim time.
+Completed: 27.0%, 8100 iterations, 5795.155413601708 ms sim time.
+Completed: 28.000000000000004%, 8400 iterations, 5889.273877852996 ms sim time.
+Completed: 28.999999999999996%, 8700 iterations, 5973.4439565026505 ms sim time.
+Completed: 30.0%, 9000 iterations, 6055.103431513724 ms sim time.
+Completed: 31.0%, 9300 iterations, 6136.798121142616 ms sim time.
+Completed: 32.0%, 9600 iterations, 6214.354691578263 ms sim time.
+Completed: 33.0%, 9900 iterations, 6301.191275530736 ms sim time.
+Completed: 34.0%, 10200 iterations, 6384.103151256991 ms sim time.
+Completed: 35.0%, 10500 iterations, 6457.934045676762 ms sim time.
+Completed: 36.0%, 10800 iterations, 6528.146671034051 ms sim time.
+Completed: 37.0%, 11100 iterations, 6600.121433374326 ms sim time.
+Completed: 38.0%, 11400 iterations, 6673.505667762325 ms sim time.
+Completed: 39.0%, 11700 iterations, 6739.506580401537 ms sim time.
+Completed: 40.0%, 12000 iterations, 6804.830782890747 ms sim time.
+Completed: 41.0%, 12300 iterations, 6871.238729456515 ms sim time.
+Completed: 42.0%, 12600 iterations, 6943.8920672197755 ms sim time.
+Completed: 43.0%, 12900 iterations, 7002.014526952969 ms sim time.
+Completed: 44.0%, 13200 iterations, 7073.381869717385 ms sim time.
+Completed: 45.0%, 13500 iterations, 7138.671636377357 ms sim time.
+Completed: 46.0%, 13800 iterations, 7209.5800141066975 ms sim time.
+Completed: 47.0%, 14100 iterations, 7273.655375774268 ms sim time.
+Completed: 48.0%, 14400 iterations, 7329.7977843435865 ms sim time.
+Completed: 49.0%, 14700 iterations, 7400.102298673594 ms sim time.
+Completed: 50.0%, 15000 iterations, 7452.520344519446 ms sim time.
+Completed: 51.0%, 15300 iterations, 7509.14618859198 ms sim time.
+Completed: 52.0%, 15600 iterations, 7568.737736895607 ms sim time.
+Completed: 53.0%, 15900 iterations, 7629.831284826882 ms sim time.
+Completed: 54.0%, 16200 iterations, 7687.410499204236 ms sim time.
+Completed: 55.00000000000001%, 16500 iterations, 7743.181601153538 ms sim time.
+Completed: 56.00000000000001%, 16800 iterations, 7798.060656096541 ms sim time.
+Completed: 56.99999999999999%, 17100 iterations, 7856.650760926079 ms sim time.
+Completed: 57.99999999999999%, 17400 iterations, 7910.463895923815 ms sim time.
+Completed: 59.0%, 17700 iterations, 7964.373042231389 ms sim time.
+Completed: 60.0%, 18000 iterations, 8021.7998435555355 ms sim time.
+Completed: 61.0%, 18300 iterations, 8073.745901350366 ms sim time.
+Completed: 62.0%, 18600 iterations, 8122.604433199485 ms sim time.
+Completed: 63.0%, 18900 iterations, 8171.66975669805 ms sim time.
+Completed: 64.0%, 19200 iterations, 8222.666245515573 ms sim time.
+Completed: 65.0%, 19500 iterations, 8277.358713378395 ms sim time.
+Completed: 66.0%, 19800 iterations, 8324.654223449605 ms sim time.
+Completed: 67.0%, 20100 iterations, 8373.831706676781 ms sim time.
+Completed: 68.0%, 20400 iterations, 8427.111324868749 ms sim time.
+Completed: 69.0%, 20700 iterations, 8473.397458949585 ms sim time.
+Completed: 70.0%, 21000 iterations, 8530.707580613189 ms sim time.
+Completed: 71.0%, 21300 iterations, 8579.925582202166 ms sim time.
+Completed: 72.0%, 21600 iterations, 8622.778937986828 ms sim time.
+Completed: 73.0%, 21900 iterations, 8676.499388353162 ms sim time.
+Completed: 74.0%, 22200 iterations, 8730.46899144819 ms sim time.
+Completed: 75.0%, 22500 iterations, 8776.25909583473 ms sim time.
+Completed: 76.0%, 22800 iterations, 8824.450497643476 ms sim time.
+Completed: 77.0%, 23100 iterations, 8869.590191777628 ms sim time.
+Completed: 78.0%, 23400 iterations, 8914.679780787868 ms sim time.
+Completed: 79.0%, 23700 iterations, 8955.046359503116 ms sim time.
+Completed: 80.0%, 24000 iterations, 8997.852459172858 ms sim time.
+Completed: 81.0%, 24300 iterations, 9037.122722469016 ms sim time.
+Completed: 82.0%, 24600 iterations, 9078.989846772502 ms sim time.
+Completed: 83.0%, 24900 iterations, 9119.197475557065 ms sim time.
+Completed: 84.0%, 25200 iterations, 9166.330547545529 ms sim time.
+Completed: 85.0%, 25500 iterations, 9212.613506216854 ms sim time.
+Completed: 86.0%, 25800 iterations, 9259.187220840015 ms sim time.
+Completed: 87.0%, 26100 iterations, 9308.088392128304 ms sim time.
+Completed: 88.0%, 26400 iterations, 9347.012729692486 ms sim time.
+Completed: 89.0%, 26700 iterations, 9388.389699442308 ms sim time.
+Completed: 90.0%, 27000 iterations, 9425.893383420987 ms sim time.
+Completed: 91.0%, 27300 iterations, 9466.345100191757 ms sim time.
+Completed: 92.0%, 27600 iterations, 9508.727099865764 ms sim time.
+Completed: 93.0%, 27900 iterations, 9549.511063555634 ms sim time.
+Completed: 94.0%, 28200 iterations, 9586.44254575703 ms sim time.
+Completed: 95.0%, 28500 iterations, 9628.80184245882 ms sim time.
+Completed: 96.0%, 28800 iterations, 9666.452662351789 ms sim time.
+Completed: 97.0%, 29100 iterations, 9708.36467266903 ms sim time.
+Completed: 98.0%, 29400 iterations, 9752.720976440845 ms sim time.
+Completed: 99.0%, 29700 iterations, 9790.75815293727 ms sim time.
+Completed: 100.0%, 30000 iterations, 9830.853444843575 ms sim time.
+Current Simulation-object: 370370379/ Model: AlzheimerModel / MatchingEngine: IBeXHiPEEngine / PMC: IBeXPMC
+ *******     RESULTS:     *****
+Pattern: Mdm2ProteasomeBind, size: 0
+Pattern: obs_obs_p53DUB, size: 40
+Pattern: TauSynthesis, size: 1
+Pattern: DNARepair, size: 0
+Pattern: TauP1Agg1, size: 0
+Pattern: TauP1Agg2, size: 0
+Pattern: AbetaProduction, size: 7
+Pattern: P53PolyUbiquitination2, size: 0
+Pattern: P53PolyUbiquitination1, size: 0
+Pattern: P53PolyUbiquitination3, size: 0
+Pattern: Mdm2DePhospho, size: 0
+Pattern: E1Ub, size: 0
+Pattern: mdm2PolyUbiquination1, size: 0
+Pattern: Mdm2Degradation, size: 0
+Pattern: mdm2PolyUbiquination2, size: 0
+Pattern: mdm2PolyUbiquination3, size: 0
+Pattern: obs_obs_p53mRNA, size: 11
+Pattern: Mdm2mRNASynthesis, size: 60
+Pattern: obs_obs_mdm2, size: 392
+Pattern: p53mRNADegradation, size: 11
+Pattern: Mdm2GSK3Phospho1, size: 0
+Pattern: P53Transcription, size: 0
+Pattern: P53Synthesis, size: 11
+Pattern: GSK3b_p53Bwd, size: 7
+Pattern: P53DeUbiquitination, size: 0
+Pattern: TauPhosphorylation2_4, size: 0
+Pattern: P53Ubiquitination, size: 0
+Pattern: TauMTBwd, size: 14
+Pattern: AbetaROSProduction, size: 0
+Pattern: obs_obs_p53gsk, size: 7
+Pattern: tangleForm1, size: 0
+Pattern: tangleForm2, size: 0
+Pattern: P53DePhospho, size: 0
+Pattern: obs_obs_tauTangle, size: 0
+Pattern: obs_obs_p53, size: 389
+Pattern: mdm2mRNASynthesis, size: 60
+Pattern: TauPhosphorylation6, size: 0
+Pattern: TauP2Agg1, size: 30
+Pattern: AbetaDegradation, size: 0
+Pattern: P53_Mdm2Bwd, size: 322
+Pattern: TauPhosphorylation5, size: 0
+Pattern: TauP2Agg2, size: 0
+Pattern: AbetaPlaque2, size: 0
+Pattern: AbetaPlaque1, size: 0
+Pattern: ProteasomeInhibitionAggAbeta, size: 0
+Pattern: Mdm2GSK3Phospho2_3, size: 0
+Pattern: obs_obs_mdm2DUB, size: 40
+Pattern: P53PolyDeUbiquitination2, size: 0
+Pattern: P53PolyDeUbiquitination3, size: 0
+Pattern: obs_obs_mdm2mRNA, size: 118
+Pattern: P53PolyDeUbiquitination4, size: 0
+Pattern: obs_obs_abetaPlaque, size: 0
+Pattern: ProteasomeInhibitionAggTau, size: 0
+Pattern: Mdm2Phospho, size: 0
+Pattern: TauDegradation, size: 0
+Pattern: Proteasome_Tau, size: 0
+Pattern: mdm2polyDeubiquination1, size: 40
+Pattern: TauDephosphorylation, size: 0
+Pattern: mdm2polyDeubiquination2, size: 0
+Pattern: mdm2polyDeubiquination3, size: 0
+Pattern: TauAgg2, size: 0
+Pattern: TauAgg1, size: 0
+Pattern: E2Ub, size: 0
+Pattern: mdm2Ubiquination, size: 0
+Pattern: TauMT, size: 0
+Pattern: TauPhosphorylation1_3, size: 0
+Pattern: P53_Mdm2, size: 4200
+Pattern: mdm2deubiquination, size: 0
+Pattern: BasalROSDamage, size: 2
+Pattern: ROSDamage, size: 0
+Pattern: ATMActivation, size: 0
+Pattern: ATMInactivation, size: 0
+Pattern: P53ProteasomeBinding, size: 0
+Pattern: obs_obs_damDNA, size: 0
+Pattern: IRDamage, size: 0
+Pattern: AbetaAgg1, size: 0
+Pattern: P53Degradation, size: 0
+Pattern: AbetaAgg2, size: 0
+Pattern: Mdm2Synthesis, size: 118
+Pattern: GSK3b_p53, size: 5580
+Pattern: p53mRNASynthesis, size: 1
+Pattern: P53Phospho, size: 0
+Pattern: mdm2mRNADegradation, size: 118
+*******   END   *****
+
+Model saved to: /Users/tobia/eclipse-workspaces/re.actionEvaluation/AlzheimersSimSG/instances/simulation_results/AlzheimerModel.xmi
+*************** Runtime measurements at sys-time: 41451291130300***************
+#### Measurements for Object: Simulation-object: 370370379/ Model: AlzheimerModel / MatchingEngine: IBeXHiPEEngine / PMC: IBeXPMC ####
+Function: Initialize(1.1): Models -> took: 0.3692625s (3.692625E8ns) and required 30MB of memory.
+Function: Initialize(1.2): PMC -> took: 25.7369896s (2.57369896E10ns) and required 3879MB of memory.
+Function: Initialize(1.3): GT -> took: 2.882E-4s (288200.0ns) and required 3879MB of memory.
+Function: Initialize(1.4): State -> took: 0.0164224s (1.64224E7ns) and required 3879MB of memory.
+Function: Initialize(1.5): Service Routines -> took: 1.32E-5s (13200.0ns) and required 3879MB of memory.
+Function: Initialize(1.6): Termination Conditions -> took: 1.326E-4s (132600.0ns) and required 3879MB of memory.
+Function: Initialize(1.7): External Constraints -> took: 3.1E-6s (3100.0ns) and required 3879MB of memory.
+Function: Initialize(1.8): Simulation Statistics -> took: 0.0065332s (6533200.0ns) and required 3879MB of memory.
+Function: Initialize(1): Simulation setup -> took: 26.131906s (2.6131906E10ns) and required 3879MB of memory.
+Function: Run(2): Simulation -> took: 676.4477539s (6.764477539E11ns) and required 1031MB of memory.
+##################################################################
+******************************************************************
+

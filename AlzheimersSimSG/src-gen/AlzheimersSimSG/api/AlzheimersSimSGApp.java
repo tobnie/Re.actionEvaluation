@@ -3,6 +3,7 @@ package AlzheimersSimSG.api;
 import AlzheimerModel.AlzheimerModelPackage;
 import org.emoflon.ibex.common.operational.IContextPatternInterpreter;
 import org.emoflon.ibex.gt.api.GraphTransformationApp;
+import reactionContainer.ReactionContainerPackage;
 
 /**
  * An application using the AlzheimersSimSGAPI.
@@ -33,6 +34,7 @@ public class AlzheimersSimSGApp extends GraphTransformationApp<AlzheimersSimSGAP
 
 	@Override
 	public void registerMetaModels() {
+		registerMetaModel(ReactionContainerPackage.eINSTANCE);
 		registerMetaModel(AlzheimerModelPackage.eINSTANCE);
 	}
 

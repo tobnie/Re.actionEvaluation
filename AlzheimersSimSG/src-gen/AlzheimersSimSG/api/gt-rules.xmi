@@ -147,7 +147,10 @@
       <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P_s"/>
     </nodes>
   </rules>
-  <rules name="TauSynthesis" documentation="" executable="true" ruleNodes="//@rules.21/@nodes.0">
+  <rules name="TauSynthesis" documentation="" executable="true" ruleNodes="//@rules.21/@nodes.0 //@rules.21/@nodes.1">
+    <nodes name="blank">
+      <type href="platform:/resource/reactionContainer/model/reactionContainer.ecore#//Container"/>
+    </nodes>
     <nodes name="us">
       <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
     </nodes>
@@ -946,7 +949,11 @@
       <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//U_s"/>
     </nodes>
   </rules>
-  <rules name="p53mRNASynthesis" documentation="" executable="true"/>
+  <rules name="p53mRNASynthesis" documentation="" executable="true" ruleNodes="//@rules.83/@nodes.0">
+    <nodes name="blank">
+      <type href="platform:/resource/reactionContainer/model/reactionContainer.ecore#//Container"/>
+    </nodes>
+  </rules>
   <rules name="p53mRNADegradation" documentation="" executable="true" ruleNodes="//@rules.84/@nodes.0">
     <nodes name="p53mRna">
       <type href="platform:/resource/AlzheimersSimSG/model/AlzheimerModel.ecore#//P53mRNA"/>

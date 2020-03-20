@@ -12,7 +12,7 @@ public class AlzheimersBenchmark {
 	public static void main(String[] args) {
 		ReactionContainerPackage.eINSTANCE.eClass();
 		AlzheimersSimSGSimSGApi api = new AlzheimersSimSGSimSGApi();
-		api.configureForHiPE();
+		api.configureForDemocles();
 		api.configureStochasticSimulation();
 		SimulationConfigurator config = api.getSimulationConfigurator();
 

@@ -1,0 +1,141 @@
+Warning: No termination condition was specified. Simulation will run indefinetly.
+Using user model folder: C://Users//tobia//eclipse-workspaces//re.actionEvaluation//gklSimSG/instances//
+Pattern p_aBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern t_xBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern t_yBound does not seem to have a generated api -> might be abstract or conidition.
+Pattern k_aBound does not seem to have a generated api -> might be abstract or conidition.
+Actual engine: class gklSimSG.api.GklSimSGDemoclesApp
+Completed: 1.0%, 300 iterations, 7.208669987377383E-4 ms sim time.
+Completed: 2.0%, 600 iterations, 0.0030832053138425083 ms sim time.
+Completed: 3.0%, 900 iterations, 0.014855086463525673 ms sim time.
+Completed: 4.0%, 1200 iterations, 0.03489340452118712 ms sim time.
+Completed: 5.0%, 1500 iterations, 0.05590284270316791 ms sim time.
+Completed: 6.0%, 1800 iterations, 0.07559646421324341 ms sim time.
+Completed: 7.000000000000001%, 2100 iterations, 0.09480375874233996 ms sim time.
+Completed: 8.0%, 2400 iterations, 0.11434868807354949 ms sim time.
+Completed: 9.0%, 2700 iterations, 0.134610541684058 ms sim time.
+Completed: 10.0%, 3000 iterations, 0.1570156170915799 ms sim time.
+Completed: 11.0%, 3300 iterations, 0.1771010918369162 ms sim time.
+Completed: 12.0%, 3600 iterations, 0.20019816277738628 ms sim time.
+Completed: 13.0%, 3900 iterations, 0.22021514952402668 ms sim time.
+Completed: 14.000000000000002%, 4200 iterations, 0.24097758091885282 ms sim time.
+Completed: 15.0%, 4500 iterations, 0.26100166394384033 ms sim time.
+Completed: 16.0%, 4800 iterations, 0.28215378141942615 ms sim time.
+Completed: 17.0%, 5100 iterations, 0.3041313762367486 ms sim time.
+Completed: 18.0%, 5400 iterations, 0.32326516110202347 ms sim time.
+Completed: 19.0%, 5700 iterations, 0.34326871749017884 ms sim time.
+Completed: 20.0%, 6000 iterations, 0.3658021368589018 ms sim time.
+Completed: 21.0%, 6300 iterations, 0.3845192505743655 ms sim time.
+Completed: 22.0%, 6600 iterations, 0.40535681351039293 ms sim time.
+Completed: 23.0%, 6900 iterations, 0.42759014221360514 ms sim time.
+Completed: 24.0%, 7200 iterations, 0.44671503397328705 ms sim time.
+Completed: 25.0%, 7500 iterations, 0.4681705533571274 ms sim time.
+Completed: 26.0%, 7800 iterations, 0.48691904088543747 ms sim time.
+Completed: 27.0%, 8100 iterations, 0.507285269075044 ms sim time.
+Completed: 28.000000000000004%, 8400 iterations, 0.5291294961020634 ms sim time.
+Completed: 28.999999999999996%, 8700 iterations, 0.5506503173294351 ms sim time.
+Completed: 30.0%, 9000 iterations, 0.5717721848489018 ms sim time.
+Completed: 31.0%, 9300 iterations, 0.5931213174905473 ms sim time.
+Completed: 32.0%, 9600 iterations, 0.6119731261200357 ms sim time.
+Completed: 33.0%, 9900 iterations, 0.6314024659283289 ms sim time.
+Completed: 34.0%, 10200 iterations, 0.652801506587511 ms sim time.
+Completed: 35.0%, 10500 iterations, 0.6719016224376096 ms sim time.
+Completed: 36.0%, 10800 iterations, 0.6915240614407376 ms sim time.
+Completed: 37.0%, 11100 iterations, 0.7123287315393428 ms sim time.
+Completed: 38.0%, 11400 iterations, 0.7326922557660421 ms sim time.
+Completed: 39.0%, 11700 iterations, 0.7557853119147083 ms sim time.
+Completed: 40.0%, 12000 iterations, 0.7768780340496076 ms sim time.
+Completed: 41.0%, 12300 iterations, 0.7978976224052164 ms sim time.
+Completed: 42.0%, 12600 iterations, 0.8181557746805905 ms sim time.
+Completed: 43.0%, 12900 iterations, 0.8378950630518182 ms sim time.
+Completed: 44.0%, 13200 iterations, 0.8615898653979022 ms sim time.
+Completed: 45.0%, 13500 iterations, 0.8823338855643372 ms sim time.
+Completed: 46.0%, 13800 iterations, 0.9038280015602519 ms sim time.
+Completed: 47.0%, 14100 iterations, 0.9254814165524884 ms sim time.
+Completed: 48.0%, 14400 iterations, 0.946640450224697 ms sim time.
+Completed: 49.0%, 14700 iterations, 0.9669347397782434 ms sim time.
+Completed: 50.0%, 15000 iterations, 0.9879152442012872 ms sim time.
+Completed: 51.0%, 15300 iterations, 1.0094604045178177 ms sim time.
+Completed: 52.0%, 15600 iterations, 1.0308487629338308 ms sim time.
+Completed: 53.0%, 15900 iterations, 1.0522051244483053 ms sim time.
+Completed: 54.0%, 16200 iterations, 1.0720002116463787 ms sim time.
+Completed: 55.00000000000001%, 16500 iterations, 1.0936387667396594 ms sim time.
+Completed: 56.00000000000001%, 16800 iterations, 1.1142497599109968 ms sim time.
+Completed: 56.99999999999999%, 17100 iterations, 1.1374007707929619 ms sim time.
+Completed: 57.99999999999999%, 17400 iterations, 1.1565941638741164 ms sim time.
+Completed: 59.0%, 17700 iterations, 1.175186044206101 ms sim time.
+Completed: 60.0%, 18000 iterations, 1.192487259768826 ms sim time.
+Completed: 61.0%, 18300 iterations, 1.2134210469374922 ms sim time.
+Completed: 62.0%, 18600 iterations, 1.233341759431706 ms sim time.
+Completed: 63.0%, 18900 iterations, 1.254583498507041 ms sim time.
+Completed: 64.0%, 19200 iterations, 1.2745064439901526 ms sim time.
+Completed: 65.0%, 19500 iterations, 1.2939474275545504 ms sim time.
+Completed: 66.0%, 19800 iterations, 1.3169916543126132 ms sim time.
+Completed: 67.0%, 20100 iterations, 1.3368016539535046 ms sim time.
+Completed: 68.0%, 20400 iterations, 1.3556923507398457 ms sim time.
+Completed: 69.0%, 20700 iterations, 1.3777643859801039 ms sim time.
+Completed: 70.0%, 21000 iterations, 1.3968585192871112 ms sim time.
+Completed: 71.0%, 21300 iterations, 1.4155221880164666 ms sim time.
+Completed: 72.0%, 21600 iterations, 1.4349960133707735 ms sim time.
+Completed: 73.0%, 21900 iterations, 1.4566559669104941 ms sim time.
+Completed: 74.0%, 22200 iterations, 1.4783546326366095 ms sim time.
+Completed: 75.0%, 22500 iterations, 1.499204241371874 ms sim time.
+Completed: 76.0%, 22800 iterations, 1.520116226583592 ms sim time.
+Completed: 77.0%, 23100 iterations, 1.5427020677569632 ms sim time.
+Completed: 78.0%, 23400 iterations, 1.5618407229309037 ms sim time.
+Completed: 79.0%, 23700 iterations, 1.582232856797097 ms sim time.
+Completed: 80.0%, 24000 iterations, 1.6039538628804728 ms sim time.
+Completed: 81.0%, 24300 iterations, 1.625625639711087 ms sim time.
+Completed: 82.0%, 24600 iterations, 1.645255569150148 ms sim time.
+Completed: 83.0%, 24900 iterations, 1.6665627377972567 ms sim time.
+Completed: 84.0%, 25200 iterations, 1.6877249435351018 ms sim time.
+Completed: 85.0%, 25500 iterations, 1.7063816664315719 ms sim time.
+Completed: 86.0%, 25800 iterations, 1.7273250442312347 ms sim time.
+Completed: 87.0%, 26100 iterations, 1.748287482728415 ms sim time.
+Completed: 88.0%, 26400 iterations, 1.7679492068228722 ms sim time.
+Completed: 89.0%, 26700 iterations, 1.7884620840188883 ms sim time.
+Completed: 90.0%, 27000 iterations, 1.809743408600684 ms sim time.
+Completed: 91.0%, 27300 iterations, 1.8314269762928985 ms sim time.
+Completed: 92.0%, 27600 iterations, 1.856628133710913 ms sim time.
+Completed: 93.0%, 27900 iterations, 1.8767358725117274 ms sim time.
+Completed: 94.0%, 28200 iterations, 1.8994549733834347 ms sim time.
+Completed: 95.0%, 28500 iterations, 1.9207299349946396 ms sim time.
+Completed: 96.0%, 28800 iterations, 1.9398565153935194 ms sim time.
+Completed: 97.0%, 29100 iterations, 1.9595308064089916 ms sim time.
+Completed: 98.0%, 29400 iterations, 1.9794354170066402 ms sim time.
+Completed: 99.0%, 29700 iterations, 2.000265891214318 ms sim time.
+Completed: 100.0%, 30000 iterations, 2.0208506450110377 ms sim time.
+Current Simulation-object: 592959754/ Model: GKL400Model / MatchingEngine: IBeXDemoclesEngine / PMC: IBeXPMC
+ *******     RESULTS:     *****
+Pattern: KT_y, size: 2024
+Pattern: obs_T_pp_unbound, size: 0
+Pattern: KT_x, size: 1672
+Pattern: PT_xBwd, size: 187
+Pattern: PT_yBwd, size: 173
+Pattern: obs_T_pp, size: 69
+Pattern: KT_xBwd, size: 175
+Pattern: KT_yBwd, size: 181
+Pattern: Tp_y, size: 98
+Pattern: Tp_x, size: 96
+Pattern: PT_x, size: 1520
+Pattern: PT_y, size: 1840
+Pattern: Tu_y, size: 65
+Pattern: Tu_x, size: 59
+*******   END   *****
+
+Model saved to: /Users/tobia/eclipse-workspaces/re.actionEvaluation/gklSimSG/instances/simulation_results/GKL400Model.xmi
+*************** Runtime measurements at sys-time: 13266314512000***************
+#### Measurements for Object: Simulation-object: 592959754/ Model: GKL400Model / MatchingEngine: IBeXDemoclesEngine / PMC: IBeXPMC ####
+Function: Initialize(1.1): Models -> took: 0.2542618s (2.542618E8ns) and required 15MB of memory.
+Function: Initialize(1.2): PMC -> took: 5.7867401s (5.7867401E9ns) and required 571MB of memory.
+Function: Initialize(1.3): GT -> took: 1.546E-4s (154600.0ns) and required 571MB of memory.
+Function: Initialize(1.4): State -> took: 7.359E-4s (735900.0ns) and required 571MB of memory.
+Function: Initialize(1.5): Service Routines -> took: 8.7E-6s (8700.0ns) and required 571MB of memory.
+Function: Initialize(1.6): Termination Conditions -> took: 1.499E-4s (149900.0ns) and required 571MB of memory.
+Function: Initialize(1.7): External Constraints -> took: 2.7E-6s (2700.0ns) and required 571MB of memory.
+Function: Initialize(1.8): Simulation Statistics -> took: 7.814E-4s (781400.0ns) and required 571MB of memory.
+Function: Initialize(1): Simulation setup -> took: 6.0456074s (6.0456074E9ns) and required 571MB of memory.
+Function: Run(2): Simulation -> took: 273.8406664s (2.738406664E11ns) and required 691MB of memory.
+##################################################################
+******************************************************************
+

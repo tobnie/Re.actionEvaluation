@@ -49,11 +49,7 @@ public class NotificationActor extends AbstractActor {
 	}
 	
 	private void initializeExploration() {
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAMP(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUB4_s(), obj -> {
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAggTau(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
@@ -61,7 +57,7 @@ public class NotificationActor extends AbstractActor {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP2_s(), obj -> {
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUb(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
@@ -69,11 +65,15 @@ public class NotificationActor extends AbstractActor {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getIR(), obj -> {
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAggAbeta(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getATMA(), obj -> {
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAMP(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getE1(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
@@ -81,35 +81,11 @@ public class NotificationActor extends AbstractActor {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAggTau(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getNFT(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUNB_s(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAggAbeta(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUB3_s(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
 		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUBI_s(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getState(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getGSK3b(), obj -> {
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMT(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
@@ -124,7 +100,7 @@ public class NotificationActor extends AbstractActor {
 			children.addAll(_container.getAgents());
 			return children;
 		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMT(), obj -> {
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getTau(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
@@ -132,11 +108,91 @@ public class NotificationActor extends AbstractActor {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getE1(), obj -> {
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getNFT(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getATMI(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getU_s(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMdm2mRNA(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAbetaPlaque(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getBasalROS(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getROS(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP2_s(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMdm2(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getADP(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP1_s(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUB3_s(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getE2(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getAgent(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUB4_s(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
 		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAbeta(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getATMA(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getState(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getGSK3b(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP53DUB(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getDamDNA(), obj -> {
+			Collection<EObject> children = new LinkedList<>();
+			return children;
+		});
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUNB_s(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
@@ -148,51 +204,7 @@ public class NotificationActor extends AbstractActor {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getPPT(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getTau(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getE2(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP1_s(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getAbetaPlaque(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getROS(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getP53DUB(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getUb(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getU_s(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getBasalROS(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getATMI(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMdm2(), obj -> {
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getIR(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
@@ -200,19 +212,7 @@ public class NotificationActor extends AbstractActor {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getADP(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(reactionContainer.ReactionContainerPackage.eINSTANCE.getAgent(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getMdm2mRNA(), obj -> {
-			Collection<EObject> children = new LinkedList<>();
-			return children;
-		});
-		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getDamDNA(), obj -> {
+		explorationConsumer.put(AlzheimerModel.AlzheimerModelPackage.eINSTANCE.getPPT(), obj -> {
 			Collection<EObject> children = new LinkedList<>();
 			return children;
 		});
